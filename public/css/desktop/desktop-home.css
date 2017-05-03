@@ -1,0 +1,27 @@
+.home .row1{background-color: #e8f5f9;}
+.home .row1 .flex1{height: 112px;}
+.home .row1 .flex1>.col1{width: 25%}
+.home .row1 .flex1>.col1>h2{font-size: 14px;font-weight: bold;color: #434343;}
+.home .row1 .flex2 i.bg{
+	background-image: url('../../images/desktop/home-1.png');
+	background-repeat: no-repeat;background-position: 0px 0px;width: 50px;height: 61px;display: block;}
+.home .row1 .flex2 i.bg1{background-position: -252px 0px;}
+.home .row1 .flex2 i.bg2{background-position: -504px 0px;}
+.home .row1 .flex2 i.bg3{background-position: -756px 0px;}
+.home .row1 .flex3>div{font-size: 11px;color: #434343;padding-top: 5px;}
+.home .row1 .flex3>div:first-child{padding-top: 0;}
+.home .row1 .flex3.border1>div{border-right: 1px solid #a7a7a7}
+/**/
+.home .row2{padding:50px 15px;}
+.home .row2 .line1{font-size: 24px;color: #484848;}
+.home .row2 .line1>span{border-bottom: 1px solid #42accb;}
+.home .row2 .flex1>.col1{width: 725px;}
+.home .row2 .flex1>.col2{width: 220px;}
+.home .row2 .flex1>.col2>div.heading{background-color: #42accb;height: 35px;line-height: 35px;color: #fff;}
+.home .row2 .flex1>.col2 .flex2>div{width: 50%;height: 35px;line-height: 35px;background-color: #42accb;font-size: 12px;color: #fff;}
+.home .row2 .flex1>.col2 .flex2>div:nth-child(2){background-color: #ffba5d;}
+.home .row2 .flex1>.col2>div:last-child{padding:5px;border:1px solid #e5e5e5;margin-top: 5px;font-size: 12px;text-align: justify;}
+.home .row2 .line2{margin-top: 25px;}
+.home .row2 .line2 .pull-left{padding-right: 30px;padding-bottom: 15px;}
+.home .row2 .line2 .post-first h3{font-size: 14px;color: #373737;}
+.home .row2 .line2 .post-first p{color: #373737;margin-top: 15px;}
