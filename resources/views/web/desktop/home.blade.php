@@ -141,7 +141,7 @@
 						<div>
 							<h3 class="post-name text-center"><a href="">NGUYÊN NHÂN DẪN ĐẾN SÙI MÀO GÀ LÀ GÌ</a></h3>
 							<p class="post-description text-justify">
-								Sùi mào gà là một loại bệnh xã hội vô cùng nguy hiểm có thể gặp phải ở cả nam lẫn nữ. Các bác sĩ chuyên khoa trong việc chữa trị bệnh xã hội trong đó có bệnh sùi mào gà tại <a href="#">Chi tiết</a>
+								Sùi mào gà là một loại bệnh xã hội vô cùng nguy hiểm có thể gặp phải ở cả nam lẫn nữ. Các bác sĩ chuyên khoa trong việc chữa trị bệnh xã hội trong <a href="#">Chi tiết</a>
 							</p>
 						</div>
 					</div>
@@ -486,6 +486,11 @@
 					<div class="slick-pk">
 						<div class="flex3col1">
 							<a href="">
+								<img src="{{ asset('public/images/desktop/th13.png') }}" alt="" class="center-block img-responsive">
+							</a>
+						</div>
+						<div class="flex3col1">
+							<a href="">
 								<img src="{{ asset('public/images/desktop/th14.png') }}" alt="" class="center-block img-responsive">
 							</a>
 						</div>
@@ -507,11 +512,6 @@
 						<div class="flex3col1">
 							<a href="">
 								<img src="{{ asset('public/images/desktop/th12.png') }}" alt="" class="center-block img-responsive">
-							</a>
-						</div>
-						<div class="flex3col1">
-							<a href="">
-								<img src="{{ asset('public/images/desktop/th13.png') }}" alt="" class="center-block img-responsive">
 							</a>
 						</div>
 					</div>
