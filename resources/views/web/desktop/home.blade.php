@@ -29,7 +29,7 @@
 			  	slidesToShow: 1,
 			  	slidesToScroll: 1,
 			  	autoplay: true,
-			  	autoplaySpeed: 2000,
+			  	autoplaySpeed: 5000,
 			});	
 		</script>
 	</div>
@@ -105,30 +105,44 @@
 		<div class="row2 container">
 			<div class="flex flex1 justify-content-between">
 				<div class="col1">
-					<div class="line1 text-uppercase"><span>Bài đọc nhiều</span></div>
-					<div class="line2 flex justify-content-between">
-						<div class="col1">
-							<a href="#"><img src="{{ asset('public/images/desktop/home-3.png') }}" alt=""></a>
+					<div class="slick-kt">
+						<div>
+							<a href="#"><img src="{{ asset('public/images/desktop/kt1.png') }}" alt=""></a>
+							<a href="" class="view-more">Tìm hiểu <i class="fa fa-long-arrow-right"></i></a>
 						</div>
-						<div class="col2">
-							<div class="post-first">
-								<h3 class="post-name text-center"><a href="">NGUYÊN NHÂN DẪN ĐẾN SÙI MÀO GÀ LÀ GÌ</a></h3>
-								<p class="post-description text-justify">
-									Sùi mào gà là một loại bệnh xã hội vô cùng nguy hiểm có thể gặp phải ở cả nam lẫn nữ. Các bác sĩ chuyên khoa trong việc chữa trị bệnh xã hội trong đó có bệnh sùi mào gà tại <a href="#">Chi tiết</a>
-								</p>
-							</div>
-							<ul class="post-orthers">
-								<li>
-									<i class="fa fa-circle"></i> 
-									<h4><a href="">Những biến chứng của bệnh sùi mào gà?</a></h4>
-									<p>Sùi mào gà là bệnh xã hội nguy hiểm và ngày càng phổ biến. Tuy không</p>
-								</li>
-								<li>
-									<i class="fa fa-circle"></i> 
-									<h4><a href="">Những biến chứng của bệnh sùi mào gà?</a></h4>
-									<p>Sùi mào gà là bệnh xã hội nguy hiểm và ngày càng phổ biến. Tuy không</p>
-								</li>
-							</ul>
+						<div>
+							<a href="#"><img src="{{ asset('public/images/desktop/kt2.png') }}" alt=""></a>
+							<a href="" class="view-more">Tìm hiểu <i class="fa fa-long-arrow-right"></i></a>
+						</div>
+						<div>
+							<a href="#"><img src="{{ asset('public/images/desktop/kt3.png') }}" alt=""></a>
+							<a href="" class="view-more">Tìm hiểu <i class="fa fa-long-arrow-right"></i></a>
+						</div>
+						<div>
+							<a href="#"><img src="{{ asset('public/images/desktop/kt4.png') }}" alt=""></a>
+							<a href="" class="view-more">Tìm hiểu <i class="fa fa-long-arrow-right"></i></a>
+						</div>
+					</div>
+					<script>
+						$('.slick-kt').slick({
+						  	slidesToShow: 1,
+						  	slidesToScroll: 1,
+						  	autoplay: true,
+						  	autoplaySpeed: 4000,
+						});	
+					</script>
+				</div>
+				<div class="col2">
+					<div class="line1 text-uppercase"><span>Bài đọc nhiều</span></div>
+					<div class="post-first flex justify-content-between">
+						<div>
+							<a href="#"><img src="{{ asset('public/images/desktop/home-3.png') }}" alt="" class="img-responsive center-block"></a>
+						</div>
+						<div>
+							<h3 class="post-name text-center"><a href="">NGUYÊN NHÂN DẪN ĐẾN SÙI MÀO GÀ LÀ GÌ</a></h3>
+							<p class="post-description text-justify">
+								Sùi mào gà là một loại bệnh xã hội vô cùng nguy hiểm có thể gặp phải ở cả nam lẫn nữ. Các bác sĩ chuyên khoa trong việc chữa trị bệnh xã hội trong đó có bệnh sùi mào gà tại <a href="#">Chi tiết</a>
+							</p>
 						</div>
 					</div>
 					<ul class="post-orthers">
@@ -142,9 +156,19 @@
 							<h4><a href="">Những biến chứng của bệnh sùi mào gà?</a></h4>
 							<p>Sùi mào gà là bệnh xã hội nguy hiểm và ngày càng phổ biến. Tuy không</p>
 						</li>
+						<li>
+							<i class="fa fa-circle"></i> 
+							<h4><a href="">Những biến chứng của bệnh sùi mào gà?</a></h4>
+							<p>Sùi mào gà là bệnh xã hội nguy hiểm và ngày càng phổ biến. Tuy không</p>
+						</li>
+						<li>
+							<i class="fa fa-circle"></i> 
+							<h4><a href="">Những biến chứng của bệnh sùi mào gà?</a></h4>
+							<p>Sùi mào gà là bệnh xã hội nguy hiểm và ngày càng phổ biến. Tuy không</p>
+						</li>
 					</ul>
 				</div>
-				<div class="col2">
+				<div class="col3">
 					<div class="heading text-center">Đội ngũ Bác sĩ Nam Khang</div>
 					<div><img src="{{ asset('public/images/desktop/home-2.png') }}" class="center-block" alt="Đội ngũ Bác sĩ Nam Khang"></div>
 					<div class="flex flex2 justify-content-between">
@@ -502,6 +526,30 @@
 						});
 					</script>
 				</div>
+			</div>
+		</div>
+		<div class="row6 container">
+			<div class="flex flex1 justify-content-between">
+				<a class="flex1col1 flex align-items-center justify-content-center" href="#">
+					<span><i class="bg1"></i></span>
+					<span>Tư vấn trực tuyến<br>Liên hệ bác sĩ của chúng tôi</span>
+				</a>
+				<a class="flex1col1 flex align-items-center justify-content-center" href="#">
+					<span><i class="bg2"></i></span>
+					<span>Đặt hẹn trực tuyến<br>Đặt hẹn trực tuyến,càng nhanh hơn</span>
+				</a>
+				<a class="flex1col1 flex align-items-center justify-content-center" href="#">
+					<span><i class="bg3"></i></span>
+					<span>Điện thoại liên hệ <br>18006181</span>
+				</a>
+				<a class="flex1col1 flex align-items-center justify-content-center" href="#">
+					<span><i class="bg4"></i></span>
+					<span>Địa chỉ phòng khám:<br>Số 193c1 Bà Triệu,<br>Hai Bà Trưng, Hà Nội</span>
+				</a>
+				<a class="flex1col1 flex align-items-center justify-content-center" href="#">
+					<span><i class="bg5"></i></span>
+					<span>Facebook phòng khám<br>Theo dõi Facebook,hiểu<br>thêm về Nam Khang</span>
+				</a>
 			</div>
 		</div>
 	</main>
