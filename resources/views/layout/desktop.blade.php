@@ -37,12 +37,13 @@
 	<link rel="stylesheet" type="text/css" href="{{ asset('public/css/desktop/desktop-footer.css') }}">
 	@yield('css')
 	<script type="text/javascript" src="{{ asset('public/js/global/jquery-1.12.3.min.js') }}"></script>
+	<script type="text/javascript" src="{{ asset('public/js/global/jquery.SuperSlide.2.1.1.js') }}"></script>
 	<script type="text/javascript" src="{{ asset('public/js/global/jquery.popupoverlay.min.js') }}"></script>
 	<script type="text/javascript" src="{{ asset('public/js/global/jquery-scrolltofixed-min.js') }}"></script>
 	<script type="text/javascript" src="{{ asset('public/js/global/slick/slick.min.js') }}"></script>
 	<script type="text/javascript" src="{{ asset('public/js/global/toastr8/dist/js/toastr8.min.js') }}"></script>
 	@yield('js')
-	<!-- <script type="text/javascript" src="{{ asset('public/js/desktop/desktop.js') }}"></script> -->
+	<script type="text/javascript" src="{{ asset('public/js/desktop/desktop.js') }}"></script>
 	<!-- <script type="text/javascript" src="{{ asset('public/js/desktop/right.js') }}"></script> -->
 	<!-- <script type="text/javascript" src="{{ asset('public/js/desktop/swt.js') }}"></script> -->
 	<script>
@@ -137,7 +138,7 @@
 	@yield('content')
 	<footer>
 		<div class="row1">
-			<div class="container">
+			<div class="container2">
 				<div class="flex flex1 justify-content-between">
 					<div class="flex1col1">
 						<div>
@@ -151,25 +152,7 @@
 						<div class="text-center text-uppercase web-slogan">_____PHÒNG KHÁM UY TÍN Ở HÀ NỘI_____</div>
 					</div>
 					<div class="flex1col2">
-						<div class="text-uppercase">Trung tâm uy tín</div>
-						<div class="text-uppercase">
-							<a href="{{ MyAPI::getUrlTermID(32) }}" title="Kĩ thuật điều trị">Kĩ thuật điều trị</a>
-						</div>
-						<div class="text-uppercase">
-							<a href="{{ MyAPI::getUrlTermID(33) }}" title="Thiết bị tiên tiến">Thiết bị tiên tiến</a>
-						</div>
-						<div class="text-uppercase">
-							<a href="{{ MyAPI::getUrlTermID(34) }}" title="Bệnh án điển hình">Bệnh án điển hình</a>
-						</div>
-						<div  class="text-uppercase">
-							<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" title="TƯ VẤN CHI PHÍ">TƯ VẤN CHI PHÍ</a>
-						</div>
-						<div class="text-uppercase">
-							<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" title="LIÊN HỆ VỚI CHÚNG TÔI">LIÊN HỆ VỚI CHÚNG TÔI</a>
-						</div>
-						<div class="text-uppercase">
-							<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" title="ĐẶT HẸN TRỰC TUYẾN">ĐẶT HẸN TRỰC TUYẾN</a>
-						</div>
+						<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d29796.642302271455!2d105.84909!3d21.009455!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8a65517cee98a0b0!2sPh%C3%B2ng+Kh%C3%A1m+Chuy%C3%AAn+Khoa+Nam+Khang!5e0!3m2!1sen!2sus!4v1493863687642" width="100%" height="245px" frameborder="0" style="border:0"></iframe>
 					</div>
 					<div class="flex1col3">
 						<div class="">
@@ -210,7 +193,7 @@
 							</div>
 							<div class="flex4 flex justify-content-between">
 								<div class="flex4col1">
-									<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="flex align-items-center dis-block width-100 justify-content-around active hvr-push" title="Hỏi bệnh tình">
+									<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="flex align-items-center dis-block width-100 justify-content-center active hvr-push" title="Hỏi bệnh tình">
 										<span class="flex align-items-center justify-content-center">
 											<i class="bg3"></i>
 										</span>
@@ -218,7 +201,7 @@
 									</a>
 								</div>
 								<div class="flex4col1">
-									<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="flex align-items-center dis-block width-100 justify-content-around hvr-push" title="Hỏi điều trị">
+									<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="flex align-items-center dis-block width-100 justify-content-center hvr-push" title="Hỏi điều trị">
 										<span class="flex align-items-center justify-content-center">
 											<i class="bg4"></i>
 										</span>
@@ -226,7 +209,7 @@
 									</a>
 								</div>
 								<div class="flex4col1">
-									<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="flex align-items-center dis-block width-100 justify-content-around hvr-push" title="Hỏi chi phí">
+									<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="flex align-items-center dis-block width-100 justify-content-center hvr-push" title="Hỏi chi phí">
 										<span class="flex align-items-center justify-content-center">
 											<i class="bg5"></i>
 										</span>

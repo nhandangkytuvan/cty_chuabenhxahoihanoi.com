@@ -1,3 +1,4 @@
+footer .container2{width: 1290px;margin:0px auto;}
 footer .row1{
 	background-color: #00639d;
 	padding-top: 30px;
@@ -21,10 +22,10 @@ footer .row1 .flex1col1 .web-slogan{
 	color: #fefefe;
 }
 footer .row1 .flex1col2{
-	width: 250px;
-	padding-left: 40px;
+	width: 350px;
+	padding-left: 20px;
 }
-footer .row1 .flex1col2 >div:first-child{
+/*footer .row1 .flex1col2 >div:first-child{
 	font-size: 18px;
 	font-weight: 600;
 }
@@ -32,11 +33,11 @@ footer .row1 .flex1col2 >div:nth-child(n+2){
 	margin-top: 18px;
 	font-weight: 100;
 	font-size: 14px;
-}
+}*/
 footer .row1 .flex1col3{
-	width: 586px;
-	padding-left: 38px;
-	border-left: 1px solid #fff;
+	width: 600px;
+	padding-left: 20px;
+	/*border-left: 1px solid #fff;*/
 }
 footer .row1 .flex1col3 .web-contact{
 	font-size: 18px;
@@ -70,7 +71,7 @@ footer .row1 .flex1col3 .flex2col2 .flex3col1 i{
 	background-position: -44px 0px;
 }
 footer .row1 .flex1col3 .flex2col2{
-	width: 130px;
+	/*width: 130px;*/
 }
 footer .row1 .flex1col3 .flex4{
 	margin-top: 20px;
@@ -104,6 +105,7 @@ footer .row1 .flex1col3 .flex4 a i.bg5{
 footer .row1 .flex1col3 .flex4col1{
 	width: 32%;
 }
+footer .row1 .flex1col3 .flex4col1 a span:nth-child(1){margin-right: 10px;}
 footer .row1 .flex1col3 div.web-address{
 	font-size: 25px;
 	margin-top: 30px;

@@ -34,7 +34,7 @@ header .flex1col1:nth-child(2) >div{
 	width: 100%;
 }
 header .flex1col1:nth-child(2) div.text-left,header .flex1col1:nth-child(2) div.text-right{
-	font-size: 10px;
+	font-size: 12px;
 	margin-bottom: 1px;
 	color: #4a4a4a;
 	font-weight: bold;
@@ -57,7 +57,7 @@ header .flex1col1:nth-child(3) .flex3col2 >div div:nth-child(1){
 header .flex1col1:nth-child(3) .flex3col2 >div div:nth-child(n+2){
 	color: #e5b400;
 	font-weight: bold;
-	font-size: 15px;
+	font-size: 16px;
 }
 header .flex1col1:nth-child(3) .flex3col2 >div div:nth-child(3){
 	/*margin-top: -8px;*/
