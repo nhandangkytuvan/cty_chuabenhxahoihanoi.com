@@ -92,9 +92,9 @@
 				</div>
 				<div class="flex1col1 flex justify-content-center align-items-center">
 					<div class="thoigian-lamviec">
-						<div class="text-left">Thời gian làm việc</div>
+						<!-- <div class="text-left">Thời gian làm việc</div>
 						<div class="text-center">8:00 - 20:00</div>
-						<div class="text-right">(làm việc cả chủ nhật, ngày lễ)</div>
+						<div class="text-right">(làm việc cả chủ nhật, ngày lễ)</div> -->
 					</div>
 				</div>
 				<div class="flex1col1 flex flex3 justify-content-between">

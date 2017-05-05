@@ -48,7 +48,7 @@
 						<div class="col1 flex flex3 flex-wrap-wrap align-content-end">
 							<div class="width-100 text-center"><a href="#">Triệu chứng</a></div>
 							<div class="width-100 text-center"><a href="#">Điều trị</a></div>
-							<div class="width-100 text-center"><a href="#">Phòng ngừa</a></div>
+							<div class="width-100 text-center"><a href="#">Kiểm tra</a></div>
 						</div>
 					</div>
 				</div>
@@ -64,7 +64,7 @@
 						<div class="col1 flex flex3 flex-wrap-wrap align-content-end">
 							<div class="width-100 text-center"><a href="#">Triệu chứng</a></div>
 							<div class="width-100 text-center"><a href="#">Điều trị</a></div>
-							<div class="width-100 text-center"><a href="#">Phòng ngừa</a></div>
+							<div class="width-100 text-center"><a href="#">Kiểm tra</a></div>
 						</div>
 					</div>
 				</div>
@@ -80,7 +80,7 @@
 						<div class="col1 flex flex3 flex-wrap-wrap align-content-end">
 							<div class="width-100 text-center"><a href="#">Triệu chứng</a></div>
 							<div class="width-100 text-center"><a href="#">Điều trị</a></div>
-							<div class="width-100 text-center"><a href="#">Phòng ngừa</a></div>
+							<div class="width-100 text-center"><a href="#">Kiểm tra</a></div>
 						</div>
 					</div>
 				</div>
@@ -96,7 +96,7 @@
 						<div class="col1 flex flex3 flex-wrap-wrap align-content-end">
 							<div class="width-100 text-center"><a href="#">Triệu chứng</a></div>
 							<div class="width-100 text-center"><a href="#">Điều trị</a></div>
-							<div class="width-100 text-center"><a href="#">Phòng ngừa</a></div>
+							<div class="width-100 text-center"><a href="#">Kiểm tra</a></div>
 						</div>
 					</div>
 				</div>

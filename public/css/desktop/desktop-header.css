@@ -28,7 +28,7 @@ header .flex1 .flex2col2 >div:nth-child(2){
 }
 /**/
 header .flex1col1:nth-child(2){
-	width: 200px;
+	/*width: 200px;*/
 }
 header .flex1col1:nth-child(2) >div{
 	width: 100%;
@@ -57,7 +57,7 @@ header .flex1col1:nth-child(3) .flex3col2 >div div:nth-child(1){
 header .flex1col1:nth-child(3) .flex3col2 >div div:nth-child(n+2){
 	color: #e5b400;
 	font-weight: bold;
-	font-size: 16px;
+	font-size: 22px;
 }
 header .flex1col1:nth-child(3) .flex3col2 >div div:nth-child(3){
 	/*margin-top: -8px;*/
