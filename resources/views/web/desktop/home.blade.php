@@ -18,11 +18,6 @@
 					<img src="{{ asset('public/images/desktop/addslide2.png') }}" alt="Nam khang - Bảo vệ sức khỏe nam giới" class="center-block">
 				</a>
 			</div>
-			<div>
-				<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">
-					<img src="{{ asset('public/images/desktop/addslide3.png') }}" alt="Nam khang - Kỹ thuật điều trị" class="center-block">
-				</a>
-			</div>
 		</div>
 		<script>
 			$('.slick-home').slick({

@@ -1,40 +1,8 @@
-footer >div:first-child{
-	background-color: #e1e1e1;
-	padding:15px;
-}
-footer p{
-	color: #030303;
-	font-size: 14px;
-	margin-bottom: 10px;
-}
-footer p a{
-	font-size: 12px;
-	font-weight: bold;
-}
-footer .footer-toolbar{
-	background-color: #016fbf;
-	color: #fff;
-}
-footer .footer-toolbar .flex1col1{
-	width: 25%;
-	background-color: #239ee4;
-	padding:5px 0px;
-}
-footer .footer-toolbar .flex1col1 div.h3{
-	padding-top: 5px;
-}
-footer .footer-toolbar .flex1col1 i{
-	font-size: 22px;
-}
-footer .footer-toolbar .flex1col1 div.h4{
-	font-weight: normal;
-	margin-top: 5px;
-}
-footer .footer-toolbar .flex1col1 a{
-	display: block;
-	text-align: center;
-}
-
+footer{margin-top: 25px;}
+footer .row1{background-color: #177f9f;height: 220px;padding:18px 0px;color: #fff;}
+footer .row1 .flex1col1{width: 50%;}
+footer .row1 .flex1col1:nth-child(1)>div:nth-child(2){font-size: 16px;font-weight: bold;margin-top: 20px;}
+footer .row1 .flex1col1:nth-child(1)>div:nth-child(3){font-size: 16px;margin-top: 10px;}
 /**/
 footer .footer-toolbar{
 	background: none;
@@ -53,7 +21,7 @@ footer .footer-toolbar .flex2col1 i{
 	width: 25px;
 	height: 26px;
 	line-height: 26px;
-	background-image: url('../../images/mobile/icon-4.png');
+	background-image: url('../../images/mobile2/icon-4.png');
 	background-repeat: no-repeat;
 	background-position: 0px 0px;
 }
