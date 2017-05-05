@@ -2,7 +2,7 @@
 	<div class="flex flex100 align-items-center">
 		<div class="width-100 flex flex99">
 			<div class="flex flex99col1 align-items-center">
-				<img src="{{ asset('public/images/desktop/logo-header.png') }}" class="center-block img-responsive" alt="logo">
+				<img src="{{ asset('public/images/desktop2/logo-header.png') }}" class="center-block img-responsive" alt="logo">
 			</div>
 			<div class="flex flex99col2 align-items-center">
 				<div class="text-uppercase">Giới thiệu phòng khám</div>
@@ -11,7 +11,7 @@
 	</div>
 	<div>
 		<a href="{{ url('ve-chung-toi') }}" title="Phòng khám nam khang">
-			<img src="{{ asset('public/images/desktop/term-4.png') }}" class="center-block" alt="Phòng khám nam khang">
+			<img src="{{ asset('public/images/desktop2/term-4.png') }}" class="center-block" alt="Phòng khám nam khang">
 		</a>
 	</div>
 	<p class="text-justify">
@@ -21,7 +21,7 @@
 <div class="row2">
 	<div class="flex flex100 align-items-center">
 		<div class="width-100 flex flex99">
-			<div class="flex flex99col1 align-items-center"><img src="{{ asset('public/images/desktop/logo-header.png') }}" class="center-block img-responsive" alt="logo"></div>
+			<div class="flex flex99col1 align-items-center"><img src="{{ asset('public/images/desktop2/logo-header.png') }}" class="center-block img-responsive" alt="logo"></div>
 			<div class="flex flex99col2 align-items-center">
 				<div class="text-uppercase">chỉ nam thăm khám</div>
 			</div>
@@ -119,7 +119,7 @@
 <div class="row3">
 	<div class="flex flex96">
 		<div class="flex96col1 flex justify-content-center align-items-center">
-			<div><a href=""><img src="{{ asset('public/images/desktop/term-8.png') }}" class="center-block"></a></div>
+			<div><a href=""><img src="{{ asset('public/images/desktop2/term-8.png') }}" class="center-block"></a></div>
 		</div>
 		<div class="flex96col2 flex justify-content-center align-items-center">
 			<div>
@@ -135,7 +135,7 @@
 		<div class="width-100 flex flex99">
 			<div class="flex flex99col1 align-items-center">
 				<div>
-					<img src="{{ asset('public/images/desktop/logo-header.png') }}" class="center-block img-responsive" alt="logo">
+					<img src="{{ asset('public/images/desktop2/logo-header.png') }}" class="center-block img-responsive" alt="logo">
 				</div>
 			</div>
 			<div class="flex flex99col2 align-items-center">
@@ -148,7 +148,7 @@
 			<div class="tb">
 				<div>
 					<a href="{{ MyAPI::getUrlTermID(33) }}">
-						<img src="{{ asset('public/images/desktop/tb-1.png') }}" class="center-block img-responsive" alt="Máy hồi phục chức năng sinh dục">
+						<img src="{{ asset('public/images/desktop2/tb-1.png') }}" class="center-block img-responsive" alt="Máy hồi phục chức năng sinh dục">
 					</a>
 				</div>
 				<p class="text-center">
@@ -160,7 +160,7 @@
 			<div class="tb">
 				<div>
 					<a href="{{ MyAPI::getUrlTermID(33) }}">
-						<img src="{{ asset('public/images/desktop/tb-2.png') }}" class="center-block img-responsive" alt="Máy điều trị sóng ngắn">
+						<img src="{{ asset('public/images/desktop2/tb-2.png') }}" class="center-block img-responsive" alt="Máy điều trị sóng ngắn">
 					</a>
 				</div>
 				<p class="text-center"><a href="{{ MyAPI::getUrlTermID(33) }}" title="Máy điều trị sóng ngắn">Máy điều trị sóng ngắn</a></p>
@@ -170,7 +170,7 @@
 			<div class="tb">
 				<div>
 					<a href="{{ MyAPI::getUrlTermID(33) }}">
-						<img src="{{ asset('public/images/desktop/tb-3.png') }}" class="center-block img-responsive" alt="Máy điều trị hồng ngoại">
+						<img src="{{ asset('public/images/desktop2/tb-3.png') }}" class="center-block img-responsive" alt="Máy điều trị hồng ngoại">
 					</a>
 				</div>
 				<p class="text-center"><a href="{{ MyAPI::getUrlTermID(33) }}" title="Máy điều trị hồng ngoại">Máy điều trị hồng ngoại</a></p>
@@ -180,7 +180,7 @@
 			<div class="tb">
 				<div>
 					<a href="{{ MyAPI::getUrlTermID(33) }}">
-						<img alt="Máy hồi phục tuyến tiền liệt" src="{{ asset('public/images/desktop/tb-4.png') }}" class="center-block img-responsive">
+						<img alt="Máy hồi phục tuyến tiền liệt" src="{{ asset('public/images/desktop2/tb-4.png') }}" class="center-block img-responsive">
 					</a>
 				</div>
 				<p class="text-center"><a href="{{ MyAPI::getUrlTermID(33) }}" title="Máy hồi phục tuyến tiền liệt">Máy hồi phục tuyến tiền liệt</a></p>
@@ -190,7 +190,7 @@
 			<div class="tb">
 				<div>
 					<a href="{{ MyAPI::getUrlTermID(33) }}">
-						<img alt="Quầy lễ tân" src="{{ asset('public/images/desktop/tb-5.png') }}" class="center-block img-responsive">
+						<img alt="Quầy lễ tân" src="{{ asset('public/images/desktop2/tb-5.png') }}" class="center-block img-responsive">
 					</a>
 				</div>
 				<p class="text-center"><a href="{{ MyAPI::getUrlTermID(33) }}" title="Quầy lễ tân">Quầy lễ tân</a></p>
@@ -200,7 +200,7 @@
 			<div class="tb">
 				<div>
 					<a href="{{ MyAPI::getUrlTermID(33) }}">
-						<img alt="Phòng phẫu thuật vô khuẩn" src="{{ asset('public/images/desktop/tb-6.png') }}" class="center-block img-responsive">
+						<img alt="Phòng phẫu thuật vô khuẩn" src="{{ asset('public/images/desktop2/tb-6.png') }}" class="center-block img-responsive">
 					</a>
 				</div>
 				<p class="text-center"><a href="{{ MyAPI::getUrlTermID(33) }}" title="Phòng phẫu thuật vô khuẩn">Phòng phẫu thuật vô khuẩn</a></p>
@@ -210,7 +210,7 @@
 			<div class="tb">
 				<div>
 					<a href="{{ MyAPI::getUrlTermID(33) }}">
-						<img alt="Phòng phẫu thuật vô khuẩn" src="{{ asset('public/images/desktop/tb-7.png') }}" class="center-block img-responsive">
+						<img alt="Phòng phẫu thuật vô khuẩn" src="{{ asset('public/images/desktop2/tb-7.png') }}" class="center-block img-responsive">
 					</a>
 				</div>
 				<p class="text-center"><a href="{{ MyAPI::getUrlTermID(33) }}" title="Phòng phẫu thuật vô khuẩn">Phòng phẫu thuật vô khuẩn</a></p>
@@ -247,7 +247,7 @@
 	<div class="flex flex100 align-items-center">
 		<div class="width-100 flex flex99">
 			<div class="flex flex99col1 align-items-center">
-				<div><img src="{{ asset('public/images/desktop/logo-header.png') }}" class="center-block img-responsive" alt="logo"></div>
+				<div><img src="{{ asset('public/images/desktop2/logo-header.png') }}" class="center-block img-responsive" alt="logo"></div>
 			</div>
 			<div class="flex flex99col2 align-items-center">
 				<div class="text-uppercase">lộ trình đến phòng khám</div>
@@ -259,7 +259,7 @@
 	</div>
 	<div class="flex flex94">
 		<div class="flex align-items-center">
-			<img src="{{ asset('public/images/desktop/r_map_icon1.png') }}" class="center-block" alt="map">
+			<img src="{{ asset('public/images/desktop2/r_map_icon1.png') }}" class="center-block" alt="map">
 		</div>
 		<div class="flex align-items-center">Địa chỉ phòng khám :</div>
 	</div>

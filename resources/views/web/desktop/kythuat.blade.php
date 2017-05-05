@@ -76,7 +76,7 @@
 							@if($data['term']->term_avatar)
 								<img src="{{ asset('public/img/'.$data['term']->term_avatar) }}" class="center-block" alt="{{ $data['term']->term_name }}">
 							@else
-								<img src="{{ asset('public/images/desktop/term-3.png') }}" class="center-block" alt="{{ $data['term']->term_name }}">
+								<img src="{{ asset('public/images/desktop2/term-3.png') }}" class="center-block" alt="{{ $data['term']->term_name }}">
 							@endif
 						</a>
 					</div>
@@ -150,7 +150,7 @@
 							<div class="flex flex5 justify-content-between">
 								<div class="flex5col1 flex align-items-center justify-content-center">
 									<a href="tel:1800 - 6181" title="1800 - 6181">
-										<img src="{{ asset('public/images/desktop/term-5.png') }}" class="center-block" alt="1800 - 6181">
+										<img src="{{ asset('public/images/desktop2/term-5.png') }}" class="center-block" alt="1800 - 6181">
 									</a>
 								</div>
 								<div class="flex5col2 flex align-items-center justify-content-center">
@@ -176,7 +176,7 @@
 			</div>
 			<div>
 				<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" title="Nhắc nhở">
-					<img src="{{ asset('public/images/desktop/term-6.png') }}" class="center-block">
+					<img src="{{ asset('public/images/desktop2/term-6.png') }}" class="center-block">
 				</a>
 			</div>
 		</div>
