@@ -2,41 +2,16 @@
 namespace App\Http\Controllers\User;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\App;
 use App\User;
 use App\Setting;
+use App\Online;
 use Session;
 use Hash;
 class UserController extends Controller{
-	protected $messages_create = [
-	    'username.required' => 'Chúng tôi cần biết username của bạn.',
-	    'user_name.required' => 'Chúng tôi cần biết user_name của bạn.',
-	    'password.required' => 'Chúng tôi cần biết password của bạn.',
-	    'password_confirmation.required' => 'Chúng tôi cần biết password_confirmation của bạn.',
-	];
-	protected $rules_create = [
-        'username' => 'required|unique:user|max:255',
-        'user_name' => 'required|max:255',
-        'password' => 'required|min:6|confirmed',
-        'password_confirmation' => 'required|min:6',
-    ];
-    protected $rules_edit = [
-    	'user_name' => 'required',
-    	'user_email' => 'required|email',
-    ];
-    protected $rules_forget = [
-        'password_old' => 'required',
-        'password_new' => 'required|min:6|confirmed',
-        'password_new_confirmation' => 'required|min:6',
-    ];
-    protected $messages_forget = [
-	    'password_old.required' => 'Nhập password cũ của bạn.',
-	    'password_new.required' => 'Nhập password mới của bạn.',
-	    'password_new_confirmation.required' => 'Nhập lại password mới của bạn.',
-	    'password_new.confirmed' => 'Passowrd không khớp.',
-	];
 	public function create(Request $request){
 		if ($request->isMethod('post')) {
-			$this->validate($request,$this->rules_create,$this->messages_create);
+			$this->validate($request,User::$rules_create,User::$messages_create);
 			$user = new User;
 			$user->username = $request->input('username');
 			$user->user_name = $request->input('user_name');
@@ -54,6 +29,19 @@ class UserController extends Controller{
 		}
 	}
 	public function logout(Request $request){
+		$user = Session::get('user');
+		$online = Online::updateOrCreate(
+		    ['user_id' => $user->id],
+		    ['status' => 0]
+		);
+        //pusher
+        // $pusher = App::make('pusher');
+        // $pusher->trigger( 
+        //     'active-channel',
+        //     'offline-event', 
+        //     ['user_name'=>$user->user_name,'user_id'=>$user->id,]
+        // );
+        //
 		Session::forget('user');
 		Session::flash('info','Hẹn gặp lại.');
 		return redirect('/');
@@ -61,7 +49,7 @@ class UserController extends Controller{
 	public function password(Request $request){
 		$user = Session::get('user');
 		if ($request->isMethod('post')) {
-			$this->validate($request,$this->rules_forget,$this->messages_forget);
+			$this->validate($request,User::$rules_forget,User::$messages_forget);
 			if(Hash::check($request->input('password_old'),$user->password)){
 				$user->password = Hash::make($request->input('password_new'));
 				$user->save();
@@ -79,7 +67,7 @@ class UserController extends Controller{
 	public function edit(Request $request){
 		$user = Session::get('user');
 		if($request->isMethod('post')){
-			$this->validate($request,$this->rules_edit);
+			$this->validate($request,User::$rules_edit);
 			$user->user_name = $request->input('user_name');
 			$user->user_email = $request->input('user_email');
 			if($request->hasFile('user_avatar')){

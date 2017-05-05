@@ -32,7 +32,7 @@
         <ul class="list-group">
             <li class="list-group-item"><a href="{{ url('user/post/create') }}"><i class="glyphicon glyphicon-edit"></i> Viết bài mới</a></li>
             <li class="list-group-item"><a href="{{ url('user/post/index') }}"><i class="glyphicon glyphicon-sort-by-alphabet"></i> Danh sách bài viết</a></li>
-            <li class="list-group-item"><a href="{{ url('user/media/create') }}"><i class="glyphicon glyphicon-send"></i> Gửi ảnh</a></li>
+            <!-- <li class="list-group-item"><a href="{{ url('user/media/create') }}"><i class="glyphicon glyphicon-send"></i> Gửi ảnh</a></li> -->
             <li class="list-group-item"><a href="{{ url('user/media/index?view=icon') }}"><i class="glyphicon glyphicon-picture"></i> Thư viện ảnh</a></li>
             <li class="list-group-item"><a href="{{ url('user/user/edit') }}"><i class="glyphicon glyphicon-user"></i> Sửa tài khoản</a></li>
         </ul>
@@ -56,5 +56,4 @@
 </div> 
 <div>
     <p><img src="{{ asset('public/img/'.$setting->web_logo) }}" class="img-responsive center-block"></p>
-    <a href="{{ url('/') }}" class="btn-block btn btn-success">phongkhamnamkhang.com</a>
 </div>

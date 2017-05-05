@@ -9,31 +9,25 @@ use Gate;
 use Session;
 use DB;
 class TermController extends Controller{
-    protected $rules = [
-        'term_name' => 'required',
-    ];
     public function create(Request $request){
         $user = Session::get('user');
         $terms = Term::get();
         if($request->isMethod('post')){
-            $this->validate($request,$this->rules);
+            $this->validate($request,Term::$rules);
             $term = new Term;
             $term->user_id = $user->id;
-            $term->term_id = $request->input('term_id');
-            $term->term_name = $request->input('term_name');
             $term->term_alias = str_slug($request->input('term_name'),'-');
-            $term->term_order = 0;
-            $term->term_description = $request->input('term_description');
-            $term->term_keyword = $request->input('term_keyword');
-            $term->term_meta = $request->input('term_meta');
-            // upload
-            if($request->hasFile('term_avatar')){
-                $file = $request->file('term_avatar');
-                $term_avatar = $term->term_alias.'-'.time().'.'.$file->extension();
-                $file->move(public_path().'/img',$term_avatar);
-                $term->term_avatar = $term_avatar;
+            foreach ($term->fillable as $key => $value) {
+                if($request->has($value)){
+                    $term->$value = $request->input($value);
+                }
+                if($request->hasFile($value)){
+                    $file = $request->file($value);
+                    $file_name = $term->term_alias.'-'.time().'.'.$file->extension();
+                    $file->move(public_path().'/img',$file_name);
+                    $term->$value = $file_name;
+                }
             }
-            // 
             if($term->save()){
                 Session::flash('success','Tạo mới thành công.');
                 return redirect('user/term/index');
@@ -51,25 +45,23 @@ class TermController extends Controller{
         $terms = Term::where('id','!=',$term_id)->get();
         $term = Term::find($term_id);
         if($request->isMethod('post')){
-            $this->validate($request,$this->rules);
-            // if (Gate::forUser($user)->denies('edit-term', $term)) {
-            //     Session::flash('error','Không phải của bạn.');
-            //     return back();
-            // }
-            $term->term_id = $request->input('term_id');
-            $term->term_name = $request->input('term_name');
-            $term->term_alias = str_slug($request->input('term_name'),'-');
-            $term->term_description = $request->input('term_description');
-            $term->term_keyword = $request->input('term_keyword');
-            $term->term_meta = $request->input('term_meta');
-            // upload
-            if($request->hasFile('term_avatar')){
-                $file = $request->file('term_avatar');
-                $term_avatar = $term->term_alias.'-'.time().'.'.$file->extension();
-                $file->move(public_path().'/img',$term_avatar);
-                $term->term_avatar = $term_avatar;
+            $this->validate($request,Term::$rules);
+            if (Gate::forUser($user)->denies('delete-term', $term)) {
+                Session::flash('error','Không phải của bạn.');
+                return back();
             }
-            // 
+            $term->term_alias = str_slug($request->input('term_name'),'-');
+            foreach ($term->fillable as $key => $value) {
+                if($request->has($value)){
+                    $term->$value = $request->input($value);
+                }
+                if($request->hasFile($value)){
+                    $file = $request->file($value);
+                    $file_name = $term->term_alias.'-'.time().'.'.$file->extension();
+                    $file->move(public_path().'/img',$file_name);
+                    $term->$value = $file_name;
+                }
+            }
             if($term->save()){
                 Session::flash('success','Sửa thành công.');
                 return redirect('user/term/index');

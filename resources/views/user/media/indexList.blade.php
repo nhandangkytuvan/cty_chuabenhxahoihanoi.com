@@ -79,16 +79,6 @@
                                         <span class="glyphicon glyphicon-eye-open"></span> Xem ảnh
                                     </a> 
                                 </li> 
-                                <li>
-                                    <a href="{{ url('user/media/edit/'.$media->id) }}">
-                                        <span class="glyphicon glyphicon-pencil"></span> Sửa ảnh
-                                    </a> 
-                                </li> 
-                                <li>
-                                    <a href="{{ url('user/media/delete/'.$media->id) }}">
-                                        <span class="glyphicon glyphicon-trash"></span> Xóa ảnh
-                                    </a> 
-                                </li>
                             </ul> 
                         </div>
                     </div>
