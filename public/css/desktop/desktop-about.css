@@ -3,14 +3,14 @@
 	line-height: auto;
 }
 .about .row1{
-	background-image: url('../../images/desktop/about-1.png');
+	background-image: url('../../images/desktop2/about-1.png');
 	background-position: center;
 	background-repeat: no-repeat;
 	height: 743px;
 }
 .about .row2{
 	margin-top: -4px;
-	background-image: url('../../images/desktop/about-2.png');
+	background-image: url('../../images/desktop2/about-2.png');
 	background-position: center;
 	background-repeat: no-repeat;
 	height: 799px;
@@ -24,7 +24,7 @@
 }
 .about .row3{
 	margin-top: -4px;
-	background-image: url('../../images/desktop/about-3.png');
+	background-image: url('../../images/desktop2/about-3.png');
 	background-position: center;
 	background-repeat: no-repeat;
 	height: 1010px;
@@ -35,7 +35,7 @@
 }
 .about .row4{
 	margin-top: -4px;
-	background-image: url('../../images/desktop/about-4.png');
+	background-image: url('../../images/desktop2/about-4.png');
 	background-position: center;
 	background-repeat: no-repeat;
 	height: 418px;
@@ -45,7 +45,7 @@
 }
 .about .row5{
 	margin-top: -4px;
-	background-image: url('../../images/desktop/about-5.png');
+	background-image: url('../../images/desktop2/about-5.png');
 	background-position: center;
 	background-repeat: no-repeat;
 	height: 850px;
@@ -59,7 +59,7 @@
 }
 .about .row6{
 	margin-top: -4px;
-	background-image: url('../../images/desktop/about-6.png');
+	background-image: url('../../images/desktop2/about-6.png');
 	background-position: center;
 	background-repeat: no-repeat;
 	height: 390px;
@@ -70,7 +70,7 @@
 }
 .about .row7{
 	margin-top: -4px;
-	background-image: url('../../images/desktop/about-7.png');
+	background-image: url('../../images/desktop2/about-7.png');
 	background-position: center;
 	background-repeat: no-repeat;
 	height: 734px;

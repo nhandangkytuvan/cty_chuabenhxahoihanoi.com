@@ -1,6 +1,6 @@
 /**/
 .banner{
-	background-image: url('../../images/desktop/tb-banner.png');
+	background-image: url('../../images/desktop2/tb-banner.png');
 	background-position: center;
 	background-repeat: no-repeat;
 	height: 452px;
@@ -23,7 +23,7 @@
 	font-weight: normal;
 }
 .home .row1 .flex1col2 i.bg1{
-	background-image: url('../../images/desktop/home-2.png');
+	background-image: url('../../images/desktop2/home-2.png');
 	background-repeat: no-repeat;
 	background-position: -36px -5px;
     width: 20px;
@@ -57,13 +57,13 @@
 	background-position: center;
 }
 .thietbi .row1{
-	background-image: url('../../images/desktop/tb-bg-1.png');
+	background-image: url('../../images/desktop2/tb-bg-1.png');
 }
 .thietbi .row2,.thietbi .row4{
-	background-image: url('../../images/desktop/tb-bg-2.png');
+	background-image: url('../../images/desktop2/tb-bg-2.png');
 }
 .thietbi .row3{
-	background-image: url('../../images/desktop/tb-bg-3.png');
+	background-image: url('../../images/desktop2/tb-bg-3.png');
 }
 .thietbi .flex1col1{
 	width: 476px;
@@ -78,7 +78,7 @@
 	color: #fff;
 	line-height: 37px;
 	font-size: 14px;
-	background-image: url('../../images/desktop/icon-15.png');
+	background-image: url('../../images/desktop2/icon-15.png');
 	background-position: 0px -73px;
 	background-repeat: no-repeat;
 	font-weight: normal;padding-left: 10px;
@@ -96,7 +96,7 @@
 	color: #fff;
 	line-height: 37px;
 	font-size: 14px;
-	background-image: url('../../images/desktop/icon-15.png');
+	background-image: url('../../images/desktop2/icon-15.png');
 	background-position: 0px -127px;
 	background-repeat: no-repeat;
 	font-weight: normal;
@@ -117,7 +117,7 @@
 	display: inline-block;
 	width: 36px;
 	height: 25px;
-	background-image: url('../../images/desktop/icon-15.png');
+	background-image: url('../../images/desktop2/icon-15.png');
 	background-position: 0px 0px;
 	background-repeat: no-repeat;
 	margin-bottom: 10px;
@@ -168,7 +168,7 @@
 	background-color: #4b4b56;
 }
 .thietbi .row-footer a i{
-	background-image: url('../../images/desktop/icon-15.png');
+	background-image: url('../../images/desktop2/icon-15.png');
 	background-position: -124px 8px;
 	background-repeat: no-repeat;
 	display: inline-block;

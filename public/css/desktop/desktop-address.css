@@ -1,6 +1,6 @@
 /**/
 .banner{
-    background-image: url('../../images/desktop/term-1.png');
+    background-image: url('../../images/desktop2/term-1.png');
     background-position: center;
     background-repeat: no-repeat;
     height: 452px;
@@ -23,7 +23,7 @@
     font-weight: normal;
 }
 .home .row1 .flex1col2 i.bg1{
-    background-image: url('../../images/desktop/home-2.png');
+    background-image: url('../../images/desktop2/home-2.png');
     background-repeat: no-repeat;
     background-position: -36px -5px;
     width: 20px;
@@ -120,7 +120,7 @@ main.term .flex0col1 .flex1col2 ul li h5 i.active{
 main.term .flex0col1 .flex2col1{
 	height: 38px;
 	width: 160px;
-	background-image: url('../../images/desktop/icon-4.png');
+	background-image: url('../../images/desktop2/icon-4.png');
 	background-position: 0px -1px;
 	background-repeat: no-repeat;
 	line-height: 38px;
