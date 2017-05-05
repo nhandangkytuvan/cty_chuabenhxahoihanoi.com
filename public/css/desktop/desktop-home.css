@@ -1,7 +1,7 @@
 .home .row1{background-color: #e8f5f9;}
 .home .row1 .flex1{height: 112px;}
 .home .row1 .flex1>.col1{width: 25%}
-.home .row1 .flex1>.col1>h2{font-size: 16px;font-weight: bold;color: #434343;}
+.home .row1 .flex1>.col1>h2{font-size: 16px;font-weight: bold;color: #434343;margin-left: 30px;}
 .home .row1 .flex2 i.bg{
 	background-image: url('../../images/desktop/home-1.png');
 	background-repeat: no-repeat;background-position: 0px 0px;width: 50px;height: 61px;display: block;}
