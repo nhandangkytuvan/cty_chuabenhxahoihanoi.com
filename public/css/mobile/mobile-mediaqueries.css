@@ -1,0 +1,229 @@
+/*
+  Based on:
+  1. http://stephen.io/mediaqueries
+  2. https://css-tricks.com/snippets/css/media-queries-for-standard-devices/
+*/
+/* 
+  iPhone 2G, 3G, 4, 4S Media Queries
+  It's noteworthy that these media queries are also the same for iPod Touch generations 1-4.
+*/
+
+/* iPhone 2G-4S in portrait & landscape */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+  /*header*/
+  header .flex1col1 div.h3, header .flex1col1 h1{font-size: 14px;}
+  header .flex1col1 div.web-address{font-size: 12px;}
+  header .flex1col3 span{font-size: 11px;padding-left: 10px;}
+  menu .flex1col1{font-size: 12px;}
+  /*home*/
+  .home .global1 .flex1col1{font-size: 16px;}
+  .home .row8 .flex1col1{font-size: 15px;}
+  .home .row8 .flex1col2{font-size: 12px;}
+  .home .row8 .flex1col3 a{font-size: 10px;}
+  .home .row7 .flex1col1{font-size: 15px;}
+  .home .global1 .flex1col2{font-size: 15px;}
+  .home .row6 .flex1col2 a{font-size: 12px;}
+  /*padding*/
+  .home .row6 .flex1{padding:10px 5px;}
+  .home .row9{padding:10px 5px;}
+  .home .row6 .flex1col1{width: 28%;}
+  .home .row6 .flex1col2{width: 70%;}
+  /*footer*/
+  footer .row1 .flex1col1:nth-child(1) img{height: auto;}
+  footer .row1 .flex1col1:nth-child(2)>div:nth-child(1){font-size: 12px;}
+  footer .row1 .flex1col1:nth-child(2)>div:nth-child(3) a{font-size: 12px;}
+  footer .row1 .flex1col1:nth-child(1)>div:nth-child(2){font-size: 12px;}
+  footer .row1 .flex1col1:nth-child(1)>div:nth-child(3){font-size: 8px;}
+  footer .row1 .flex1col1:nth-child(2)>div:nth-child(2) .flex2col2 a:nth-child(1){font-size: 9px;}
+  footer .row1 .flex1col1:nth-child(2)>div:nth-child(2) .flex2col2 a:nth-child(2){font-size: 12px;}
+  footer .row1{height: auto;}
+}
+
+/* iPhone 2G-4S in landscape */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) 
+and (orientation : landscape) {
+  
+}
+
+/* iPhone 2G-4S in portrait */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) 
+and (orientation : portrait) {
+  
+}
+
+/* iPhone 5 & 5S in portrait & landscape */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) {
+  /*header*/
+  header .flex1col1 div.h3, header .flex1col1 h1{font-size: 14px;}
+  header .flex1col1 div.web-address{font-size: 12px;}
+  header .flex1col3 span{font-size: 11px;padding-left: 10px;}
+  menu .flex1col1{font-size: 12px;}
+  /*home*/
+  .home .global1 .flex1col1{font-size: 16px;}
+  .home .row8 .flex1col1{font-size: 15px;}
+  .home .row8 .flex1col2{font-size: 12px;}
+  .home .row8 .flex1col3 a{font-size: 10px;}
+  .home .row7 .flex1col1{font-size: 15px;}
+  .home .global1 .flex1col2{font-size: 15px;}
+  .home .row6 .flex1col2 a{font-size: 12px;}
+  /*padding*/
+  .home .row6 .flex1{padding:10px 5px;}
+  .home .row9{padding:10px 5px;}
+  .home .row6 .flex1col1{width: 28%;}
+  .home .row6 .flex1col2{width: 70%;}
+  /*footer*/
+  footer .row1 .flex1col1:nth-child(1) img{height: auto;}
+  footer .row1 .flex1col1:nth-child(2)>div:nth-child(1){font-size: 12px;}
+  footer .row1 .flex1col1:nth-child(2)>div:nth-child(3) a{font-size: 12px;}
+  footer .row1 .flex1col1:nth-child(1)>div:nth-child(2){font-size: 12px;}
+  footer .row1 .flex1col1:nth-child(1)>div:nth-child(3){font-size: 8px;}
+  footer .row1 .flex1col1:nth-child(2)>div:nth-child(2) .flex2col2 a:nth-child(1){font-size: 9px;}
+  footer .row1 .flex1col1:nth-child(2)>div:nth-child(2) .flex2col2 a:nth-child(2){font-size: 12px;}
+  footer .row1{height: auto;}
+}
+
+/* iPhone 5 & 5S in landscape */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) 
+and (orientation : landscape) {
+  
+}
+
+/* iPhone 5 & 5S in portrait */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) 
+and (orientation : portrait) {
+  
+}
+
+
+/* iPhone 6 in portrait & landscape */
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) {
+  
+}
+
+/* iPhone 6 in landscape */
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) 
+and (orientation : landscape) {
+  
+}
+
+/* iPhone 6 in portrait */
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) 
+and (orientation : portrait) {
+  /*header*/
+  header .flex1col1 div.h3, header .flex1col1 h1{font-size: 14px;}
+  header .flex1col1 div.web-address{font-size: 12px;}
+  header .flex1col3 span{font-size: 11px;padding-left: 10px;}
+  menu .flex1col1{font-size: 12px;}
+  /*home*/
+  .home .global1 .flex1col1{font-size: 16px;}
+  .home .row8 .flex1col1{font-size: 15px;}
+  .home .row8 .flex1col2{font-size: 12px;}
+  .home .row8 .flex1col3 a{font-size: 10px;}
+  .home .row7 .flex1col1{font-size: 15px;}
+  .home .global1 .flex1col2{font-size: 15px;}
+  .home .row6 .flex1col2 a{font-size: 14px;}
+  /*padding*/
+  .home .row6 .flex1{padding:10px 5px;}
+  .home .row9{padding:10px 5px;}
+  .home .row6 .flex1col1{width: 28%;}
+  .home .row6 .flex1col2{width: 70%;}
+  /*footer*/
+  footer .row1 .flex1col1:nth-child(1) img{height: auto;}
+  footer .row1 .flex1col1:nth-child(2)>div:nth-child(1){font-size: 14px;}
+  footer .row1 .flex1col1:nth-child(2)>div:nth-child(3) a{font-size: 14px;}
+  footer .row1 .flex1col1:nth-child(1)>div:nth-child(2){font-size: 13px;}
+  footer .row1 .flex1col1:nth-child(1)>div:nth-child(3){font-size: 8px;}
+  footer .row1 .flex1col1:nth-child(2)>div:nth-child(2) .flex2col2 a:nth-child(1){font-size: 11px;}
+  footer .row1 .flex1col1:nth-child(2)>div:nth-child(2) .flex2col2 a:nth-child(2){font-size: 18px;}
+  footer .row1{height: auto;}
+}
+
+/* iPhone 6 Plus in portrait & landscape */
+@media only screen 
+and (min-device-width : 414px) 
+and (max-device-width : 736px) {
+  
+}
+
+/* iPhone 6 Plus in landscape */
+@media only screen 
+and (min-device-width : 414px) 
+and (max-device-width : 736px) 
+and (orientation : landscape) {
+  
+}
+
+/* iPhone 6 Plus in portrait */
+@media only screen 
+and (min-device-width : 414px) 
+and (max-device-width : 736px) 
+and (orientation : portrait) {
+  /*header*/
+  header .flex1col1 div.h3, header .flex1col1 h1{font-size: 14px;}
+  header .flex1col1 div.web-address{font-size: 12px;}
+  header .flex1col3 span{font-size: 11px;padding-left: 10px;}
+  menu .flex1col1{font-size: 12px;}
+  /*home*/
+  .home .global1 .flex1col1{font-size: 16px;}
+  .home .row8 .flex1col1{font-size: 15px;}
+  .home .row8 .flex1col2{font-size: 12px;}
+  .home .row8 .flex1col3 a{font-size: 10px;}
+  .home .row7 .flex1col1{font-size: 15px;}
+  .home .global1 .flex1col2{font-size: 15px;}
+  .home .row6 .flex1col2 a{font-size: 14px;}
+  /*padding*/
+  .home .row6 .flex1{padding:10px 5px;}
+  .home .row9{padding:10px 5px;}
+  .home .row6 .flex1col1{width: 28%;}
+  .home .row6 .flex1col2{width: 70%;}
+  /*footer*/
+  footer .row1 .flex1col1:nth-child(1) img{height: auto;}
+  footer .row1 .flex1col1:nth-child(2)>div:nth-child(1){font-size: 14px;}
+  footer .row1 .flex1col1:nth-child(2)>div:nth-child(3) a{font-size: 14px;}
+  footer .row1 .flex1col1:nth-child(1)>div:nth-child(2){font-size: 13px;}
+  footer .row1 .flex1col1:nth-child(1)>div:nth-child(3){font-size: 8px;}
+  footer .row1 .flex1col1:nth-child(2)>div:nth-child(2) .flex2col2 a:nth-child(1){font-size: 11px;}
+  footer .row1 .flex1col1:nth-child(2)>div:nth-child(2) .flex2col2 a:nth-child(2){font-size: 18px;}
+  footer .row1{height: auto;}
+}
+
+/* iPad in portrait & landscape */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)  {
+  
+}
+
+/* iPad in landscape */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+  
+}
+
+/* iPad in portrait */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+  
+}

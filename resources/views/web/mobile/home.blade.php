@@ -8,6 +8,7 @@
 @section('css')
 	<link rel="canonical" href="{{ url('/') }}" />
     <link rel="stylesheet" href="{{ asset('public/css/mobile/mobile-home.css') }}">
+    <link rel="stylesheet" href="{{ asset('public/css/mobile/mobile-mediaqueries.css') }}">
 @endsection('css')
 @section('content')
 	<main class="container home">
@@ -199,7 +200,7 @@
 @section('toolbar')
 	<div class="container footer-toolbar">
 		<div class="flex flex2 justify-content-between">
-			<div class="flex2col1 flex justify-content-around">
+			<div class="flex2col1 flex justify-content-center">
 				<div class="flex3col1 flex align-items-center justify-content-center">
 					<div class="text-center h3"><a href="tel:18006181"><i class="bg bg1"></i></a></div>
 				</div>
@@ -207,7 +208,7 @@
 					<div class="text-center h4"><a href="tel:18006181">Điện thoại tư vấn</a></div>
 				</div>
 			</div>
-			<div class="flex2col1 flex justify-content-around">
+			<div class="flex2col1 flex justify-content-center">
 				<div class="flex3col1 flex align-items-center justify-content-center">
 					<div class="text-center h3"><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en"><i class="bg bg2"></i></a></div>
 				</div>
@@ -215,7 +216,7 @@
 					<div class="text-center h4"><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Tư vấn trực tuyến</a></div>
 				</div>
 			</div>
-			<div class="flex2col1 flex justify-content-around">
+			<div class="flex2col1 flex justify-content-center">
 				<div class="flex3col1 flex align-items-center justify-content-center">
 					<div class="text-center h3"><a href="#top"><i class="bg bg3"></i></a></div>
 				</div>

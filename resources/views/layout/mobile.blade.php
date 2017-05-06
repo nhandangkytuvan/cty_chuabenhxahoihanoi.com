@@ -125,7 +125,21 @@
 					</div>
 				</div>
 				<div class="flex1col1">
-					
+					<div class="text-uppercase">LIÊN HỆ VỚI CHÚNG TÔI</div>
+					<div class="flex flex2">
+						<div class="flex2col1 flex align-items-center">
+							<img src="{{ asset('public/images/mobile/footer-1.png') }}" alt="" class="">
+						</div>
+						<div class="flex2col2 flex flex-wrap-wrap align-content-center">
+							<a href="" class="width-100">ĐIỆN THOẠI<br>TƯ VẤN MIỄN PHÍ</a>
+							<a href="" class="width-100">1800-6181</a>
+						</div>
+					</div>
+					<div>
+						<a href="">
+							Số 193c1 Bà Triệu<br>Hai Bà Trưng, Hà Nội
+						</a>
+					</div>
 				</div>
 			</div>
 		</div>

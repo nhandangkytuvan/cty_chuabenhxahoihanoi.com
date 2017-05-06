@@ -20,7 +20,7 @@
 .home .row5{margin-top: 23px;}
 .home .row6{margin-top: 18px;}
 .home .row6 .flex1{border:1px solid #d2d2d2;height: 113px;padding:10px 25px;}
-.home .row6 .flex1col1{background-color: #ededed;width: 34%;padding:0px 3px;}
+.home .row6 .flex1col1{background-color: #ededed;width: 34%;}
 .home .row6 .flex1col1 h2{font-size: 14px;font-weight: normal;color: #177f9f;}
 .home .row6 .flex1col2{width: 64%;}
 .home .row6 .flex1col2 a{height: 40px;width: 31%;border:1px solid #177f9f;color: #3e3e3e;font-size: 14px;border-radius: 5px;}
@@ -29,14 +29,14 @@
 .home .row7 .flex1{height: 162px;}
 .home .row7 .flex1col1{background-color: #ef9a49;color: #fff;font-size: 18px;width: 125px;font-weight: bold;}
 .home .row7 .flex1col2{width: 175px;font-size: 14px;color: #fff;}
-.home .row7 .bg1{background-color: #a5d3b6;height: 33%;border-right: 1px solid #fff;height: 53.45px;padding:0px 3px;}
-.home .row7 .bg2{background-color: #15b9b0;height: 33%;border-right: 1px solid #fff;height: 53.45px;padding:0px 3px;}
-.home .row7 .bg3{background-color: #65b7da;height: 33%;border-right: 1px solid #fff;height: 53.45px;padding:0px 3px;}
-.home .row7 .bg4{background-color: #65b7da;height: 33%;border-right: 1px solid #fff;height: 53.45px;padding:0px 3px;}
-.home .row7 .bg5{background-color: #26b88a;height: 33%;border-right: 1px solid #fff;height: 53.45px;padding:0px 3px;}
-.home .row7 .bg6{background-color: #a5d3b6;height: 33%;border-right: 1px solid #fff;height: 53.45px;padding:0px 3px;}
-.home .row7 .bg7{background-color: #e49494;height: 50%;height: 81px;padding:0px 3px;}
-.home .row7 .bg8{background-color: #e9ad7b;height: 50%;border-top: 1px solid #fff;height: 81px;padding:0px 3px;}
+.home .row7 .bg1{background-color: #a5d3b6;height: 33%;border-right: 1px solid #fff;}
+.home .row7 .bg2{background-color: #15b9b0;height: 33%;border-right: 1px solid #fff;}
+.home .row7 .bg3{background-color: #65b7da;height: 33%;border-right: 1px solid #fff;}
+.home .row7 .bg4{background-color: #65b7da;height: 33%;border-right: 1px solid #fff;}
+.home .row7 .bg5{background-color: #26b88a;height: 33%;border-right: 1px solid #fff;}
+.home .row7 .bg6{background-color: #a5d3b6;height: 33%;border-right: 1px solid #fff;}
+.home .row7 .bg7{background-color: #e49494;height: 50%;}
+.home .row7 .bg8{background-color: #e9ad7b;height: 50%;border-top: 1px solid #fff;}
 .home .row8{margin-top: 50px;background-image: url('../../images/mobile/home-4.png');background-repeat: no-repeat;background-position: 0px 0px;height: 57px;}
 .home .row8{padding-left: 100px;}
 .home .row8 .flex1{height: 50px;}
