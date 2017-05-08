@@ -1,5 +1,5 @@
 body{
-	background-color: #ecebeb;
+	background-color: #fff;
 }
 div.menu{
 	padding:10px 0px;
@@ -82,7 +82,7 @@ div.crub{
 	line-height: 30px;
 	color: #282828;
 	padding:0px 5px;
-	border-bottom: 2px solid #007283;
+	border-bottom: 2px solid #177f9f;
 }
 div.crub div.h5{
 	font-weight: normal;
@@ -121,14 +121,13 @@ div.post-name div.trieu-trung .col1 h5{
 }
 /**/
 div.posts{
-	margin:0px 5px;
+	margin:0px 0px;
 	margin-top: 20px;
 }
 div.posts div.post{
 	background-color: #fff;
 	padding:5px 10px 10px 10px;
-	border: 1px solid #c9c8c8;
-	border-top: 2px solid #007283;
+	border: 1px solid #d2d2d2;
 	margin-bottom: 10px;
 }
 div.posts div.post h2{
@@ -136,7 +135,7 @@ div.posts div.post h2{
 	font-size: 13px;
 }
 div.posts div.post h2 i{
-	color: #007283;
+	color: #177f9f;
 	font-size: 16px;
 	font-weight: normal;
 }

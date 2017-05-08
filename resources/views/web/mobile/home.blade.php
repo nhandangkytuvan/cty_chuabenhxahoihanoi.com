@@ -26,6 +26,19 @@
 				</div>
 			</div>
 		</div>
+		<div class="row2 global1">
+			<div class="flex flex1 justify-content-between">
+				<div class="text-uppercase flex1col1 flex align-items-center">ĐỘi ngũ chuyên gia Nam Khang</div>
+				<div class="flex1col2 flex align-items-center">
+					<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="flex align-items-center justify-content-center text-center arrow_box" title="Tìm hiểu thêm">Tìm hiểu thêm</a>
+				</div>
+			</div>
+		</div>
+		<div class="row3">
+			<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">
+				<img src="{{ asset('public/images/mobile/home-3.png') }}" alt="ĐỘi ngũ chuyên gia Nam Khang" class="img-responsive">
+			</a>
+		</div>
 		<div class="row4">
 			<div class="flex justify-content-between">
 				<a class="flex1col1 flex align-items-center justify-content-center" href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">
@@ -134,19 +147,6 @@
 					</a>
 				</div>
 			</div>
-		</div>
-		<div class="row2 global1">
-			<div class="flex flex1 justify-content-between">
-				<div class="text-uppercase flex1col1 flex align-items-center">ĐỘi ngũ chuyên gia Nam Khang</div>
-				<div class="flex1col2 flex align-items-center">
-					<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="flex align-items-center justify-content-center text-center arrow_box" title="Tìm hiểu thêm">Tìm hiểu thêm</a>
-				</div>
-			</div>
-		</div>
-		<div class="row3">
-			<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">
-				<img src="{{ asset('public/images/mobile/home-3.png') }}" alt="ĐỘi ngũ chuyên gia Nam Khang" class="img-responsive">
-			</a>
 		</div>
 		<div class="row8">
 			<div class="flex flex1 justify-content-between">
