@@ -56,7 +56,7 @@
 			<div class="flex flex1 justify-content-around">
 				<div class="flex flex1col1">
 					<div class="flex2col1">
-						<div><a href="{{ url('/') }}"><img src="{{ asset('public/images/mobile2/logo.png') }}" class="center-block"></a></div>
+						<div><a href="{{ url('/') }}" title="phòng khám chuyên khoa nam khang"><img src="{{ asset('public/images/mobile2/logo.png') }}" class="center-block"></a></div>
 					</div>
 					<div class="flex flex2col2">
 						<div class="box-center">
@@ -70,7 +70,7 @@
 					</div>
 				</div>
 				<div class="flex flex1col2 align-items-center">
-					<img src="{{ asset('public/images/mobile/header-1.png') }}" alt="">
+					<img src="{{ asset('public/images/mobile/header-1.png') }}" alt="doc">
 				</div>
 				<div class="flex flex1col3 align-items-center">
 					<span class="text-uppercase">Chuyên khoa<br>bệnh xã hội</span>
@@ -80,16 +80,16 @@
 	</header>
 	<menu class="container">
 		<div class="flex flex1 justify-content-between">
-			<a class="flex flex1col1 align-items-center justify-content-center text-center text-uppercase">
+			<a class="flex flex1col1 align-items-center justify-content-center text-center text-uppercase" href="{{ url('/') }}" title="Trang chủ">
 				Trang chủ
 			</a>
-			<a class="flex flex1col1 align-items-center justify-content-center text-center text-uppercase">
+			<a class="flex flex1col1 align-items-center justify-content-center text-center text-uppercase" href="{{ url('ve-chung-toi') }}" title="Giới thiệu phòng khám">
 				Giới thiệu<br>phòng khám
 			</a>
-			<a class="flex flex1col1 align-items-center justify-content-center text-center text-uppercase">
+			<a class="flex flex1col1 align-items-center justify-content-center text-center text-uppercase" href="#" title="Đội ngũ chuyên gia">
 				Đội ngũ<br>chuyên gia
 			</a>
-			<a class="flex flex1col1 align-items-center justify-content-center text-center text-uppercase">
+			<a class="flex flex1col1 align-items-center justify-content-center text-center text-uppercase" href="{{ url('dia-chi-phong-kham') }}" title="Địa chỉ phòng khám">
 				Địa chỉ<br>phòng khám
 			</a>
 		</div>
@@ -98,7 +98,7 @@
 		<div class="slick-home">
 			<div>
 				<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">
-					<img src="{{ asset('public/images/mobile2/slide-1.png') }}" alt="" class="center-block img-responsive">
+					<img src="{{ asset('public/images/mobile2/slide-1.png') }}" alt="Phòng khám Nam Khang" class="center-block img-responsive">
 				</a>
 			</div>
 		</div>
@@ -115,7 +115,7 @@
 			<div class="flex flex1 justify-content-around">
 				<div class="flex1col1">
 					<div class="text-center">
-						<a href=""><img src="{{ asset('public/images/mobile2/logo.png') }}" alt=""></a>
+						<a href="{{ url('/') }}" title="PHÒNG KHÁM CHUYÊN KHOA NAM KHANG"><img src="{{ asset('public/images/mobile2/logo.png') }}" alt="logo"></a>
 					</div>
 					<div class="text-uppercase text-center">
 						PHÒNG KHÁM CHUYÊN KHOA NAM KHANG
@@ -128,15 +128,15 @@
 					<div class="text-uppercase">LIÊN HỆ VỚI CHÚNG TÔI</div>
 					<div class="flex flex2">
 						<div class="flex2col1 flex align-items-center">
-							<img src="{{ asset('public/images/mobile/footer-1.png') }}" alt="" class="">
+							<img src="{{ asset('public/images/mobile/footer-1.png') }}" alt="phone" class="">
 						</div>
 						<div class="flex2col2 flex flex-wrap-wrap align-content-center">
-							<a href="" class="width-100">ĐIỆN THOẠI<br>TƯ VẤN MIỄN PHÍ</a>
-							<a href="" class="width-100">1800-6181</a>
+							<a href="tel:18006181" class="width-100" title="ĐIỆN THOẠI TƯ VẤN MIỄN PHÍ">ĐIỆN THOẠI<br>TƯ VẤN MIỄN PHÍ</a>
+							<a href="tel:18006181" class="width-100" title="ĐIỆN THOẠI TƯ VẤN MIỄN PHÍ">1800-6181</a>
 						</div>
 					</div>
 					<div>
-						<a href="">
+						<a href="{{ url('dia-chi-phong-kham') }}" title="Số 193c1 Bà Triệu Hai Bà Trưng, Hà Nội">
 							Số 193c1 Bà Triệu<br>Hai Bà Trưng, Hà Nội
 						</a>
 					</div>

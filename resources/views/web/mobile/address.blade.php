@@ -110,7 +110,7 @@
 			</h2>
 			<div class="address-bus">
 				<h4>
-					<img src="{{ asset('public/images/desktop/icon-10.jpg') }}" alt=""> 
+					<img src="{{ asset('public/images/desktop2/icon-10.jpg') }}" alt=""> 
 					Đi xe bus nào đến phòng khám? <a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Bấm vào tư vấn >></a>
 				</h4>
 				<h3>Tuyến xe</h3>
@@ -166,7 +166,7 @@
 			</div>
 			<div class="address-bus">
 				<h4>
-					<img src="{{ asset('public/images/desktop/icon-11.jpg') }}" alt=""> 
+					<img src="{{ asset('public/images/desktop2/icon-11.jpg') }}" alt=""> 
 					Làm thế nào để đi taxi hoặc tự lái xe đến phòng khám.Cung cấp chỗ đỗ xe miễn phí.? 
 					<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Bấm vào tư vấn >></a>
 				</h4>

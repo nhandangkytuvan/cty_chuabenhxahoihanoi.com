@@ -106,7 +106,7 @@
 			</div>
 			<div class="post-detail">
 				<p>
-					<img src="{{ asset('public/images/mobile/about-1.png') }}" class="center-block">
+					<img src="{{ asset('public/images/mobile2/about-1.png') }}" class="center-block">
 				</p>
 				<h4>1：Phòng khám Chuyên Khoa Nam Khang  chuyên nam khoa, thành tựu của nam giới</h4>
 				<p>
@@ -114,7 +114,7 @@
 				</p>
 				<div class="text-center">
 					<p>
-						<img src="{{ asset('public/images/mobile/about-2.png') }}" class="center-block img-responsive">
+						<img src="{{ asset('public/images/mobile2/about-2.png') }}" class="center-block img-responsive">
 					</p>
 					<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="text-center">
 						<i></i>
@@ -163,7 +163,7 @@
 					</ul>
 					<div class="text-center">
 						<p>
-							<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en"><img src="{{ asset('public/images/mobile/about-3.png') }}" class="center-block img-responsive"></a>
+							<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en"><img src="{{ asset('public/images/mobile2/about-3.png') }}" class="center-block img-responsive"></a>
 						</p>
 						<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="text-center">
 							<i></i>
@@ -210,7 +210,7 @@
 					</ul>
 				</div>
 				<p>
-					<img src="{{ asset('public/images/mobile/about-4.png') }}" class="center-block">
+					<img src="{{ asset('public/images/mobile2/about-4.png') }}" class="center-block">
 				</p>
 			</div>
 		</div>

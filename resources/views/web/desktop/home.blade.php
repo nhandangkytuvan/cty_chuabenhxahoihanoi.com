@@ -32,66 +32,66 @@
 		<div class="row1 container">
 			<div class="flex flex1 align-items-center">
 				<div class="col1">
-					<h2 class="text-center width-100"><a href="">Sùi mào gà</a></h2>
+					<h2 class="text-center width-100"><a href="" title="Sùi mào gà">Sùi mào gà</a></h2>
 					<div class="flex flex2 width-100">
 						<div class="col1"><i class="bg"></i></div>
 						<div class="col1 flex flex3 border1 flex-wrap-wrap align-content-end">
-							<div class="width-100 text-center"><a href="#">Nguyên nhân</a></div>
-							<div class="width-100 text-center"><a href="#">Nguy hại</a></div>
-							<div class="width-100 text-center"><a href="#">Chi phí</a></div>
+							<div class="width-100 text-center"><a href="#" title="Nguyên nhân">Nguyên nhân</a></div>
+							<div class="width-100 text-center"><a href="#" title="Nguy hại">Nguy hại</a></div>
+							<div class="width-100 text-center"><a href="#" title="Chi phí">Chi phí</a></div>
 						</div>
 						<div class="col1 flex flex3 flex-wrap-wrap align-content-end">
-							<div class="width-100 text-center"><a href="#">Triệu chứng</a></div>
-							<div class="width-100 text-center"><a href="#">Điều trị</a></div>
-							<div class="width-100 text-center"><a href="#">Kiểm tra</a></div>
+							<div class="width-100 text-center"><a href="#" title="Triệu chứng">Triệu chứng</a></div>
+							<div class="width-100 text-center"><a href="#" title="Điều trị">Điều trị</a></div>
+							<div class="width-100 text-center"><a href="#" title="Kiểm tra">Kiểm tra</a></div>
 						</div>
 					</div>
 				</div>
 				<div class="col1">
-					<h2 class="text-center width-100"><a href="">Bệnh lậu</a></h2>
+					<h2 class="text-center width-100"><a href="" title="Bệnh lậu">Bệnh lậu</a></h2>
 					<div class="flex flex2 width-100">
 						<div class="col1"><i class="bg bg1"></i></div>
 						<div class="col1 flex flex3 border1 flex-wrap-wrap align-content-end">
-							<div class="width-100 text-center"><a href="#">Nguyên nhân</a></div>
-							<div class="width-100 text-center"><a href="#">Nguy hại</a></div>
-							<div class="width-100 text-center"><a href="#">Chi phí</a></div>
+							<div class="width-100 text-center"><a href="#" title="Nguyên nhân">Nguyên nhân</a></div>
+							<div class="width-100 text-center"><a href="#" title="Nguy hại">Nguy hại</a></div>
+							<div class="width-100 text-center"><a href="#" title="Chi phí">Chi phí</a></div>
 						</div>
 						<div class="col1 flex flex3 flex-wrap-wrap align-content-end">
-							<div class="width-100 text-center"><a href="#">Triệu chứng</a></div>
-							<div class="width-100 text-center"><a href="#">Điều trị</a></div>
-							<div class="width-100 text-center"><a href="#">Kiểm tra</a></div>
+							<div class="width-100 text-center"><a href="#" title="Triệu chứng">Triệu chứng</a></div>
+							<div class="width-100 text-center"><a href="#" title="Điều trị">Điều trị</a></div>
+							<div class="width-100 text-center"><a href="#" title="Kiểm tra">Kiểm tra</a></div>
 						</div>
 					</div>
 				</div>
 				<div class="col1">
-					<h2 class="text-center width-100"><a href="">Giang mai</a></h2>
+					<h2 class="text-center width-100"><a href="" title="Giang mai">Giang mai</a></h2>
 					<div class="flex flex2 width-100">
 						<div class="col1"><i class="bg bg2"></i></div>
 						<div class="col1 flex flex3 border1 flex-wrap-wrap align-content-end">
-							<div class="width-100 text-center"><a href="#">Nguyên nhân</a></div>
-							<div class="width-100 text-center"><a href="#">Nguy hại</a></div>
-							<div class="width-100 text-center"><a href="#">Chi phí</a></div>
+							<div class="width-100 text-center"><a href="#" title="Nguyên nhân">Nguyên nhân</a></div>
+							<div class="width-100 text-center"><a href="#" title="Nguy hại">Nguy hại</a></div>
+							<div class="width-100 text-center"><a href="#" title="Chi phí">Chi phí</a></div>
 						</div>
 						<div class="col1 flex flex3 flex-wrap-wrap align-content-end">
-							<div class="width-100 text-center"><a href="#">Triệu chứng</a></div>
-							<div class="width-100 text-center"><a href="#">Điều trị</a></div>
-							<div class="width-100 text-center"><a href="#">Kiểm tra</a></div>
+							<div class="width-100 text-center"><a href="#" title="Triệu chứng">Triệu chứng</a></div>
+							<div class="width-100 text-center"><a href="#" title="Điều trị">Điều trị</a></div>
+							<div class="width-100 text-center"><a href="#" title="Kiểm tra">Kiểm tra</a></div>
 						</div>
 					</div>
 				</div>
 				<div class="col1">
-					<h2 class="text-center width-100"><a href="">Mụn rộp sinh dục</a></h2>
+					<h2 class="text-center width-100"><a href="" title="Mụn rộp sinh dục">Mụn rộp sinh dục</a></h2>
 					<div class="flex flex2 width-100">
 						<div class="col1"><i class="bg bg3"></i></div>
 						<div class="col1 flex flex3 border1 flex-wrap-wrap align-content-end">
-							<div class="width-100 text-center"><a href="#">Nguyên nhân</a></div>
-							<div class="width-100 text-center"><a href="#">Nguy hại</a></div>
-							<div class="width-100 text-center"><a href="#">Chi phí</a></div>
+							<div class="width-100 text-center"><a href="#" title="Nguyên nhân">Nguyên nhân</a></div>
+							<div class="width-100 text-center"><a href="#" title="Nguy hại">Nguy hại</a></div>
+							<div class="width-100 text-center"><a href="#" title="Chi phí">Chi phí</a></div>
 						</div>
 						<div class="col1 flex flex3 flex-wrap-wrap align-content-end">
-							<div class="width-100 text-center"><a href="#">Triệu chứng</a></div>
-							<div class="width-100 text-center"><a href="#">Điều trị</a></div>
-							<div class="width-100 text-center"><a href="#">Kiểm tra</a></div>
+							<div class="width-100 text-center"><a href="#" title="Triệu chứng">Triệu chứng</a></div>
+							<div class="width-100 text-center"><a href="#" title="Điều trị">Điều trị</a></div>
+							<div class="width-100 text-center"><a href="#" title="Kiểm tra">Kiểm tra</a></div>
 						</div>
 					</div>
 				</div>
@@ -103,19 +103,19 @@
 					<div class="slick-kt">
 						<div>
 							<a href="#"><img src="{{ asset('public/images/desktop/kt1.png') }}" alt=""></a>
-							<a href="" class="view-more">Tìm hiểu <i class="fa fa-long-arrow-right"></i></a>
+							<a href="" class="view-more" title="Tìm hiểu">Tìm hiểu <i class="fa fa-long-arrow-right"></i></a>
 						</div>
 						<div>
 							<a href="#"><img src="{{ asset('public/images/desktop/kt2.png') }}" alt=""></a>
-							<a href="" class="view-more">Tìm hiểu <i class="fa fa-long-arrow-right"></i></a>
+							<a href="" class="view-more" title="Tìm hiểu">Tìm hiểu <i class="fa fa-long-arrow-right"></i></a>
 						</div>
 						<div>
 							<a href="#"><img src="{{ asset('public/images/desktop/kt3.png') }}" alt=""></a>
-							<a href="" class="view-more">Tìm hiểu <i class="fa fa-long-arrow-right"></i></a>
+							<a href="" class="view-more" title="Tìm hiểu">Tìm hiểu <i class="fa fa-long-arrow-right"></i></a>
 						</div>
 						<div>
 							<a href="#"><img src="{{ asset('public/images/desktop/kt4.png') }}" alt=""></a>
-							<a href="" class="view-more">Tìm hiểu <i class="fa fa-long-arrow-right"></i></a>
+							<a href="" class="view-more" title="Tìm hiểu">Tìm hiểu <i class="fa fa-long-arrow-right"></i></a>
 						</div>
 					</div>
 					<script>
@@ -168,10 +168,10 @@
 					<div><img src="{{ asset('public/images/desktop/home-2.png') }}" class="center-block" alt="Đội ngũ Bác sĩ Nam Khang"></div>
 					<div class="flex flex2 justify-content-between">
 						<div class="text-center">
-							<a href="">Bác sĩ tư vấn</a>
+							<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" title="Bác sĩ tư vấn">Bác sĩ tư vấn</a>
 						</div>
 						<div class="text-center">
-							<a href="">Xếp số hẹn khám</a>
+							<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" title="Xếp số hẹn khám">Xếp số hẹn khám</a>
 						</div>
 					</div>
 					<div>
@@ -187,57 +187,57 @@
 					<div class="flex flex2 justify-content-between">
 						<div class="col1 flex flex3 flex-wrap-wrap align-content-between">
 							<div class="width-100 flex align-items-center justify-content-center height1 text-center">
-								<a href="">Tiểu ra mủ</a>
+								<a href="" title="Tiểu ra mũ">Tiểu ra mủ</a>
 							</div>
 							<div class="width-100 flex align-items-center justify-content-center height2 text-center">
-								<a href="">Sưng đau<br>lỗ niệu đạo</a>
+								<a href="" title="Sưng đau lỗ niệu đạo">Sưng đau<br>lỗ niệu đạo</a>
 							</div>
 							<div class="width-100 flex align-items-center justify-content-center height1 text-center">
-								<a href="">Ngứa lỗ niệu đạo</a>
+								<a href="" title="Ngứa lỗ niệu đạo">Ngứa lỗ niệu đạo</a>
 							</div>
 						</div>
 						<div class="col1 flex flex3 flex-wrap-wrap align-content-between">
 							<div class="width-100 flex align-items-center justify-content-center height2 text-center">
-								<a href="">Sưng đỏ<br>bao quy đầu</a>
+								<a href="" title="Sưng đỏ bao quy đầu">Sưng đỏ<br>bao quy đầu</a>
 							</div>
 							<div class="width-100 flex align-items-center justify-content-center height1 text-center">
-								<a href="">Tiểu buốt</a>
+								<a href="" title="Tiểu buốt">Tiểu buốt</a>
 							</div>
 							<div class="width-100 flex align-items-center justify-content-center height1 text-center">
-								<a href="">Nổi mụn dương vật</a>
+								<a href="" title="Nỗi mụn dương vật">Nổi mụn dương vật</a>
 							</div>
 						</div>
 						<div class="col1 flex flex3 flex-wrap-wrap align-content-between">
 							<div class="width-100 flex align-items-center justify-content-center height1 text-center">
-								<a href="">Vết loét đỏ</a>
+								<a href="" title="Vết loét đỏ">Vết loét đỏ</a>
 							</div>
 							<div class="width-100 flex align-items-center justify-content-center height1 text-center">
-								<a href="">Viêm quy đầu</a>
+								<a href="" title="Viêm quy đầu">Viêm quy đầu</a>
 							</div>
 							<div class="width-100 flex align-items-center justify-content-center height2 text-center">
-								<a href="">Đau ngứa<br>dương vật</a>
+								<a href="" title="Đau ngứa dương vật">Đau ngứa<br>dương vật</a>
 							</div>
 						</div>
 						<div class="col1 flex flex3 flex-wrap-wrap align-content-between">
 							<div class="width-100 flex align-items-center justify-content-center height2 text-center">
-								<a href="">Mụn nước xuất<br>hiện trên người</a>
+								<a href="" title="Mụn nước xuất hiện trên người">Mụn nước xuất<br>hiện trên người</a>
 							</div>
 							<div class="width-100 flex align-items-center justify-content-center height1 text-center">
-								<a href="">Sưng hạch</a>
+								<a href="" title="Sưng hạch">Sưng hạch</a>
 							</div>
 							<div class="width-100 flex align-items-center justify-content-center height1 text-center">
-								<a href="">Nổi mụn đỏ thành chùm</a>
+								<a href="" title="Nổi mụn đỏ thành chùm">Nổi mụn đỏ thành chùm</a>
 							</div>
 						</div>
 						<div class="col1 flex flex3 flex-wrap-wrap align-content-between">
 							<div class="width-100 flex align-items-center justify-content-center height1 text-center">
-								<a href="">Loét bao quy đầu</a>
+								<a href="" title="Loét bao quy đầu">Loét bao quy đầu</a>
 							</div>
 							<div class="width-100 flex align-items-center justify-content-center height1 text-center">
-								<a href="">Bạch biến quy đầu</a>
+								<a href="" title="Bạch biến quy đầu">Bạch biến quy đầu</a>
 							</div>
 							<div class="width-100 flex align-items-center justify-content-center height2 text-center">
-								<a href="">Chấm đỏ nhỏ<br>ở quy đầu</a>
+								<a href="" title="Chấm đỏ nhỏ ở quy đầu">Chấm đỏ nhỏ<br>ở quy đầu</a>
 							</div>
 						</div>
 					</div>
@@ -245,26 +245,26 @@
 				<div class="col2">
 					<div class="text-uppercase line1">Dịch vụ tiện ích</div>
 					<div class="flex flex4 flex-wrap-wrap align-content-between justify-content-between">
-						<a class="flex4col1 flex align-items-center justify-content-around text-center hvr-glow" href="#">
+						<a class="flex4col1 flex align-items-center justify-content-around text-center hvr-glow" href="#" title="Tư vấn trực tuyến">
 							<i class="bg bg1"></i>
 							<span>Tư vấn<br>trực tuyến</span>
 						</a>
-						<a class="flex4col1 flex align-items-center justify-content-around text-center hvr-glow" href="#">
+						<a class="flex4col1 flex align-items-center justify-content-around text-center hvr-glow" href="#" title="Xếp số hẹn khám">
 							<i class="bg bg2"></i>
 							<span>Xếp số<br>hẹn khám</span>
 						</a>
-						<a class="flex4col1 flex align-items-center justify-content-around text-center hvr-glow" href="#">
+						<a class="flex4col1 flex align-items-center justify-content-around text-center hvr-glow" href="#" title="Hỏi đáp chi phí">
 							<i class="bg bg3"></i>
 							<span>Hỏi đáp<br>chi phí</span>
 						</a>
-						<a class="flex4col1 flex align-items-center justify-content-around text-center hvr-glow" href="#">
+						<a class="flex4col1 flex align-items-center justify-content-around text-center hvr-glow" href="#" title="Chỉ đường">
 							<i class="bg bg4"></i>
 							<span>Chỉ đường</span>
 						</a>
 					</div>
 					<div class="flex flex5 justify-content-between align-items-center">
 						<div class="flex5col1">Đường dây nóng đặt hẹn</div>
-						<div class="flex5col2"><a href="tel:1800 6181">1800 6181</a></div>
+						<div class="flex5col2"><a href="tel:1800 6181" title="Gọi:1800 6181">1800 6181</a></div>
 					</div>
 					<div class="flex flex6 justify-content-around align-items-center">
 						<div><i></i></div>
@@ -457,22 +457,22 @@
 					<div class="flex flex2 justify-content-between">
 						<div class="flex2col1">
 							<a href="">
-								<img src="{{ asset('public/images/desktop/th5.png') }}" alt="" class="center-block img-responsive">
+								<img src="{{ asset('public/images/desktop/th5.png') }}" alt="Thiết bị tiên tiến" class="center-block img-responsive">
 							</a>
 						</div>
 						<div class="flex2col1">
 							<a href="">
-								<img src="{{ asset('public/images/desktop/th6.png') }}" alt="" class="center-block img-responsive">
+								<img src="{{ asset('public/images/desktop/th6.png') }}" alt="Thiết bị tiên tiến" class="center-block img-responsive">
 							</a>
 						</div>
 						<div class="flex2col1">
 							<a href="">
-								<img src="{{ asset('public/images/desktop/th7.png') }}" alt="" class="center-block img-responsive">
+								<img src="{{ asset('public/images/desktop/th7.png') }}" alt="Thiết bị tiên tiến" class="center-block img-responsive">
 							</a>
 						</div>
 						<div class="flex2col1">
 							<a href="">
-								<img src="{{ asset('public/images/desktop/th8.png') }}" alt="" class="center-block img-responsive">
+								<img src="{{ asset('public/images/desktop/th8.png') }}" alt="Thiết bị tiên tiến" class="center-block img-responsive">
 							</a>
 						</div>
 					</div>
@@ -481,32 +481,32 @@
 					<div class="slick-pk">
 						<div class="flex3col1">
 							<a href="">
-								<img src="{{ asset('public/images/desktop/th13.png') }}" alt="" class="center-block img-responsive">
+								<img src="{{ asset('public/images/desktop/th13.png') }}" alt="Hình ảnh phòng khám" class="center-block img-responsive">
 							</a>
 						</div>
 						<div class="flex3col1">
 							<a href="">
-								<img src="{{ asset('public/images/desktop/th14.png') }}" alt="" class="center-block img-responsive">
+								<img src="{{ asset('public/images/desktop/th14.png') }}" alt="Hình ảnh phòng khám" class="center-block img-responsive">
 							</a>
 						</div>
 						<div class="flex3col1">
 							<a href="">
-								<img src="{{ asset('public/images/desktop/th9.png') }}" alt="" class="center-block img-responsive">
+								<img src="{{ asset('public/images/desktop/th9.png') }}" alt="Hình ảnh phòng khám" class="center-block img-responsive">
 							</a>
 						</div>
 						<div class="flex3col1">
 							<a href="">
-								<img src="{{ asset('public/images/desktop/th10.png') }}" alt="" class="center-block img-responsive">
+								<img src="{{ asset('public/images/desktop/th10.png') }}" alt="Hình ảnh phòng khám" class="center-block img-responsive">
 							</a>
 						</div>
 						<div class="flex3col1">
 							<a href="">
-								<img src="{{ asset('public/images/desktop/th11.png') }}" alt="" class="center-block img-responsive">
+								<img src="{{ asset('public/images/desktop/th11.png') }}" alt="Hình ảnh phòng khám" class="center-block img-responsive">
 							</a>
 						</div>
 						<div class="flex3col1">
 							<a href="">
-								<img src="{{ asset('public/images/desktop/th12.png') }}" alt="" class="center-block img-responsive">
+								<img src="{{ asset('public/images/desktop/th12.png') }}" alt="Hình ảnh phòng khám" class="center-block img-responsive">
 							</a>
 						</div>
 					</div>
@@ -525,23 +525,23 @@
 		</div>
 		<div class="row6 container">
 			<div class="flex flex1 justify-content-between">
-				<a class="flex1col1 flex align-items-center justify-content-center" href="#">
+				<a class="flex1col1 flex align-items-center justify-content-center" href="#" title="Liên hệ bác sĩ của chúng tôi">
 					<span><i class="bg1"></i></span>
 					<span>Tư vấn trực tuyến<br>Liên hệ bác sĩ của chúng tôi</span>
 				</a>
-				<a class="flex1col1 flex align-items-center justify-content-center" href="#">
+				<a class="flex1col1 flex align-items-center justify-content-center" href="#" title="Đặt hẹn trực tuyến,càng nhanh hơn">
 					<span><i class="bg2"></i></span>
 					<span>Đặt hẹn trực tuyến<br>Đặt hẹn trực tuyến,càng nhanh hơn</span>
 				</a>
-				<a class="flex1col1 flex align-items-center justify-content-center" href="#">
+				<a class="flex1col1 flex align-items-center justify-content-center" href="#" title="18006181">
 					<span><i class="bg3"></i></span>
 					<span>Điện thoại liên hệ <br>18006181</span>
 				</a>
-				<a class="flex1col1 flex align-items-center justify-content-center" href="#">
+				<a class="flex1col1 flex align-items-center justify-content-center" href="#" title="Số 193c1 Bà Triệu Hai Bà Trưng, Hà Nội">
 					<span><i class="bg4"></i></span>
 					<span>Địa chỉ phòng khám:<br>Số 193c1 Bà Triệu,<br>Hai Bà Trưng, Hà Nội</span>
 				</a>
-				<a class="flex1col1 flex align-items-center justify-content-center" href="#">
+				<a class="flex1col1 flex align-items-center justify-content-center" href="#" title="Theo dõi Facebook hiểu thêm về Nam Khang">
 					<span><i class="bg5"></i></span>
 					<span>Facebook phòng khám<br>Theo dõi Facebook,hiểu<br>thêm về Nam Khang</span>
 				</a>
