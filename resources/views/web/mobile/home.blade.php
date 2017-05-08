@@ -28,7 +28,7 @@
 		</div>
 		<div class="row4">
 			<div class="flex justify-content-between">
-				<a class="flex1col1 flex align-items-center justify-content-center">
+				<a class="flex1col1 flex align-items-center justify-content-center" href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">
 					Tư vấn<br>đặt hẹn
 				</a>
 				<div class="flex1col2 justify-content-center align-items-center flex">

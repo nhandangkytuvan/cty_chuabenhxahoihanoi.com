@@ -4,10 +4,10 @@
 .home .row1 .flex1>.col1>h2{font-size: 16px;font-weight: bold;color: #434343;margin-left: 30px;}
 .home .row1 .flex2 i.bg{
 	background-image: url('../../images/desktop/home-1.png');
-	background-repeat: no-repeat;background-position: 0px 0px;width: 50px;height: 61px;display: block;}
+	background-repeat: no-repeat;background-position: 0px 0px;width: 50px;height: 61px;display: block;border-radius: 4px;}
 .home .row1 .flex2 i.bg1{background-position: -252px 0px;}
-.home .row1 .flex2 i.bg2{background-position: -504px 0px;}
-.home .row1 .flex2 i.bg3{background-position: -756px 0px;}
+.home .row1 .flex2 i.bg2{background-position: -499px 0px;}
+.home .row1 .flex2 i.bg3{background-position: -753px 0px;}
 .home .row1 .flex3>div{font-size: 13.5px;color: #434343;padding-top: 5px;}
 .home .row1 .flex3>div:first-child{padding-top: 0;}
 .home .row1 .flex3.border1>div{border-right: 1px solid #a7a7a7}
