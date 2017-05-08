@@ -119,16 +119,5 @@
             </div>
         </div>
     </main>
-    @if(Session::get('user'))
-    <div class="menuChat">
-        <div class="panel panel-default">
-            <div class="panel-heading">Online</div>
-            <ul class="list-group">
-                <li class="list-group-item"><i class="fa fa-circle" aria-hidden="true"></i> Lorem ipsum dolor.</li>
-                <li class="list-group-item"><i class="fa fa-circle" aria-hidden="true"></i> Lorem ipsum dolor.</li>
-            </ul>
-        </div>
-    </div>
-    @endif
 </body>
 </html>

@@ -35,7 +35,7 @@ div.menu i.bg{
 	display: inline-block;
 	width: 20px;
 	height: 16px;
-	background-image: url('../../images/mobile/icon-2.png');
+	background-image: url('../../images/mobile2/icon-2.png');
 	background-repeat: no-repeat;
 	background-position: 0px 0px;
 	padding-right: 10px;
@@ -223,7 +223,7 @@ div.uudiem-thuonghieu div.col1 div.h5 i{
 	display: inline-block;
 	width: 30px;
 	height: 30px;
-	background-image: url('../../images/mobile/icon-3.png');
+	background-image: url('../../images/mobile2/icon-3.png');
 	background-position: 0px 0px;
 	background-repeat: no-repeat;
 }
