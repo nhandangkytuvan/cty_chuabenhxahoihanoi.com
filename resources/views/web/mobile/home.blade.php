@@ -8,7 +8,6 @@
 @section('css')
 	<link rel="canonical" href="{{ url('/') }}" />
     <link rel="stylesheet" href="{{ asset('public/css/mobile/mobile-home.css') }}">
-    <link rel="stylesheet" href="{{ asset('public/css/mobile/mobile-mediaqueries.css') }}">
 @endsection('css')
 @section('content')
 	<main class="container home">
