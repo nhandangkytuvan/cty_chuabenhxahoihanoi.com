@@ -9,7 +9,7 @@
 	<link rel="canonical" href="{{ url('/') }}" />
     <link rel="stylesheet" href="{{ asset('public/css/mobile/mobile-pagination.css') }}">
     <link rel="stylesheet" href="{{ asset('public/css/mobile/mobile-home.css') }}">
-    <link rel="stylesheet" href="{{ asset('public/css/mobile/mobile-hoiphuc.css') }}">
+    <link rel="stylesheet" href="{{ asset('public/css/mobile/mobile-term.css') }}">
 @endsection('css')
 @section('content')
 	<div class="container home term">

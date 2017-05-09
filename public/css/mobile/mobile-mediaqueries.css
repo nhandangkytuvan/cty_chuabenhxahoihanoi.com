@@ -88,6 +88,12 @@ and (max-device-width : 568px) {
   footer .row1 .flex1col1:nth-child(2)>div:nth-child(2) .flex2col2 a:nth-child(1){font-size: 9px;}
   footer .row1 .flex1col1:nth-child(2)>div:nth-child(2) .flex2col2 a:nth-child(2){font-size: 12px;}
   footer .row1{height: auto;}
+  .home.term div.panel-heading{font-size: 13px;padding:0px 10px;}
+  .home.term div.panel-body .flex1{padding-left: 15px;padding-right: 15px;}
+  .home.term div.panel-body .flex1col2{font-size: 22px;}
+  .home.term div.panel-body .flex1col3{font-size: 18px;height: 28px;width: 118px;}
+  .home.term div.panel-body .flex2{font-size: 13px;}
+  .home.term div.panel-body .flex1col2 img{max-width: 25px;margin-top: -4px;}
 }
 
 /* iPhone 5 & 5S in landscape */
