@@ -1,120 +1,24 @@
-body{
-	background-color: #fff;
-}
+body{background-color: #fff;}
 /**/
-div.term-name{
-	margin-top: 10px;
-}
-div.term-name h1{
-	color: #fff;
-	background-color: #007283;
-	height:30px;
-	line-height: 30px;
-	font-size: 15px;
-}
-div.term-name .col1{
-	width: 24%;
-	background-color: #fff;
-	color: #4a4a4a;
-	text-align: center;
-	padding:10px 5px;
-}
+div.term-name{margin-top: 10px;}
+div.term-name h1{color: #fff;background-color: #007283;height:30px;line-height: 30px;font-size: 15px;}
+div.term-name .col1{width: 24%;background-color: #fff;color: #4a4a4a;text-align: center;padding:10px 5px;}
 /**/
-div.crub{
-	margin-top: 20px;
-	background-color: #fff;
-	height:30px;
-	line-height: 30px;
-	color: #282828;
-	padding:0px 5px;
-	border-bottom: 2px solid #177f9f;
-}
-div.crub div.h5{
-	font-size: 12px;
-	font-weight: normal;
-}
+div.crub{margin-top: 20px;background-color: #fff;height:30px;line-height: 30px;color: #282828;padding:0px 5px;border-bottom: 2px solid #177f9f}
+div.crub div.h5{font-size: 12px;font-weight: norma;}
 /**/
-div.post-name{
-	margin-top: 20px;
-	border-bottom: 1px solid #c1c1c1;
-	padding-bottom: 10px;
-}
-div.post-name h1{
-	font-size: 16px;
-	padding:0px 10px;
-	color: #007283;
-}
-p.post-description{
-	margin-top: 10px;
-	padding:0px 10px;
-}
-p.post-description a{
-	color: red;
-}
-div.post-name div.trieu-trung{
-	margin-top: 10px;
-}
-div.post-name div.trieu-trung .col1{
-	width: 23%;
-	background-color: #fff;
-	border:1px solid #c9c8c8;
-	padding:10px 5px;
-}
-div.post-name div.trieu-trung .col1 h5{
-	font-weight: normal;
-	text-align: center;
-}
+div.post-name{margin-top: 20px;border-bottom: 1px solid #c1c1c1;padding-bottom: 10px;}
+div.post-name h1{font-size: 16px;padding:0px 10px;color: #177f9f;}
+p.post-description{margin-top: 10px;padding:0px 10px;}
+p.post-description a{color: red;}
+div.post-name div.trieu-trung{margin-top: 10px;}
+div.post-name div.trieu-trung .col1{width: 23%;background-color: #fff;border:1px solid #c9c8c8;padding:10px 5px;}
+div.post-name div.trieu-trung .col1 h5{font-weight: normal;text-align: center;}
 /**/
-div.posts{
-	margin:0px 0px;
-	margin-top: 20px;
-}
-div.posts div.post{
-	background-color: #fff;
-	padding:5px 10px 10px 10px;
-	border: 1px solid #c9c8c8;
-	margin-bottom: 10px;
-}
-div.posts div.post h2{
-	/*font-weight: normal;*/
-	font-size: 13px;
-}
-div.posts div.post h2 i{
-	color: #177f9f;
-	font-size: 16px;
-	font-weight: normal;
-}
-div.posts div.post p{
-	margin-top: 10px;
-	color: #6d6d6d;
-}
-div.posts div.post p a{
-	color: #c50707;
-}
-/**/
-div.posts-lienquan{
-	margin:0px 5px;
-}
-div.posts-lienquan div.post{
-	background-color: #fff;
-	padding:5px 10px 10px 10px;
-	border: 1px solid #c9c8c8;
-	border-top: 2px solid #007283;
-	margin-bottom: 10px;
-}
-div.posts-lienquan div.post h4{
-	font-size: 14px;
-}
-div.posts-lienquan div.post h4 i{
-	color: #007283;
-	font-size: 16px;
-}
-div.posts-lienquan div.post ul{
-	margin-left: 20px;
-	margin-top:15px;
-}
-div.posts-lienquan div.post ul li{
-	margin-bottom: 5px;
-
-}
+div.posts{margin:0px 0px;margin-top: 20px;}
+div.posts div.post{background-color: #fff;padding:5px 10px 10px 10px;border: 1px solid #c9c8c8;margin-bottom: 10px;}
+div.posts div.post h2{font-size: 13px;}
+div.posts div.post h2 i{color: #177f9f;font-size: 16px;font-weight: normal;}
+div.posts div.post p{margin-top: 10px;color: #6d6d6d;}
+div.posts div.post p a{color: #c50707;}
 /**/
