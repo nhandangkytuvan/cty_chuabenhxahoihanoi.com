@@ -190,7 +190,7 @@
 					<div class="text-center h3"><a href="#top"><i class="bg bg3"></i></a></div>
 				</div>
 				<div class="flex3col2 flex align-items-center justify-content-center">
-					<div class="text-center h4"><a href="#top">Lên đầu trang</a></div>
+					<div class="text-center h4"><a href="{{ url('/') }}">Quay lại</a></div>
 				</div>
 			</div>
 		</div>

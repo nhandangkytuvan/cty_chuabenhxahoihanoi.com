@@ -8,7 +8,7 @@ div.post .post-footer span,div.post .post-footer a{color: red;font-weight: bold;
 .home .row10{margin-top: 5px;margin-left: -2px;margin-right: -2px;}
 .home .row10 .flex1col1{background-color: #e6e6e6;color: #1f1f1f;font-size: 14px;width: 25%;height: 50px;margin:0px 2px;}
 .home .row11{margin-top: 15px;padding-left: 15px;padding-right: 15px;}
-.home .row11 .flex1{border-top: 1px solid #f3eded;padding-top: 12px;margin-left: -5px;margin-right: -5px;}
+.home .row11 .flex1{border-bottom: 1px solid #f3eded;padding-bottom: 12px;margin-left: -5px;margin-right: -5px;}
 .home .row11 .flex1col1{border:1px solid #cfcfcf;width: 50%;min-height: 35px; color: #1f1f1f;margin:0px 5px;padding:5px 0px;}
 .home .row11 .flex1col1:nth-child(2){background-color: #e7c549;border-color: #e7c549;}
 .home .row12{margin-top: 10px;padding-left: 15px;padding-right: 15px;}
