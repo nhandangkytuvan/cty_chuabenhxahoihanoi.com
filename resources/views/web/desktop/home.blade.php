@@ -32,7 +32,7 @@
 		<div class="row1 container">
 			<div class="flex flex1 align-items-center">
 				<div class="col1">
-					<h2 class="text-center width-100"><a href="" title="Sùi mào gà">Sùi mào gà</a></h2>
+					<h2 class="text-center width-100"><a href="{{ MyAPI::getUrlTermID(28) }}" title="Sùi mào gà">Sùi mào gà</a></h2>
 					<div class="flex flex2 width-100">
 						<div class="col1"><i class="bg"></i></div>
 						<div class="col1 flex flex3 border1 flex-wrap-wrap align-content-end">
@@ -48,7 +48,7 @@
 					</div>
 				</div>
 				<div class="col1">
-					<h2 class="text-center width-100"><a href="" title="Bệnh lậu">Bệnh lậu</a></h2>
+					<h2 class="text-center width-100"><a href="{{ MyAPI::getUrlTermID(30) }}" title="Bệnh lậu">Bệnh lậu</a></h2>
 					<div class="flex flex2 width-100">
 						<div class="col1"><i class="bg bg1"></i></div>
 						<div class="col1 flex flex3 border1 flex-wrap-wrap align-content-end">
@@ -64,7 +64,7 @@
 					</div>
 				</div>
 				<div class="col1">
-					<h2 class="text-center width-100"><a href="" title="Giang mai">Giang mai</a></h2>
+					<h2 class="text-center width-100"><a href="{{ MyAPI::getUrlTermID(29) }}" title="Giang mai">Giang mai</a></h2>
 					<div class="flex flex2 width-100">
 						<div class="col1"><i class="bg bg2"></i></div>
 						<div class="col1 flex flex3 border1 flex-wrap-wrap align-content-end">
@@ -80,7 +80,7 @@
 					</div>
 				</div>
 				<div class="col1">
-					<h2 class="text-center width-100"><a href="" title="Mụn rộp sinh dục">Mụn rộp sinh dục</a></h2>
+					<h2 class="text-center width-100"><a href="{{ MyAPI::getUrlTermID(31) }}" title="Mụn rộp sinh dục">Mụn rộp sinh dục</a></h2>
 					<div class="flex flex2 width-100">
 						<div class="col1"><i class="bg bg3"></i></div>
 						<div class="col1 flex flex3 border1 flex-wrap-wrap align-content-end">

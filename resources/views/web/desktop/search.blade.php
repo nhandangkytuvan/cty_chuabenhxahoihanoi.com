@@ -86,7 +86,7 @@
 							<div class="flex flex5 justify-content-between">
 								<div class="flex5col1 flex align-items-center justify-content-center">
 									<a href="tel:1800 - 6181" title="1800 - 6181">
-										<img src="{{ asset('public/images/desktop/term-5.png') }}" class="center-block" alt="1800 - 6181">
+										<img src="{{ asset('public/images/desktop2/term-5.png') }}" class="center-block" alt="1800 - 6181">
 									</a>
 								</div>
 								<div class="flex5col2 flex align-items-center justify-content-center">
@@ -115,7 +115,7 @@
 			<div class="row2">
 				<div class="flex flex100 align-items-center">
 					<div class="width-100 flex flex99">
-						<div class="flex flex99col1 align-items-center"><img src="{{ asset('public/images/desktop/logo-header.png') }}" class="center-block img-responsive" alt="logo"></div>
+						<div class="flex flex99col1 align-items-center"><img src="{{ asset('public/images/desktop2/logo-header.png') }}" class="center-block img-responsive" alt="logo"></div>
 						<div class="flex flex99col2 align-items-center">
 							<div class="text-uppercase">chỉ nam thăm khám</div>
 						</div>
@@ -213,7 +213,7 @@
 			<div class="row3">
 				<div class="flex flex96">
 					<div class="flex96col1 flex justify-content-center align-items-center">
-						<div><a href=""><img src="{{ asset('public/images/desktop/term-8.png') }}" class="center-block"></a></div>
+						<div><a href=""><img src="{{ asset('public/images/desktop2/term-8.png') }}" class="center-block"></a></div>
 					</div>
 					<div class="flex96col2 flex justify-content-center align-items-center">
 						<div>
