@@ -102,11 +102,16 @@
 					<img src="{{ asset('public/images/mobile2/slide-1.png') }}" alt="Phòng khám Nam Khang" class="center-block img-responsive">
 				</a>
 			</div>
+			<div>
+				<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">
+					<img src="{{ asset('public/images/mobile/slide-2.png') }}" alt="Phòng khám Nam Khang" class="center-block img-responsive">
+				</a>
+			</div>
 		</div>
 		<script>
 			$('.slick-home').slick({
 				autoplay: true,
-				autoplaySpeed: 5000,
+				autoplaySpeed: 4000,
 			});
 		</script>
 	</div>
