@@ -71,7 +71,7 @@
 		<div class="container">
 			<div class="flex flex1 justify-content-between">
 				<div class="flex1col1">
-					<h3><img src="{{ asset('public/images/desktop/tb-1-1.png') }}" class="center-block" alt="Hệ thống điều trị sóng ngắn ngoài thân thể ZD - 2001A"></h3>
+					<h3><img src="{{ asset('public/images/desktop2/tb-1-1.png') }}" class="center-block" alt="Hệ thống điều trị sóng ngắn ngoài thân thể ZD - 2001A"></h3>
 				</div>
 				<div class="flex1col2">
 					<div class="tb-name">
@@ -113,7 +113,7 @@
 		<div class="container">
 			<div class="flex flex1 justify-content-between">
 				<div class="flex1col1">
-					<h3><img src="{{ asset('public/images/desktop/tb-2-1.png') }}" class="center-block" alt="Máy trị liệu đa chức năng tuyến tiền liệt ECO-100B"></h3>
+					<h3><img src="{{ asset('public/images/desktop2/tb-2-1.png') }}" class="center-block" alt="Máy trị liệu đa chức năng tuyến tiền liệt ECO-100B"></h3>
 				</div>
 				<div class="flex1col2">
 					<div class="tb-name">
@@ -162,7 +162,7 @@
 		<div class="container">
 			<div class="flex flex1 justify-content-between">
 				<div class="flex1col1">
-					<h3><img src="{{ asset('public/images/desktop/tb-3-1.png') }}" class="center-block" alt="Thiết bị điều trị Wallman EASY-100A"></h3>
+					<h3><img src="{{ asset('public/images/desktop2/tb-3-1.png') }}" class="center-block" alt="Thiết bị điều trị Wallman EASY-100A"></h3>
 				</div>
 				<div class="flex1col2">
 					<div class="tb-name">
@@ -213,7 +213,7 @@
 		<div class="container">
 			<div class="flex flex1 justify-content-between">
 				<div class="flex1col1">
-					<h3><img src="{{ asset('public/images/desktop/tb-4-1.png') }}" class="center-block" alt="Hệ thống điều trị tuyến tiền liệt Prostate"></h3>
+					<h3><img src="{{ asset('public/images/desktop2/tb-4-1.png') }}" class="center-block" alt="Hệ thống điều trị tuyến tiền liệt Prostate"></h3>
 				</div>
 				<div class="flex1col2">
 					<div class="tb-name">
@@ -262,7 +262,7 @@
 		<div class="container">
 			<div class="flex flex1 justify-content-between">
 				<div class="flex1col1">
-					<h3><img src="{{ asset('public/images/desktop/tb-5-1.png') }}" class="center-block" alt="Thiết bị điều trị can thiệp khoang ZRL-II-A"></h3>
+					<h3><img src="{{ asset('public/images/desktop2/tb-5-1.png') }}" class="center-block" alt="Thiết bị điều trị can thiệp khoang ZRL-II-A"></h3>
 				</div>
 				<div class="flex1col2">
 					<div class="tb-name">
