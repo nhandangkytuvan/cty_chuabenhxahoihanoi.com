@@ -15,3 +15,4 @@ app/Term.php
 app/Visit.php
 app/Visit.php
 app/User.php
+resources/views/web/chuyende/mobile/viemnhiemquydau.blade.php

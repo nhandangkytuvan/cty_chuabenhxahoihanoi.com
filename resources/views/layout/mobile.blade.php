@@ -54,43 +54,51 @@
 <body>
 	<header>
 		<div class="container">
-			<div class="flex flex1 justify-content-around">
-				<div class="flex flex1col1">
-					<div class="flex2col1">
-						<div><a href="{{ url('/') }}" title="phòng khám chuyên khoa nam khang"><img src="{{ asset('public/images/mobile2/logo.png') }}" class="center-block"></a></div>
-					</div>
-					<div class="flex flex2col2">
-						<div class="box-center">
-							@if(Request::url()==url('/'))
-							<h1 class="text-uppercase">phòng khám chuyên khoa nam khang</h1>
+			<div class="dis-table width-100">
+				<div class="table-cell">
+					<div>
+						<a href="{{ url('/') }}" title="phòng khám chuyên khoa nam khang">
+							@if(url()->current()==url('chuyen-de/sui-mao-ga'))
+								<img src="{{ asset('public/images/chuyende/mobile/suimaoga/suimaoga-2.png') }}" class="center-block">
 							@else
-							<div class="h3 text-uppercase">phòng khám chuyên khoa nam khang</div>
+								<img src="{{ asset('public/images/mobile2/logo.png') }}" class="center-block">
 							@endif
-							<div class="web-address text-uppercase">số 193C1 bà triệu - hai bà trưng - hà nội</div>
-						</div>
+						</a>
 					</div>
 				</div>
-				<div class="flex flex1col2 align-items-center">
-					<img src="{{ asset('public/images/mobile/header-1.png') }}" alt="doc">
+				<div class="table-cell">
+					@if(Request::url()==url('/'))
+					<h1 class="text-uppercase">phòng khám chuyên khoa nam khang</h1>
+					@else
+					<div class="h3 text-uppercase">phòng khám chuyên khoa nam khang</div>
+					@endif
+					<div class="web-address text-uppercase">số 193C1 bà triệu - hai bà trưng - hà nội</div>
 				</div>
-				<div class="flex flex1col3 align-items-center">
+				<div class="table-cell">
+					@if(url()->current()==url('chuyen-de/sui-mao-ga'))
+						<img src="{{ asset('public/images/chuyende/mobile/suimaoga/suimaoga-3.png') }}" alt="doc">
+					@else
+						<img src="{{ asset('public/images/mobile/header-1.png') }}" alt="doc">
+					@endif
+				</div>
+				<div class="table-cell">
 					<span class="text-uppercase">Chuyên khoa<br>bệnh xã hội</span>
 				</div>
 			</div>
 		</div>
 	</header>
 	<menu class="container">
-		<div class="flex flex1 justify-content-between">
-			<a class="flex flex1col1 align-items-center justify-content-center text-center text-uppercase" href="{{ url('/') }}" title="Trang chủ">
-				Trang chủ
+		<div class="dis-table width-100">
+			<a class="table-cell text-center text-uppercase" href="{{ url('/') }}" title="Trang chủ">
+				<span>Trang chủ</span>
 			</a>
-			<a class="flex flex1col1 align-items-center justify-content-center text-center text-uppercase" href="{{ url('ve-chung-toi') }}" title="Giới thiệu phòng khám">
+			<a class="table-cell text-center text-uppercase" href="{{ url('ve-chung-toi') }}" title="Giới thiệu phòng khám">
 				Giới thiệu<br>phòng khám
 			</a>
-			<a class="flex flex1col1 align-items-center justify-content-center text-center text-uppercase" href="#" title="Đội ngũ chuyên gia">
+			<a class="table-cell text-center text-uppercase" href="#" title="Đội ngũ chuyên gia">
 				Đội ngũ<br>chuyên gia
 			</a>
-			<a class="flex flex1col1 align-items-center justify-content-center text-center text-uppercase" href="{{ url('dia-chi-phong-kham') }}" title="Địa chỉ phòng khám">
+			<a class="table-cell text-center text-uppercase" href="{{ url('dia-chi-phong-kham') }}" title="Địa chỉ phòng khám">
 				Địa chỉ<br>phòng khám
 			</a>
 		</div>
@@ -118,8 +126,8 @@
 	@yield('content')	
 	<footer>
 		<div class="row1 container">
-			<div class="flex flex1 justify-content-around">
-				<div class="flex1col1">
+			<div class="dis-table table1 width-100">
+				<div class="table-cell">
 					<div class="text-center">
 						<a href="{{ url('/') }}" title="PHÒNG KHÁM CHUYÊN KHOA NAM KHANG"><img src="{{ asset('public/images/mobile2/logo.png') }}" alt="logo"></a>
 					</div>
@@ -130,15 +138,15 @@
 						____PHÒNG KHÁM UY TÍN Ở HÀ NỘI____
 					</div>
 				</div>
-				<div class="flex1col1">
+				<div class="table-cell">
 					<div class="text-uppercase">LIÊN HỆ VỚI CHÚNG TÔI</div>
-					<div class="flex flex2">
-						<div class="flex2col1 flex align-items-center">
+					<div class="dis-table table2 width-100">
+						<div class="table-cell">
 							<img src="{{ asset('public/images/mobile/footer-1.png') }}" alt="phone" class="">
 						</div>
-						<div class="flex2col2 flex flex-wrap-wrap align-content-center">
-							<a href="tel:18006181" class="width-100" title="ĐIỆN THOẠI TƯ VẤN MIỄN PHÍ">ĐIỆN THOẠI<br>TƯ VẤN MIỄN PHÍ</a>
-							<a href="tel:18006181" class="width-100" title="ĐIỆN THOẠI TƯ VẤN MIỄN PHÍ">1800-6181</a>
+						<div class="table-cell">
+							<div><a href="tel:18006181" class="width-100" title="ĐIỆN THOẠI TƯ VẤN MIỄN PHÍ">ĐIỆN THOẠI<br>TƯ VẤN MIỄN PHÍ</a></div>
+							<div><a href="tel:18006181" class="width-100" title="ĐIỆN THOẠI TƯ VẤN MIỄN PHÍ">1800-6181</a></div>
 						</div>
 					</div>
 					<div>

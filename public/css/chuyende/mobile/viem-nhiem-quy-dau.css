@@ -43,3 +43,39 @@ div.chuyende div.row4 div.global3{margin-top: 15px;margin-left: 20px;margin-righ
 div.chuyende div.row5{margin-top: 35px;}
 div.chuyende div.row5 div.flex1{margin-top: 30px;margin-left: 20px;margin-right: 20px;}
 div.chuyende div.row5 div.flex1col1{border:1px solid #d3d3d3;width: 190px;padding-top: 30px;height: 400px;text-align: center;}
+/**/
+div.chuyende div.row5 div.flex1col1 i{background-image: url('../../../images/chuyende/mobile/viemnhiemquydau/viemnhiemquydau-18.png');background-repeat: no-repeat;display: inline-block;}
+div.chuyende div.row5 div.flex1col1 i.bg1{width: 46px;height: 50px;background-position: -46px 0px;}
+div.chuyende div.row5 div.flex1col1 i.bg2{width: 140px;height: 35px;background-position: 0px -131px;}
+div.chuyende div.row5 div.flex1col1 i.bg3{width: 36px;height: 50px;background-position: -256px 0px;}
+div.chuyende div.row5 div.flex1col1 i.bg4{width: 140px;height: 35px;background-position: -210px -131px;}
+div.chuyende div.row5 div.flex1col1 i.bg5{width: 52px;height: 50px;background-position: -452px 0px;}
+div.chuyende div.row5 div.flex1col1 i.bg6{width: 140px;height: 35px;background-position: -406px -131px;}
+div.chuyende div.row5 div.flex1col1 div.text-justify{color:#313131;padding:0px 10px;}
+div.chuyende div.row5 div.flex1col1 >a{display: block;color: #fff;background-color: #edad3c;padding:5px; font-size: 13px;}
+/**/
+div.chuyende div.row6{margin-top: 40px;background-color: #f1f1f1;padding: 40px 20px 25px 20px;}
+div.chuyende div.row6 div.global1 .line2 span{background-color: #f1f1f1;}
+div.chuyende div.row6 div.flex1{background-image: url('../../../images/chuyende/mobile/viemnhiemquydau/viemnhiemquydau-19.png');background-size: cover;background-repeat: no-repeat;}
+div.chuyende div.row6 div.flex1{height: 95px;margin-top: 35px;}
+div.chuyende div.row6 div.flex1col1{width: 250px;padding-left: 15px; color:#fff;font-weight: bold;font-size: 13px;}
+div.chuyende div.row6 div.flex1col2{width: 340px;padding-left: 22px; color:#fff;height: 78px;}
+div.chuyende div.row6 div.flex1col2>div>div:nth-child(1){font-weight:bold;margin-left: 20px;font-size: 13px;}
+div.chuyende div.row6 div.flex1col2>div>div:nth-child(2){font-size: 11px;}
+div.chuyende div.row6 div.truong >div.border{border:1px solid #d3d3d3;border-top: none;padding:10px;color: #535353;}
+div.chuyende div.row6 div.truong >div.border div.link{}
+div.chuyende div.row6 div.truong >div.border div.link a{height: 32px;color: #fff;width: 175px;background-color: #edad3c;box-shadow: 1px 1px #000;border-radius: 15px;}
+div.chuyende div.row6 div.truong >div.border div.link a img{margin-right: 10px;}
+div.chuyende div.row6 div.global3{margin-top: 15px;}
+div.chuyende div.row7{margin-top: 30px;}
+div.chuyende div.row7 div.flex1{height: 255px;margin-top: 40px;}
+div.chuyende div.row7 div.flex1col1{width: 393px;border:1px solid #d3d3d3;padding-left: 20px;}
+div.chuyende div.row7 div.flex1col2{width: 236px;border:1px solid #d3d3d3;padding-bottom: 16px;}
+div.chuyende div.row7 div.flex2col1{background-color: #00a0e9;color: #fff;font-weight: bold;padding:10px;margin-right: 10px;}
+div.chuyende div.row7 div.flex1col1>div:nth-child(2) span{background-color: #edad3c;height: 26px;line-height: 26px;display: inline-block;padding:0px 10px;color: #fff;}
+div.chuyende div.row7 div.flex1col1>div:nth-child(4) span{border:1px solid #00a0e9;height: 28px;line-height: 28px;color: #00a0e9;font-weight: bold;text-align: center;display: inline-block;width: 144px;}
+div.chuyende div.row7 div.flex1col2>div:nth-child(1){background-color: #edad3c;color: #fff;font-weight: bold;padding:10px;height: 54px;}
+div.chuyende div.row7 div.flex1col2>div:nth-child(2){padding:0px 10px;}
+div.chuyende div.row7 div.flex1col2>div:nth-child(4){padding:0px 10px;}
+div.chuyende div.row7 div.flex1col2>div.border{border-top:1px dashed #d3d3d3;height: 1px;}
+div.chuyende div.row7 div.flex1col2>a{background-color: #00a0e9;color: #fff;height: 40px;display:bold;text-align:center;font-weight: bold;line-height: 40px;margin:0px 10px;border-radius: 20px;}

@@ -185,46 +185,208 @@
 			</div>
 			<div class="flex flex1 justify-content-between">
 				<div class="flex1col1 flex flex-wrap-wrap align-content-between">
-					<div><i class="bg1"></i></div>
-					<div>
+					<div class="text-center width-100"><i class="bg1"></i></div>
+					<div class="width-100">
 						<div class="line1 text-center"><strong>Miêu tả triệu chứng</strong></div>
 						<div class="line2 text-center">symptom description</div>
 					</div>
-					<div><i class="bg2"></i></div>
-					<div>
+					<div class="width-100 text-center"><i class="bg2"></i></div>
+					<div class="text-justify">
 						Nhập nội dung miêu tả tình hình cụ thể, chuyên gia căn cứ vào đó chẩn đoán. (Thích hợp với triệu chứng xuất hiện trong vòng 1~7 ngày)
 					</div>
-					<div>
-						<a href="">Click vào để<br>miêu tả tình trạng trực tuyến</a>
-					</div>
+					<a class="width-100 text-center" href="#">
+						Click vào để<br>miêu tả tình trạng trực tuyến
+					</a>
 				</div>
 				<div class="flex1col1 flex flex-wrap-wrap align-content-between">
-					<div><i class="bg3"></i></div>
-					<div>
+					<div class="width-100 text-center"><i class="bg3"></i></div>
+					<div class="width-100">
 						<div class="line1 text-center"><strong>Miêu tả triệu chứng</strong></div>
 						<div class="line2 text-center">symptom description</div>
 					</div>
-					<div><i class="bg4"></i></div>
-					<div>
+					<div class="width-100 text-center"><i class="bg4"></i></div>
+					<div class="width-100 text-justify">
 						Nhập nội dung miêu tả tình hình cụ thể, chuyên gia căn cứ vào đó chẩn đoán. (Thích hợp với triệu chứng xuất hiện trong vòng 1~7 ngày)
 					</div>
-					<div>
-						<a href="">Click vào để<br>miêu tả tình trạng trực tuyến</a>
-					</div>
+					<a class="width-100 text-center" href="#">
+						Click vào để<br>miêu tả tình trạng trực tuyến
+					</a>
 				</div>
 				<div class="flex1col1 flex flex-wrap-wrap align-content-between">
-					<div><i class="bg5"></i></div>
-					<div>
+					<div class="width-100 text-center"><i class="bg5"></i></div>
+					<div class="width-100">
 						<div class="line1 text-center"><strong>Miêu tả triệu chứng</strong></div>
 						<div class="line2 text-center">symptom description</div>
 					</div>
-					<div><i class="bg6"></i></div>
-					<div>
+					<div class="width-100 text-center"><i class="bg6"></i></div>
+					<div class="width-100 text-justify">
 						Nhập nội dung miêu tả tình hình cụ thể, chuyên gia căn cứ vào đó chẩn đoán. (Thích hợp với triệu chứng xuất hiện trong vòng 1~7 ngày)
 					</div>
-					<div>
-						<a href="">Click vào để<br>miêu tả tình trạng trực tuyến</a>
+					<a class="width-100 text-center" href="#">
+						Click vào để<br>miêu tả tình trạng trực tuyến
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="row6">
+			<div class="global1">
+				<div class="bg">
+					<div class="line1 text-uppercase text-center">Liệu pháp đặc biệt cho sức khỏe nam giới</div>
+					<div class="line2 text-center text-uppercase"><span>Điều trị viêm nhiễm quy đầu</span></div>
+					<div class="line3 text-center text-uppercase"><span>3 METHODS TO DIAGNOSE THE INFETION OF GLANS PENIS</span></div>
+				</div>
+			</div>
+			<div class="truong">
+				<div class="flex1 flex justify-content-between">
+					<div class="flex1col1 flex align-items-center">
+						Mụn rộp sinh dục, sùi mào gà<br>gây viêm nhiễm quy đầu
 					</div>
+					<div class="flex1col2 flex align-items-center">
+						<div class="width-100">
+							<div>Liệu pháp quang động lực Ira + miễn dịch MB</div>
+							<div class="text-center">Ira Irrational Immunology + MB Immunotherapy</div>
+						</div>
+					</div>
+				</div>
+				<div class="border">
+					<div class="text-justify">
+						[Ưu điểm kĩ thuật] “Liệu pháp quang động lực Ira + miễn dịch MB”, căn cứ vào tính chất của vi khuẩn gây bệnh và độ nhạy cảm của vi khuẩn với thuốc, kết hợp chặt chẽ giữa các loại thuốc đặc trị và phương pháp cho sức khỏe nam giới tiến hành điều trị tích cực, kết hợp điều chỉnh đông y theo cá thể hóa, điều trị triệu chứng, điều trị yếu tố bệnh tiềm ẩn, từ đó hồi phục sức khỏe của cơ thể.
+					</div>
+					<div class="link flex justify-content-end">
+						<a href="" class="flex align-items-center justify-content-center">
+							<img src="{{ asset('public/images/chuyende/mobile/viemnhiemquydau/viemnhiemquydau-20.png') }}" alt="">
+							<span class="text-uppercase">Đặt hẹn ngay</span>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="truong">
+				<div class="flex1 flex justify-content-between">
+					<div class="flex1col1 flex align-items-center">
+						Hẹp bao quy đầu gây viêm<br>nhiễm quy đầu
+					</div>
+					<div class="flex1col2 flex align-items-center">
+						<div class="width-100">
+							<div>Thủ thuật cắt bao quy đầu xâm lấn tối thiểu<br>Hàn Quốc</div>
+							<div class="text-center">The procedure of minimally invasive circumcision of Korea</div>
+						</div>
+					</div>
+				</div>
+				<div class="border">
+					<div class="text-justify">
+						[Ưu điểm kĩ thuật] Thủ thuật cắt bao quy đầu xâm lấn tối thiểu Hàn Quốc thông qua báo cáo lâm sàng với 5000 trường hợp bệnh nhân dài- hẹp bao quy đầu đã chứng minh. Phương pháp này có các ưu điểm như tương đối quy chuẩn, an toàn mĩ quan, nâng cao chức năng sinh dục…Được giới y học trong lĩnh vực nam khoa khen ngợi, và thay thế cho kĩ thuật cắt vòng bao quy đầu truyền thống trước đây.
+					</div>
+					<div class="link flex justify-content-end">
+						<a href="" class="flex align-items-center justify-content-center">
+							<img src="{{ asset('public/images/chuyende/mobile/viemnhiemquydau/viemnhiemquydau-20.png') }}" alt="">
+							<span class="text-uppercase">Đặt hẹn ngay</span>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="global3 text-center">
+				<div>Tình trạng của tôi do nguyên nhân nào ở trên gây nên?</div>
+				<div class="text-uppercase"><a href="">click chuyên gia TƯ VẤN</a></div>
+			</div>
+		</div>
+		<div class="row7">
+			<div class="global1">
+				<div class="bg">
+					<div class="line1 text-uppercase text-center">Liệu pháp đặc biệt cho sức khỏe nam giới</div>
+					<div class="line2 text-center text-uppercase"><span>Điều trị viêm nhiễm quy đầu</span></div>
+					<div class="line3 text-center text-uppercase"><span>3 METHODS TO DIAGNOSE THE INFETION OF GLANS PENIS</span></div>
+				</div>
+			</div>
+			<div class="flex flex1 justify-content-between">
+				<div class="flex1col1 flex flex-wrap-wrap align-content-around">
+					<div class="flex flex2 justify-content-between width-100">
+						<div class="flex2col1 flex align-items-center justify-content-center">
+							Hỏi
+						</div>
+						<div class="flex2col2 flex align-items-center justify-content-center">
+							<strong>Quy đầu ngứa rát, sưng đỏ, có mùi bất thường là sao?</strong>
+						</div>
+					</div>
+					<div class="width-100">
+						<span><strong>Chuyên gia giải đáp</strong></span>
+					</div>
+					<div class="width-100">
+						Trên lâm sàng, 30.4% bệnh nhân viêm nhiễm quy đầu là do dài bao quy đầu gây nên, ngoài ra còn có các nguyên nhân như quan hệ tình dục không an toàn, thủ dâm, ngoại thương…
+					</div>
+					<div class="width-100">
+						<span>Hỏi chuyên gia</span>
+					</div>
+					<div class="width-100">
+						Điều trị viêm nhiễm quy đầu có cần cắt bao quy đầu không?
+					</div>
+				</div>
+				<div class="flex1col2 flex flex-wrap-wrap align-content-between">
+					<div class="text-center flex align-items-center justify-content-center width-100">Vấn đề tương tự</div>
+					<div class="width-100 text-center">Viêm quy đầu giai đoạn sớm có chữa khỏi được không?</div>
+					<div class="border width-100"></div>
+					<a class="width-100">Tôi còn vấn đề khác cần hỏi</a>
+				</div>
+			</div>
+			<div class="flex flex1 justify-content-between">
+				<div class="flex1col1 flex flex-wrap-wrap align-content-around">
+					<div class="flex flex2 justify-content-between width-100">
+						<div class="flex2col1 flex align-items-center justify-content-center">
+							Hỏi
+						</div>
+						<div class="flex2col2 flex align-items-center justify-content-center">
+							<strong>Viêm nhiễm quy đầu dùng thuốc có khỏi không?</strong>
+						</div>
+					</div>
+					<div class="width-100">
+						<span><strong>Chuyên gia giải đáp</strong></span>
+					</div>
+					<div class="width-100">
+						Nguyên nhân gây viêm nhiễm quy đầu rất nhiều, cụ thể dùng thuốc như thế nào cần phải chẩn đoán thuộc nhóm bệnh nào mới xác định được, dùng thuốc mù quáng có thể gây nên hậu quả xấu như tổn thương do dị ứng thuốc….
+					</div>
+					<div class="width-100">
+						<span>Hỏi chuyên gia</span>
+					</div>
+					<div class="width-100">
+						Chi phí kiểm tra viêm nhiễm quy đầu là bao nhiêu?
+					</div>
+				</div>
+				<div class="flex1col2 flex flex-wrap-wrap align-content-between">
+					<div class="text-center flex align-items-center justify-content-center width-100">Vấn đề tương tự</div>
+					<div class="width-100 text-center">Liệu pháp tự điều trị viêm nhiễm quy đầu?</div>
+					<div class="border width-100"></div>
+					<div class="width-100 text-center">Điều trị chuyên khoa viêm nhiễm quy đầu hết bao nhiêu tiền?</div>
+					<a class="width-100">Tôi còn vấn đề khác cần hỏi</a>
+				</div>
+			</div>
+			<div class="flex flex1 justify-content-between">
+				<div class="flex1col1 flex flex-wrap-wrap align-content-around">
+					<div class="flex flex2 justify-content-between width-100">
+						<div class="flex2col1 flex align-items-center justify-content-center">
+							Hỏi
+						</div>
+						<div class="flex2col2 flex align-items-center justify-content-center">
+							<strong>Mụn rộp sinh dục, sùi mào gà có những nguy hại gì? Nghiêm trọng không? Ảnh hưởng đến chức năng sinh sản không?</strong>
+						</div>
+					</div>
+					<div class="width-100">
+						<span><strong>Chuyên gia giải đáp</strong></span>
+					</div>
+					<div class="width-100">
+						Sùi mào gà, mụn rộp sinh dục đều là các bệnh xã hội, có ảnh hưởng vô cùng lớn đối với cơ quan sinh sản, dễ dẫn đến rối loạn chức năng sinh dục, nghiêm trọng hơn có thể gây hại đến tính mạng.
+					</div>
+					<div class="width-100">
+						<span>Hỏi chuyên gia</span>
+					</div>
+					<div class="width-100">
+						Thông thường xử lý mụn rộp sinh dục thế nào?
+					</div>
+				</div>
+				<div class="flex1col2 flex flex-wrap-wrap align-content-between">
+					<div class="text-center flex align-items-center justify-content-center width-100">Vấn đề tương tự</div>
+					<div class="width-100 text-center">Mắc mụn rộp sinh dục nên làm thế nào?</div>
+					<div class="border width-100"></div>
+					<div class="width-100 text-center">Tôi muốn hỏi thêm các vấn đề khác</div>
+					<a class="width-100">Tôi còn vấn đề khác cần hỏi</a>
 				</div>
 			</div>
 		</div>

@@ -1,11 +1,11 @@
 header{padding:20px 3px ;}
-header .flex2col1{padding-right: 10px;}
-header .flex1col1 div.h3,header .flex1col1 h1{color: #106a8c;font-size: 18px;font-weight: bold;}
-header .flex1col1 div.web-address{font-size: 14px;color: #e3bc2b;margin-top: 5px;font-weight: bold;}
-header .flex1col3 span{color: #106a8c;font-weight:bold; font-size:13.5px;}
+header .table-cell{padding-right: 10px;}
+header .table-cell div.h3,header .table-cell h1{color: #106a8c;font-size: 16px;font-weight: bold;}
+header .table-cell div.web-address{font-size: 12px;color: #e3bc2b;margin-top: 5px;font-weight: bold;}
+header .table-cell span{color: #106a8c;font-weight:bold; font-size:13.5px;}
 /**/
 menu{background-color: #106a8c;height: 64px;}
-menu .flex1{height: 64px;color: #fff;}
-menu .flex1col1{width: 25%;font-size: 14px;background-image: url('../../images/mobile/menu-1.png');background-repeat: no-repeat;background-position: right center;}
-menu .flex1col1:last-child{background-image: none;}
+menu .table-cell{height: 64px;color: #fff;}
+menu .table-cell{width: 25%;font-size: 13px;background-image: url('../../images/mobile/menu-1.png');background-repeat: no-repeat;background-position: right center;}
+menu .table-cell:last-child{background-image: none;}
 /**/
