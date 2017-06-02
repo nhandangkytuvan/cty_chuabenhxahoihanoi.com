@@ -65,16 +65,16 @@
 					<div><h2 class="text-uppercase"><a href="{{ MyAPI::getUrlTermID(28) }}">Sùi mào gà</a></h2></div>
 				</div>
 				<div class="table-cell">
-					<a href="" class="text-center flex align-items-center justify-content-center" title="Nguyên nhân">Nguyên nhân</a>
-					<a href="" class="text-center flex align-items-center justify-content-center" title="Triệu chứng">Triệu chứng</a>
+					<a href="" class="text-center dis-table width-100" title="Nguyên nhân"><span class="table-cell">Nguyên nhân</span></a>
+					<a href="" class="text-center dis-table width-100" title="Triệu chứng"><span class="table-cell">Triệu chứng</span></a>
 				</div>
 				<div class="table-cell">
-					<a href="" class="text-center flex align-items-center justify-content-center" title="Nguy hại">Nguy hại</a>
-					<a href="" class="text-center flex align-items-center justify-content-center" title="Điều trị">Điều trị</a>
+					<a href="" class="text-center dis-table width-100" title="Nguy hại"><span class="table-cell">Nguy hại</span></a>
+					<a href="" class="text-center dis-table width-100" title="Điều trị"><span class="table-cell">Điều trị</span></a>
 				</div>
 				<div class="table-cell">
-					<a href="" class="text-center flex align-items-center justify-content-center" title="Chi phí">Chi phí</a>
-					<a href="" class="text-center flex align-items-center justify-content-center" title="Kiểm tra">Kiểm tra</a>
+					<a href="" class="text-center dis-table width-100" title="Chi phí"><span class="table-cell">Chi phí</span></a>
+					<a href="" class="text-center dis-table width-100" title="Kiểm tra"><span class="table-cell">Kiểm tra</span></a>
 				</div>
 			</div>
 			<div class="dis-table width-100 table1">
@@ -82,16 +82,16 @@
 					<div><h2 class="text-uppercase"><a href="{{ MyAPI::getUrlTermID(30) }}">Bệnh lậu</a></h2></div>
 				</div>
 				<div class="table-cell">
-					<a href="" class="text-center flex align-items-center justify-content-center" title="Nguyên nhân">Nguyên nhân</a>
-					<a href="" class="text-center flex align-items-center justify-content-center" title="Triệu chứng">Triệu chứng</a>
+					<a href="" class="text-center dis-table width-100" title="Nguyên nhân"><span class="table-cell">Nguyên nhân</span></a>
+					<a href="" class="text-center dis-table width-100" title="Triệu chứng"><span class="table-cell">Triệu chứng</span></a>
 				</div>
 				<div class="table-cell">
-					<a href="" class="text-center flex align-items-center justify-content-center" title="Nguy hại">Nguy hại</a>
-					<a href="" class="text-center flex align-items-center justify-content-center" title="Điều trị">Điều trị</a>
+					<a href="" class="text-center dis-table width-100" title="Nguy hại"><span class="table-cell">Nguy hại</span></a>
+					<a href="" class="text-center dis-table width-100" title="Điều trị"><span class="table-cell">Điều trị</span></a>
 				</div>
 				<div class="table-cell">
-					<a href="" class="text-center flex align-items-center justify-content-center" title="Chi phí">Chi phí</a>
-					<a href="" class="text-center flex align-items-center justify-content-center" title="Kiểm tra">Kiểm tra</a>
+					<a href="" class="text-center dis-table width-100" title="Chi phí"><span class="table-cell">Chi phí</span></a>
+					<a href="" class="text-center dis-table width-100" title="Kiểm tra"><span class="table-cell">Kiểm tra</span></a>
 				</div>
 			</div>
 			<div class="dis-table width-100 table1">
@@ -99,16 +99,16 @@
 					<div><h2 class="text-uppercase"><a href="{{ MyAPI::getUrlTermID(29) }}">Giang mai</a></h2></div>
 				</div>
 				<div class="table-cell">
-					<a href="" class="text-center flex align-items-center justify-content-center" title="Nguyên nhân">Nguyên nhân</a>
-					<a href="" class="text-center flex align-items-center justify-content-center" title="Triệu chứng">Triệu chứng</a>
+					<a href="" class="text-center dis-table width-100" title="Nguyên nhân"><span class="table-cell">Nguyên nhân</span></a>
+					<a href="" class="text-center dis-table width-100" title="Triệu chứng"><span class="table-cell">Triệu chứng</span></a>
 				</div>
 				<div class="table-cell">
-					<a href="" class="text-center flex align-items-center justify-content-center" title="Nguy hại">Nguy hại</a>
-					<a href="" class="text-center flex align-items-center justify-content-center" title="Điều trị">Điều trị</a>
+					<a href="" class="text-center dis-table width-100" title="Nguy hại"><span class="table-cell">Nguy hại</span></a>
+					<a href="" class="text-center dis-table width-100" title="Điều trị"><span class="table-cell">Điều trị</span></a>
 				</div>
 				<div class="table-cell">
-					<a href="" class="text-center flex align-items-center justify-content-center" title="Chi phí">Chi phí</a>
-					<a href="" class="text-center flex align-items-center justify-content-center" title="Kiểm tra">Kiểm tra</a>
+					<a href="" class="text-center dis-table width-100" title="Chi phí"><span class="table-cell">Chi phí</span></a>
+					<a href="" class="text-center dis-table width-100" title="Kiểm tra"><span class="table-cell">Kiểm tra</span></a>
 				</div>
 			</div>
 			<div class="dis-table width-100 table1">
@@ -116,16 +116,16 @@
 					<div><h2 class="text-uppercase"><a href="{{ MyAPI::getUrlTermID(31) }}">Mụn rộp sinh dục</a></h2></div>
 				</div>
 				<div class="table-cell">
-					<a href="" class="text-center flex align-items-center justify-content-center" title="Nguyên nhân">Nguyên nhân</a>
-					<a href="" class="text-center flex align-items-center justify-content-center" title="Triệu chứng">Triệu chứng</a>
+					<a href="" class="text-center dis-table width-100" title="Nguyên nhân"><span class="table-cell">Nguyên nhân</span></a>
+					<a href="" class="text-center dis-table width-100" title="Triệu chứng"><span class="table-cell">Triệu chứng</span></a>
 				</div>
 				<div class="table-cell">
-					<a href="" class="text-center flex align-items-center justify-content-center" title="Nguy hại">Nguy hại</a>
-					<a href="" class="text-center flex align-items-center justify-content-center" title="Điều trị">Điều trị</a>
+					<a href="" class="text-center dis-table width-100" title="Nguy hại"><span class="table-cell">Nguy hại</span></a>
+					<a href="" class="text-center dis-table width-100" title="Điều trị"><span class="table-cell">Điều trị</span></a>
 				</div>
 				<div class="table-cell">
-					<a href="" class="text-center flex align-items-center justify-content-center" title="Chi phí">Chi phí</a>
-					<a href="" class="text-center flex align-items-center justify-content-center" title="Kiểm tra">Kiểm tra</a>
+					<a href="" class="text-center dis-table width-100" title="Chi phí"><span class="table-cell">Chi phí</span></a>
+					<a href="" class="text-center dis-table width-100" title="Kiểm tra"><span class="table-cell">Kiểm tra</span></a>
 				</div>
 			</div>
 		</div>

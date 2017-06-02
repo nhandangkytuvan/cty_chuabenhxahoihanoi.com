@@ -12,7 +12,7 @@ $(document).ready(function() {
     var gio = d.getHours();
     var phut = d.getMinutes();
     if((7<gio&&gio<22)||(gio==22&&phut<=30)||(gio==7&&phut>=30)){
-        // setTimeout(showchat, 15000);
+        setTimeout(showchat, 15000);
     }
     // 
     $('.home .row3 .flex1col1').click(function(event) {
@@ -34,6 +34,14 @@ $(document).ready(function() {
         $("html, body").animate({ scrollTop: 0 }, "slow");
         return false;
     });
+
+    //listen to shake event
+    var shakeEvent = new Shake({threshold: 5});
+    shakeEvent.start();
+    window.addEventListener('shake', function(){
+        navigator.vibrate(1000);
+        alert("Shaked");
+    }, false);
 });
 function showchat() {
     $('#my_popup').popup('show');

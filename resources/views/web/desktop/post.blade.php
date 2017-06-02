@@ -222,7 +222,7 @@
 							message:'Việc tìm kiếm sẽ nhanh hơn khi bạn trò chuyện với <a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">bác sĩ tư vấn</a> !', 
 							title:"Mẹo nhỏ",
 							iconClass: "fa fa-user-md",
-							imgURI: ["{{ asset('public/images/desktop/logo-footer.png') }}"],
+							imgURI: ["{{ asset('public/images/desktop2/logo-footer.png') }}"],
 							timeOut:0,
 							positionClass:'toast8-bottom-left',
 						});

@@ -227,7 +227,6 @@
 		<div class="row2">
 		</div>
 	</footer>
-	<script language="javascript" src="http://swt.phongkham193.com/JS/LsJS.aspx?siteid=MFI63108226&float=1&lng=en"></script>
 	<div id="popup-desktop">
 		<div class="pos-relative">
 			<a class="dis-inline-block pos-absolute popup-desktop_close"></a>
