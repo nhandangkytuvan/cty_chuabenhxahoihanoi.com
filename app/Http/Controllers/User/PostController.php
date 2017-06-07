@@ -31,6 +31,7 @@ class PostController extends Controller{
                     $post->$value = $file_name;
                 }
             }
+            $post->post_detail = str_replace("src=\"../../source","src=\"../../../source",$post->post_detail);
             if($post->save()){
                 Session::flash('success','Thêm thành công.');
                 return redirect('user/post/edit/'.$post->id);
@@ -66,6 +67,7 @@ class PostController extends Controller{
                     $post->$value = $file_name;
                 }
             }
+            $post->post_detail = str_replace("src=\"../../source","src=\"../../../source",$post->post_detail);
             if($post->save()){
                 Session::flash('success','Sửa thành công.');
                 return redirect('user/post/edit/'.$post->id);
