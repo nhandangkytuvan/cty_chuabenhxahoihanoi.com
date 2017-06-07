@@ -44,7 +44,8 @@
 	<script type="text/javascript" src="{{ asset('public/js/global/toastr8/dist/js/toastr8.min.js') }}"></script>
 	@yield('js')
 	<script type="text/javascript" src="{{ asset('public/js/desktop/desktop.js') }}"></script>
-	<!-- <script type="text/javascript" src="{{ asset('public/js/desktop/right.js') }}"></script> -->
+	<script type="text/javascript" src="{{ asset('public/js/desktop/right.js') }}"></script>
+	<script type="text/javascript" src="{{ asset('public/js/desktop/dkdt.js') }}"></script>
 	<!-- <script type="text/javascript" src="{{ asset('public/js/desktop/swt.js') }}"></script> -->
 	<script>
 	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -234,5 +235,6 @@
 			<a class="dis-inline-block pos-absolute tuvan2" href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" title="Đặt hẹn"></a>
 		</div>
 	</div>
+	<script language="javascript" src="http://swt.phongkham193.com/JS/LsJS.aspx?siteid=MFI63108226&float=1&lng=en"></script>
 </body>
 </html>
