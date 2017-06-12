@@ -36,13 +36,13 @@
 					<div class="flex flex2 width-100">
 						<div class="col1"><i class="bg"></i></div>
 						<div class="col1 flex flex3 border1 flex-wrap-wrap align-content-end">
-							<div class="width-100 text-center"><a href="#" title="Nguyên nhân">Nguyên nhân</a></div>
-							<div class="width-100 text-center"><a href="#" title="Nguy hại">Nguy hại</a></div>
+							<div class="width-100 text-center"><a href="{{ MyAPI::getUrlPostID(45) }}" title="Nguyên nhân sùi mào gà">Nguyên nhân</a></div>
+							<div class="width-100 text-center"><a href="{{ MyAPI::getUrlPostID(51) }}" title="Nguy hại">Nguy hại</a></div>
 							<div class="width-100 text-center"><a href="#" title="Chi phí">Chi phí</a></div>
 						</div>
 						<div class="col1 flex flex3 flex-wrap-wrap align-content-end">
-							<div class="width-100 text-center"><a href="#" title="Triệu chứng">Triệu chứng</a></div>
-							<div class="width-100 text-center"><a href="#" title="Điều trị">Điều trị</a></div>
+							<div class="width-100 text-center"><a href="{{ MyAPI::getUrlPostID(47) }}" title="Triệu chứng">Triệu chứng</a></div>
+							<div class="width-100 text-center"><a href="{{ MyAPI::getUrlPostID(48) }}" title="Điều trị">Điều trị</a></div>
 							<div class="width-100 text-center"><a href="#" title="Kiểm tra">Kiểm tra</a></div>
 						</div>
 					</div>
@@ -73,7 +73,7 @@
 							<div class="width-100 text-center"><a href="#" title="Chi phí">Chi phí</a></div>
 						</div>
 						<div class="col1 flex flex3 flex-wrap-wrap align-content-end">
-							<div class="width-100 text-center"><a href="#" title="Triệu chứng">Triệu chứng</a></div>
+							<div class="width-100 text-center"><a href="{{ MyAPI::getUrlPostID(50) }}" title="Triệu chứng">Triệu chứng</a></div>
 							<div class="width-100 text-center"><a href="#" title="Điều trị">Điều trị</a></div>
 							<div class="width-100 text-center"><a href="#" title="Kiểm tra">Kiểm tra</a></div>
 						</div>
@@ -129,38 +129,29 @@
 				</div>
 				<div class="col2">
 					<div class="line1 text-uppercase"><span>Bài đọc nhiều</span></div>
+					@if(isset($post_news[0]))
 					<div class="post-first flex justify-content-between">
 						<div>
-							<a href="#"><img src="{{ asset('public/images/desktop/home-3.png') }}" alt="" class="img-responsive center-block"></a>
+							<a href="{{ MyAPI::getUrlPostObj($post_news[0]) }}"><img src="{{ asset('public/img/'.$post_news[0]->post_avatar) }}" 
+							alt="{{ $post_news[0]->post_name }}" class="img-responsive center-block"></a>
 						</div>
 						<div>
-							<h3 class="post-name text-center"><a href="">NGUYÊN NHÂN DẪN ĐẾN SÙI MÀO GÀ LÀ GÌ</a></h3>
+							<h3 class="post-name text-center"><a title="{{ $post_news[0]->post_name }}" href="{{ MyAPI::getUrlPostObj($post_news[0]) }}">{{ $post_news[0]->post_name }}</a></h3>
 							<p class="post-description text-justify">
-								Sùi mào gà là một loại bệnh xã hội vô cùng nguy hiểm có thể gặp phải ở cả nam lẫn nữ. Các bác sĩ chuyên khoa trong việc chữa trị bệnh xã hội trong <a href="#">Chi tiết</a>
+								{!! MyAPI::getLimitWord($post_news[0]->post_description,40) !!} <a title="Xem đầy đủ" href="{{ MyAPI::getUrlPostObj($post_news[0]) }}">Chi tiết</a>
 							</p>
 						</div>
 					</div>
+					@php unset($post_news[0]); @endphp
+					@endif
 					<ul class="post-orthers">
+						@foreach($post_news as $post)
 						<li>
 							<i class="fa fa-circle"></i> 
-							<h4><a href="">Những biến chứng của bệnh sùi mào gà?</a></h4>
-							<p>Sùi mào gà là bệnh xã hội nguy hiểm và ngày càng phổ biến. Tuy không</p>
+							<h4><a href="{{ MyAPI::getUrlPostObj($post) }}" title="{{ $post->post_name }}">{{ $post->post_name }}</a></h4>
+							<p>{!! MyAPI::getLimitWord($post->post_description,15) !!}</p>
 						</li>
-						<li>
-							<i class="fa fa-circle"></i> 
-							<h4><a href="">Những biến chứng của bệnh sùi mào gà?</a></h4>
-							<p>Sùi mào gà là bệnh xã hội nguy hiểm và ngày càng phổ biến. Tuy không</p>
-						</li>
-						<li>
-							<i class="fa fa-circle"></i> 
-							<h4><a href="">Những biến chứng của bệnh sùi mào gà?</a></h4>
-							<p>Sùi mào gà là bệnh xã hội nguy hiểm và ngày càng phổ biến. Tuy không</p>
-						</li>
-						<li>
-							<i class="fa fa-circle"></i> 
-							<h4><a href="">Những biến chứng của bệnh sùi mào gà?</a></h4>
-							<p>Sùi mào gà là bệnh xã hội nguy hiểm và ngày càng phổ biến. Tuy không</p>
-						</li>
+						@endforeach
 					</ul>
 				</div>
 				<div class="col3">
@@ -292,34 +283,34 @@
 				                	<img alt="" src="{{ asset('public/images/desktop/home-9.png') }}" width="340" height="254">
 				                </a>
 				                <li>
-				                    <a href=""><h3>Nguyên nhân dẫn đến sùi mào gà là gì</h3></a>
+				                    <a href="{{ MyAPI::getUrlPostID(45) }}" title="Nguyên nhân dẫn đến sùi mào gà là gì"><h3>Nguyên nhân dẫn đến sùi mào gà là gì</h3></a>
 				                    <p>
-				                        Sùi mào gà là một loại bệnh xã hội vô cùng nguy hiểm có thể gặp phải ở cả nam lẫn nữ. Các bác sĩ chuyên khoa trong việc chữa trị bệnh xã hội trong đó có bệnh sùi mào gà tại...
-				                        <a href="" >[chi tiết]</a>
+				                        {!! MyAPI::getLimitWord(MyAPI::getPostID(45)->post_description,40) !!}...
+				                        <a href="{{ MyAPI::getUrlPostID(45) }}" title="Xem đầy đủ">[chi tiết]</a>
 				                    </p>
-				                    <a href="" >
+				                    <a href="{{ MyAPI::getUrlPostID(51) }}" title="{{ MyAPI::getPostID(51)->post_name }}" >
 				                        <span><i>Tác hại</i>Tác hại của bệnh sùi mào gà</span>
 				                    </a>
-				                    <a href="" >
+				                    <a href="{{ MyAPI::getUrlPostID(48) }}" title="{{ MyAPI::getPostID(48)->post_name }}" >
 				                        <span><i>Điều trị</i>Các phương pháp chữa trị bệnh sùi mào gà</span>
 				                    </a>
-				                    <a href="" >
+				                    <a href="{{ MyAPI::getUrlPostID(45) }}" title="{{ MyAPI::getPostID(45)->post_name }}" >
 				                        <span><i>Nguyên nhân</i>Nguyên nhân gây bệnh sùi mào gà</span>
 				                    </a>
-				                    <a href="" >
+				                    <a href="{{ MyAPI::getUrlPostID(47) }}" title="{{ MyAPI::getPostID(47)->post_name }}" >
 				                        <span><i>Triệu chứng</i>Những triệu chứng của sùi mào gà..</span>
 				                    </a>
 				                </li>
 				            </ul>
 				            <div class="flex flex1 justify-content-between">
 				            	<div class="flex1col1">
-				            		<a href="#"></a>
+				            		<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en"></a>
 				            	</div>
 				            	<div class="flex1col1">
-				            		<a href="#"></a>
+				            		<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en"></a>
 				            	</div>
 				            	<div class="flex1col1">
-				            		<a href="#"></a>
+				            		<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en"></a>
 				            	</div>
 				            </div>
 				        </div>
@@ -350,13 +341,13 @@
 				            </ul>
 				            <div class="flex flex1 justify-content-between">
 				            	<div class="flex1col1">
-				            		<a href="#"></a>
+				            		<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en"></a>
 				            	</div>
 				            	<div class="flex1col1">
-				            		<a href="#"></a>
+				            		<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en"></a>
 				            	</div>
 				            	<div class="flex1col1">
-				            		<a href="#"></a>
+				            		<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en"></a>
 				            	</div>
 				            </div>
 				        </div>
@@ -387,13 +378,13 @@
 				            </ul>
 				            <div class="flex flex1 justify-content-between">
 				            	<div class="flex1col1">
-				            		<a href="#"></a>
+				            		<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en"></a>
 				            	</div>
 				            	<div class="flex1col1">
-				            		<a href="#"></a>
+				            		<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en"></a>
 				            	</div>
 				            	<div class="flex1col1">
-				            		<a href="#"></a>
+				            		<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en"></a>
 				            	</div>
 				            </div>
 				        </div>
@@ -424,13 +415,13 @@
 				            </ul>
 				            <div class="flex flex1 justify-content-between">
 				            	<div class="flex1col1">
-				            		<a href="#"></a>
+				            		<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en"></a>
 				            	</div>
 				            	<div class="flex1col1">
-				            		<a href="#"></a>
+				            		<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en"></a>
 				            	</div>
 				            	<div class="flex1col1">
-				            		<a href="#"></a>
+				            		<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en"></a>
 				            	</div>
 				            </div>
 				        </div>

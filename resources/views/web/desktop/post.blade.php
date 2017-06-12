@@ -172,7 +172,7 @@
 						<div class="flex3col1">
 							<p>
 								@php 
-									$web_tuvan = $setting->web_tuvan;
+									$web_tuvan = 283;
 									$web_tuvan = str_split($web_tuvan);
 					                if(count($web_tuvan)==1){
 					                    array_unshift($web_tuvan,'0','0');
@@ -215,20 +215,6 @@
 				<div class="fb-like" data-href="" data-layout="standard" data-action="like" data-size="small" data-show-faces="false" data-share="false"></div>
 				<div class="fb-comments" data-href="{{ MyAPI::getUrlPostObj($data['post']) }}" data-numposts="5" data-width="100%"></div>
 			</div>
-			<script>
-				$(document).ready(function() {
-					setTimeout(function(){
-						toastr8.windows({
-							message:'Việc tìm kiếm sẽ nhanh hơn khi bạn trò chuyện với <a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">bác sĩ tư vấn</a> !', 
-							title:"Mẹo nhỏ",
-							iconClass: "fa fa-user-md",
-							imgURI: ["{{ asset('public/images/desktop2/logo-footer.png') }}"],
-							timeOut:0,
-							positionClass:'toast8-bottom-left',
-						});
-					}, 60000);
-				});
-			</script>
 		</div>
 		<div class="flex0col2">
 			@include('web.desktop.slidebar')

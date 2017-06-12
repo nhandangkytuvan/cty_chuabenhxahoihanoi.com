@@ -11,7 +11,8 @@ use BrowserDetect;
 class HomeController extends Controller{
 	public function show(Request $request){
 		if(BrowserDetect::isDesktop()){
-			return view('web.desktop.home');
+			$post_news = Post::orderBy('id','desc')->limit(5)->get();
+			return view('web.desktop.home',['post_news'=>$post_news]);
 		}else{
 			return view('web.mobile.home');
 		}
