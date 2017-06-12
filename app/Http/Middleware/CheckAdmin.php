@@ -18,7 +18,7 @@ class CheckAdmin
     {
         if(!Session::has('user')){
             Session::flash('info','Thông báo: Bạn chưa đăng nhập !');
-            return back();
+            return redirect('web/user/login');
         }else{
             $user = Session::get('user');
             if($user->user_group!=='admin'){

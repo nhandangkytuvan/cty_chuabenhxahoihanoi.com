@@ -25,7 +25,7 @@ class CheckUser
                 return $response;
             }else{
                 Session::flash('error','Thông báo: Bạn chưa đăng nhập !');
-                return back();
+                return redirect('web/user/login');
             }
         }
         //if(Session::get('user')->user_group=='bien-tap'){

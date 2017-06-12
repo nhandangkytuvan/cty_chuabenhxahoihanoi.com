@@ -103,19 +103,19 @@
 					<div class="slick-kt">
 						<div>
 							<a href="#"><img src="{{ asset('public/images/desktop/kt1.png') }}" alt=""></a>
-							<a href="" class="view-more" title="Tìm hiểu">Tìm hiểu <i class="fa fa-long-arrow-right"></i></a>
+							<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="view-more" title="Tìm hiểu">Tìm hiểu <i class="fa fa-long-arrow-right"></i></a>
 						</div>
 						<div>
 							<a href="#"><img src="{{ asset('public/images/desktop/kt2.png') }}" alt=""></a>
-							<a href="" class="view-more" title="Tìm hiểu">Tìm hiểu <i class="fa fa-long-arrow-right"></i></a>
+							<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="view-more" title="Tìm hiểu">Tìm hiểu <i class="fa fa-long-arrow-right"></i></a>
 						</div>
 						<div>
 							<a href="#"><img src="{{ asset('public/images/desktop/kt3.png') }}" alt=""></a>
-							<a href="" class="view-more" title="Tìm hiểu">Tìm hiểu <i class="fa fa-long-arrow-right"></i></a>
+							<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="view-more" title="Tìm hiểu">Tìm hiểu <i class="fa fa-long-arrow-right"></i></a>
 						</div>
 						<div>
 							<a href="#"><img src="{{ asset('public/images/desktop/kt4.png') }}" alt=""></a>
-							<a href="" class="view-more" title="Tìm hiểu">Tìm hiểu <i class="fa fa-long-arrow-right"></i></a>
+							<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="view-more" title="Tìm hiểu">Tìm hiểu <i class="fa fa-long-arrow-right"></i></a>
 						</div>
 					</div>
 					<script>
@@ -187,57 +187,57 @@
 					<div class="flex flex2 justify-content-between">
 						<div class="col1 flex flex3 flex-wrap-wrap align-content-between">
 							<div class="width-100 flex align-items-center justify-content-center height1 text-center">
-								<a href="" title="Tiểu ra mũ">Tiểu ra mủ</a>
+								<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" title="Tiểu ra mũ">Tiểu ra mủ</a>
 							</div>
 							<div class="width-100 flex align-items-center justify-content-center height2 text-center">
-								<a href="" title="Sưng đau lỗ niệu đạo">Sưng đau<br>lỗ niệu đạo</a>
+								<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" title="Sưng đau lỗ niệu đạo">Sưng đau<br>lỗ niệu đạo</a>
 							</div>
 							<div class="width-100 flex align-items-center justify-content-center height1 text-center">
-								<a href="" title="Ngứa lỗ niệu đạo">Ngứa lỗ niệu đạo</a>
+								<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" title="Ngứa lỗ niệu đạo">Ngứa lỗ niệu đạo</a>
 							</div>
 						</div>
 						<div class="col1 flex flex3 flex-wrap-wrap align-content-between">
 							<div class="width-100 flex align-items-center justify-content-center height2 text-center">
-								<a href="" title="Sưng đỏ bao quy đầu">Sưng đỏ<br>bao quy đầu</a>
+								<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" title="Sưng đỏ bao quy đầu">Sưng đỏ<br>bao quy đầu</a>
 							</div>
 							<div class="width-100 flex align-items-center justify-content-center height1 text-center">
-								<a href="" title="Tiểu buốt">Tiểu buốt</a>
+								<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" title="Tiểu buốt">Tiểu buốt</a>
 							</div>
 							<div class="width-100 flex align-items-center justify-content-center height1 text-center">
-								<a href="" title="Nỗi mụn dương vật">Nổi mụn dương vật</a>
+								<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" title="Nỗi mụn dương vật">Nổi mụn dương vật</a>
 							</div>
 						</div>
 						<div class="col1 flex flex3 flex-wrap-wrap align-content-between">
 							<div class="width-100 flex align-items-center justify-content-center height1 text-center">
-								<a href="" title="Vết loét đỏ">Vết loét đỏ</a>
+								<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" title="Vết loét đỏ">Vết loét đỏ</a>
 							</div>
 							<div class="width-100 flex align-items-center justify-content-center height1 text-center">
-								<a href="" title="Viêm quy đầu">Viêm quy đầu</a>
+								<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" title="Viêm quy đầu">Viêm quy đầu</a>
 							</div>
 							<div class="width-100 flex align-items-center justify-content-center height2 text-center">
-								<a href="" title="Đau ngứa dương vật">Đau ngứa<br>dương vật</a>
+								<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" title="Đau ngứa dương vật">Đau ngứa<br>dương vật</a>
 							</div>
 						</div>
 						<div class="col1 flex flex3 flex-wrap-wrap align-content-between">
 							<div class="width-100 flex align-items-center justify-content-center height2 text-center">
-								<a href="" title="Mụn nước xuất hiện trên người">Mụn nước xuất<br>hiện trên người</a>
+								<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" title="Mụn nước xuất hiện trên người">Mụn nước xuất<br>hiện trên người</a>
 							</div>
 							<div class="width-100 flex align-items-center justify-content-center height1 text-center">
-								<a href="" title="Sưng hạch">Sưng hạch</a>
+								<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" title="Sưng hạch">Sưng hạch</a>
 							</div>
 							<div class="width-100 flex align-items-center justify-content-center height1 text-center">
-								<a href="" title="Nổi mụn đỏ thành chùm">Nổi mụn đỏ thành chùm</a>
+								<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" title="Nổi mụn đỏ thành chùm">Nổi mụn đỏ thành chùm</a>
 							</div>
 						</div>
 						<div class="col1 flex flex3 flex-wrap-wrap align-content-between">
 							<div class="width-100 flex align-items-center justify-content-center height1 text-center">
-								<a href="" title="Loét bao quy đầu">Loét bao quy đầu</a>
+								<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" title="Loét bao quy đầu">Loét bao quy đầu</a>
 							</div>
 							<div class="width-100 flex align-items-center justify-content-center height1 text-center">
-								<a href="" title="Bạch biến quy đầu">Bạch biến quy đầu</a>
+								<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" title="Bạch biến quy đầu">Bạch biến quy đầu</a>
 							</div>
 							<div class="width-100 flex align-items-center justify-content-center height2 text-center">
-								<a href="" title="Chấm đỏ nhỏ ở quy đầu">Chấm đỏ nhỏ<br>ở quy đầu</a>
+								<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" title="Chấm đỏ nhỏ ở quy đầu">Chấm đỏ nhỏ<br>ở quy đầu</a>
 							</div>
 						</div>
 					</div>
@@ -245,19 +245,19 @@
 				<div class="col2">
 					<div class="text-uppercase line1">Dịch vụ tiện ích</div>
 					<div class="flex flex4 flex-wrap-wrap align-content-between justify-content-between">
-						<a class="flex4col1 flex align-items-center justify-content-around text-center hvr-glow" href="#" title="Tư vấn trực tuyến">
+						<a class="flex4col1 flex align-items-center justify-content-around text-center hvr-glow" href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" title="Tư vấn trực tuyến">
 							<i class="bg bg1"></i>
 							<span>Tư vấn<br>trực tuyến</span>
 						</a>
-						<a class="flex4col1 flex align-items-center justify-content-around text-center hvr-glow" href="#" title="Xếp số hẹn khám">
+						<a class="flex4col1 flex align-items-center justify-content-around text-center hvr-glow" href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" title="Xếp số hẹn khám">
 							<i class="bg bg2"></i>
 							<span>Xếp số<br>hẹn khám</span>
 						</a>
-						<a class="flex4col1 flex align-items-center justify-content-around text-center hvr-glow" href="#" title="Hỏi đáp chi phí">
+						<a class="flex4col1 flex align-items-center justify-content-around text-center hvr-glow" href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" title="Hỏi đáp chi phí">
 							<i class="bg bg3"></i>
 							<span>Hỏi đáp<br>chi phí</span>
 						</a>
-						<a class="flex4col1 flex align-items-center justify-content-around text-center hvr-glow" href="#" title="Chỉ đường">
+						<a class="flex4col1 flex align-items-center justify-content-around text-center hvr-glow" href="{{ url('/dia-chi-phong-kham') }}" title="Chỉ đường">
 							<i class="bg bg4"></i>
 							<span>Chỉ đường</span>
 						</a>
@@ -525,19 +525,19 @@
 		</div>
 		<div class="row6 container">
 			<div class="flex flex1 justify-content-between">
-				<a class="flex1col1 flex align-items-center justify-content-center" href="#" title="Liên hệ bác sĩ của chúng tôi">
+				<a class="flex1col1 flex align-items-center justify-content-center" href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" title="Liên hệ bác sĩ của chúng tôi">
 					<span><i class="bg1"></i></span>
 					<span>Tư vấn trực tuyến<br>Liên hệ bác sĩ của chúng tôi</span>
 				</a>
-				<a class="flex1col1 flex align-items-center justify-content-center" href="#" title="Đặt hẹn trực tuyến,càng nhanh hơn">
+				<a class="flex1col1 flex align-items-center justify-content-center" href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" title="Đặt hẹn trực tuyến,càng nhanh hơn">
 					<span><i class="bg2"></i></span>
 					<span>Đặt hẹn trực tuyến<br>Đặt hẹn trực tuyến,càng nhanh hơn</span>
 				</a>
-				<a class="flex1col1 flex align-items-center justify-content-center" href="#" title="18006181">
+				<a class="flex1col1 flex align-items-center justify-content-center" href="tel:18006181" title="18006181">
 					<span><i class="bg3"></i></span>
 					<span>Điện thoại liên hệ <br>18006181</span>
 				</a>
-				<a class="flex1col1 flex align-items-center justify-content-center" href="#" title="Số 193c1 Bà Triệu Hai Bà Trưng, Hà Nội">
+				<a class="flex1col1 flex align-items-center justify-content-center" href="{{ url('/dia-chi-phong-kham') }}" title="Số 193c1 Bà Triệu Hai Bà Trưng, Hà Nội">
 					<span><i class="bg4"></i></span>
 					<span>Địa chỉ phòng khám:<br>Số 193c1 Bà Triệu,<br>Hai Bà Trưng, Hà Nội</span>
 				</a>
