@@ -53,6 +53,11 @@
 </script>
 </head>
 <body>
+	<div class="topheader">
+		<div class="container">
+			<a href="tel:1800 6181"><img src="{{ asset('public/images/mobile/topheader.gif') }}" alt="" class="center-block img-responsive"></a>
+		</div>
+	</div>
 	<header>
 		<div class="container">
 			<div class="dis-table width-100">

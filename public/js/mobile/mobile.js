@@ -28,6 +28,10 @@ $(document).ready(function() {
     // 
     $('.footer-toolbar').scrollToFixed( { bottom: 0} );
     //
+    $('.topheader').scrollToFixed();
+    //
+    //setTimeout(function(){ $(".topheader").slideToggle().scrollToFixed(function(){});$("header").css('margin-top', $(".topheader img").height()+'px'); }, 1000);
+    //
     inter1 = setInterval(alertFunc, 5000);
     //
     $("a[href='#top']").click(function() {
