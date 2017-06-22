@@ -57,7 +57,7 @@ a{text-decoration: none;}
 /**/
 .box-center{margin:auto;}
 /*-------------------------*/
-#LRfloater0,#LR-BUBBLE,#LRMINIBar{display: none!important;}
+#LRfloater0,#LR-BUBBLE,#LRMINIBar,#LRdiv2{display: none!important;}
 
 /*-------------popup--------------------*/
 #my_popup{border:2px solid #2facbe;background-color: #f9f5e8;padding: 20px;text-align: center!important;border-radius: 5px;}

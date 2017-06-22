@@ -52,12 +52,12 @@
 					<div class="flex flex2 width-100">
 						<div class="col1"><i class="bg bg1"></i></div>
 						<div class="col1 flex flex3 border1 flex-wrap-wrap align-content-end">
-							<div class="width-100 text-center"><a href="#" title="Nguyên nhân">Nguyên nhân</a></div>
+							<div class="width-100 text-center"><a href="{{ MyAPI::getUrlPostID(61) }}" title="Nguyên nhân">Nguyên nhân</a></div>
 							<div class="width-100 text-center"><a href="#" title="Nguy hại">Nguy hại</a></div>
 							<div class="width-100 text-center"><a href="#" title="Chi phí">Chi phí</a></div>
 						</div>
 						<div class="col1 flex flex3 flex-wrap-wrap align-content-end">
-							<div class="width-100 text-center"><a href="#" title="Triệu chứng">Triệu chứng</a></div>
+							<div class="width-100 text-center"><a href="{{ MyAPI::getUrlPostID(66) }}" title="Triệu chứng">Triệu chứng</a></div>
 							<div class="width-100 text-center"><a href="#" title="Điều trị">Điều trị</a></div>
 							<div class="width-100 text-center"><a href="#" title="Kiểm tra">Kiểm tra</a></div>
 						</div>
@@ -68,14 +68,14 @@
 					<div class="flex flex2 width-100">
 						<div class="col1"><i class="bg bg2"></i></div>
 						<div class="col1 flex flex3 border1 flex-wrap-wrap align-content-end">
-							<div class="width-100 text-center"><a href="#" title="Nguyên nhân">Nguyên nhân</a></div>
-							<div class="width-100 text-center"><a href="#" title="Nguy hại">Nguy hại</a></div>
+							<div class="width-100 text-center"><a href="{{ MyAPI::getUrlPostID(60) }}" title="Nguyên nhân">Nguyên nhân</a></div>
+							<div class="width-100 text-center"><a href="{{ MyAPI::getUrlPostID(57) }}" title="Nguy hại">Nguy hại</a></div>
 							<div class="width-100 text-center"><a href="#" title="Chi phí">Chi phí</a></div>
 						</div>
 						<div class="col1 flex flex3 flex-wrap-wrap align-content-end">
 							<div class="width-100 text-center"><a href="{{ MyAPI::getUrlPostID(50) }}" title="Triệu chứng">Triệu chứng</a></div>
-							<div class="width-100 text-center"><a href="#" title="Điều trị">Điều trị</a></div>
-							<div class="width-100 text-center"><a href="#" title="Kiểm tra">Kiểm tra</a></div>
+							<div class="width-100 text-center"><a href="{{ MyAPI::getUrlPostID(58) }}" title="Điều trị">Điều trị</a></div>
+							<div class="width-100 text-center"><a href="{{ MyAPI::getUrlPostID(44) }}" title="Kiểm tra">Kiểm tra</a></div>
 						</div>
 					</div>
 				</div>
@@ -84,14 +84,14 @@
 					<div class="flex flex2 width-100">
 						<div class="col1"><i class="bg bg3"></i></div>
 						<div class="col1 flex flex3 border1 flex-wrap-wrap align-content-end">
-							<div class="width-100 text-center"><a href="#" title="Nguyên nhân">Nguyên nhân</a></div>
+							<div class="width-100 text-center"><a href="{{ MyAPI::getUrlPostID(67) }}" title="Nguyên nhân">Nguyên nhân</a></div>
 							<div class="width-100 text-center"><a href="#" title="Nguy hại">Nguy hại</a></div>
 							<div class="width-100 text-center"><a href="#" title="Chi phí">Chi phí</a></div>
 						</div>
 						<div class="col1 flex flex3 flex-wrap-wrap align-content-end">
 							<div class="width-100 text-center"><a href="#" title="Triệu chứng">Triệu chứng</a></div>
 							<div class="width-100 text-center"><a href="#" title="Điều trị">Điều trị</a></div>
-							<div class="width-100 text-center"><a href="#" title="Kiểm tra">Kiểm tra</a></div>
+							<div class="width-100 text-center"><a href="{{ MyAPI::getUrlPostID(62) }}" title="Kiểm tra">Kiểm tra</a></div>
 						</div>
 					</div>
 				</div>
@@ -149,7 +149,7 @@
 						<li>
 							<i class="fa fa-circle"></i> 
 							<h4><a href="{{ MyAPI::getUrlPostObj($post) }}" title="{{ $post->post_name }}">{{ $post->post_name }}</a></h4>
-							<p>{!! MyAPI::getLimitWord($post->post_description,15) !!}</p>
+							<p>{!! MyAPI::getLimitWord($post->post_description,15) !!}...</p>
 						</li>
 						@endforeach
 					</ul>
@@ -166,7 +166,7 @@
 						</div>
 					</div>
 					<div>
-						Lựa chọn đúng bác sĩ là đã thành công một nửa. Mỗi chuyên gia Phòng khám chuyên khoa Nam Khang đều có hơn 20 năm kinh nghiệm khám và điều trị. Chẩn đoán chính xác, hiệu quả rõ rệt, chăm sóc tận tình là “thương hiệu” của họ.
+						Lựa chọn đúng bác sĩ là đã thành công một nửa. Mỗi chuyên gia Phòng khám chuyên khoa Nam Khang đều có hơn 20 năm kinh nghiệm khám và điều trị. Chẩn đoán chính xác, hiệu quả rõ rệt, chăm sóc tận tình là “thương hiệu” của chúng tôi.
 					</div>
 				</div>
 			</div>
@@ -279,26 +279,26 @@
 				    <div class="bzzx_right">
 				        <div class="bzzx_right1">
 				            <ul class="bzzx_right11">
-				                <a href="" class="bzzx_right111" >
-				                	<img alt="" src="{{ asset('public/images/desktop/home-9.png') }}" width="340" height="254">
+				                <a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="bzzx_right111" >
+				                	<img alt="Sùi mào gà" src="{{ asset('public/images/desktop/home-9.png') }}" width="340" height="254">
 				                </a>
 				                <li>
-				                    <a href="{{ MyAPI::getUrlPostID(45) }}" title="Nguyên nhân dẫn đến sùi mào gà là gì"><h3>Nguyên nhân dẫn đến sùi mào gà là gì</h3></a>
+				                    <a href="{{ MyAPI::getUrlPostID(42) }}" title="Thông tin bệnh sùi mào gà"><h3>Thông tin bệnh sùi mào gà</h3></a>
 				                    <p>
-				                        {!! MyAPI::getLimitWord(MyAPI::getPostID(45)->post_description,40) !!}...
-				                        <a href="{{ MyAPI::getUrlPostID(45) }}" title="Xem đầy đủ">[chi tiết]</a>
+				                        {!! MyAPI::getLimitWord(MyAPI::getPostID(42)->post_description,40) !!}...
+				                        <a href="{{ MyAPI::getUrlPostID(42) }}" title="Xem đầy đủ">[chi tiết]</a>
 				                    </p>
-				                    <a href="{{ MyAPI::getUrlPostID(51) }}" title="{{ MyAPI::getPostID(51)->post_name }}" >
-				                        <span><i>Tác hại</i>Tác hại của bệnh sùi mào gà</span>
+				                    <a href="{{ MyAPI::getUrlPostID(51) }}" title="Hậu quả sùi mào gà ở nam giới" >
+				                        <span><i>Tác hại</i>Hậu quả sùi mào gà ở nam giới</span>
 				                    </a>
-				                    <a href="{{ MyAPI::getUrlPostID(48) }}" title="{{ MyAPI::getPostID(48)->post_name }}" >
-				                        <span><i>Điều trị</i>Các phương pháp chữa trị bệnh sùi mào gà</span>
+				                    <a href="{{ MyAPI::getUrlPostID(48) }}" title="Cách chữa sùi mào gà ở nam giới bằng liệu pháp quang động IRA" >
+				                        <span><i>Điều trị</i>Cách chữa sùi mào gà ở nam giới bằng...</span>
 				                    </a>
-				                    <a href="{{ MyAPI::getUrlPostID(45) }}" title="{{ MyAPI::getPostID(45)->post_name }}" >
-				                        <span><i>Nguyên nhân</i>Nguyên nhân gây bệnh sùi mào gà</span>
+				                    <a href="{{ MyAPI::getUrlPostID(45) }}" title="Nguyên nhân sùi mào gà" >
+				                        <span><i>Nguyên nhân</i>Nguyên nhân sùi mào gà</span>
 				                    </a>
-				                    <a href="{{ MyAPI::getUrlPostID(47) }}" title="{{ MyAPI::getPostID(47)->post_name }}" >
-				                        <span><i>Triệu chứng</i>Những triệu chứng của sùi mào gà..</span>
+				                    <a href="{{ MyAPI::getUrlPostID(47) }}" title="	Một số triệu chứng sùi mào gà thường gặp ở nam giới" >
+				                        <span><i>Triệu chứng</i>Một số triệu chứng sùi mào gà thường gặp..</span>
 				                    </a>
 				                </li>
 				            </ul>
@@ -316,26 +316,26 @@
 				        </div>
 				        <div class="bzzx_right1">
 				            <ul class="bzzx_right11">
-				                <a href="" class="bzzx_right111" >
-				                	<img alt="" src="{{ asset('public/images/desktop/home-10.png') }}" width="340" height="254">
+				                <a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="bzzx_right111" >
+				                	<img alt="Bệnh lậu" src="{{ asset('public/images/desktop/home-10.png') }}" width="340" height="254">
 				                </a>
 				                <li>
-				                    <a href=""><h3>Nguyên nhân dẫn đến Bệnh lậu là gì</h3></a>
+				                    <a href="{{ MyAPI::getUrlPostID(59) }}" title="Thông tin bệnh lậu ở nam giới"><h3>Thông tin bệnh lậu ở nam giới</h3></a>
 				                    <p>
-				                        Bệnh lậu là một loại bệnh xã hội vô cùng nguy hiểm có thể gặp phải ở cả nam lẫn nữ. Các bác sĩ chuyên khoa trong việc chữa trị bệnh xã hội trong đó có bệnh Bệnh lậu tại...
-				                        <a href="" >[chi tiết]</a>
+				                        Bệnh lậu là một trong những bệnh xã hội nguy hiểm, lây lan mạnh mẽ qua đường quan hệ tình dục và mọi đối tượng có thể mắc phải. Vậy bệnh lậu là gì ? Vấn đề đó sẽ được các chuyên gia chia sẻ dưới đây....
+				                        <a href="{{ MyAPI::getUrlPostID(59) }}" title="Chi tiết">[chi tiết]</a>
 				                    </p>
-				                    <a href="" >
-				                        <span><i>Tác hại</i>Tác hại của bệnh Bệnh lậu</span>
+				                    <a href="{{ MyAPI::getUrlPostID(68) }}" title="Hậu quả bệnh lậu đối với nam giới">
+				                        <span><i>Tác hại</i>Hậu quả bệnh lậu đối với nam giới</span>
 				                    </a>
-				                    <a href="" >
-				                        <span><i>Điều trị</i>Các phương pháp chữa trị bệnh Bệnh lậu</span>
+				                    <a href="{{ MyAPI::getUrlPostID(64) }}" title="Điều trị bệnh lậu ở nam giới bằng công nghệ DHA">
+				                        <span><i>Điều trị</i>Điều trị bệnh lậu ở nam giới bằng công nghệ DHA</span>
 				                    </a>
-				                    <a href="" >
-				                        <span><i>Nguyên nhân</i>Nguyên nhân gây bệnh Bệnh lậu</span>
+				                    <a href="{{ MyAPI::getUrlPostID(61) }}" title="Nguyên nhân bệnh lậu ở nam giới">
+				                        <span><i>Nguyên nhân</i>Nguyên nhân bệnh lậu ở nam giới</span>
 				                    </a>
-				                    <a href="" >
-				                        <span><i>Triệu chứng</i>Những triệu chứng của Bệnh lậu..</span>
+				                    <a href="{{ MyAPI::getUrlPostID(66) }}" title="Triệu chứng bệnh lậu ở nam giới cần biết">
+				                        <span><i>Triệu chứng</i>Triệu chứng bệnh lậu ở nam giới cần biết</span>
 				                    </a>
 				                </li>
 				            </ul>
@@ -353,26 +353,26 @@
 				        </div>
 				        <div class="bzzx_right1">
 				            <ul class="bzzx_right11">
-				                <a href="" class="bzzx_right111" >
-				                	<img alt="" src="{{ asset('public/images/desktop/home-11.png') }}" width="340" height="254">
+				                <a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="bzzx_right111" >
+				                	<img alt="Giang mai" src="{{ asset('public/images/desktop/home-11.png') }}" width="340" height="254">
 				                </a>
 				                <li>
-				                    <a href=""><h3>Nguyên nhân dẫn đến Giang mai là gì</h3></a>
+				                    <a href="{{ MyAPI::getUrlPostID(44) }}" title="Bệnh giang mai là bệnh gì?"><h3>Bệnh giang mai là bệnh gì?</h3></a>
 				                    <p>
-				                        Giang mai là một loại bệnh xã hội vô cùng nguy hiểm có thể gặp phải ở cả nam lẫn nữ. Các bác sĩ chuyên khoa trong việc chữa trị bệnh xã hội trong đó có bệnh Giang mai tại...
-				                        <a href="" >[chi tiết]</a>
+				                        Bệnh giang mai là bệnh gì? Triệu chứng của bệnh giang mai và tác hại của nó như thế nào là câu hỏi của rất nhiều bạn đặc biệt là nam giới. Bài viết dưới đây sẽ cung cấp những thông tin hữu ích cho bạn đọc về loại bệnh này....
+				                        <a href="{{ MyAPI::getUrlPostID(44) }}" title="Chi tiết">[chi tiết]</a>
 				                    </p>
-				                    <a href="" >
-				                        <span><i>Tác hại</i>Tác hại của bệnh Giang mai</span>
+				                    <a href="{{ MyAPI::getUrlPostID(57) }}" title="Bệnh giang mai và biến chứng">
+				                        <span><i>Tác hại</i>Bệnh giang mai và biến chứng</span>
 				                    </a>
-				                    <a href="" >
-				                        <span><i>Điều trị</i>Các phương pháp chữa trị bệnh Giang mai</span>
+				                    <a href="{{ MyAPI::getUrlPostID(58) }}" title="Điều trị bệnh giang mai như thế nào?">
+				                        <span><i>Điều trị</i>Điều trị bệnh giang mai như thế nào?</span>
 				                    </a>
-				                    <a href="" >
-				                        <span><i>Nguyên nhân</i>Nguyên nhân gây bệnh Giang mai</span>
+				                    <a href="{{ MyAPI::getUrlPostID(60) }}" title="Nguyên nhân gây bệnh giang mai">
+				                        <span><i>Nguyên nhân</i>Nguyên nhân gây bệnh giang mai</span>
 				                    </a>
-				                    <a href="" >
-				                        <span><i>Triệu chứng</i>Những triệu chứng của Giang mai..</span>
+				                    <a href="{{ MyAPI::getUrlPostID(50) }}" title="Những triệu chứng bệnh giang mai">
+				                        <span><i>Triệu chứng</i>Những triệu chứng bệnh giang mai</span>
 				                    </a>
 				                </li>
 				            </ul>
@@ -390,25 +390,25 @@
 				        </div>
 				        <div class="bzzx_right1">
 				            <ul class="bzzx_right11">
-				                <a href="" class="bzzx_right111" >
-				                	<img alt="" src="{{ asset('public/images/desktop/home-12.png') }}" width="340" height="254">
+				                <a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="bzzx_right111" >
+				                	<img alt="Mụn rộp sinh dục" src="{{ asset('public/images/desktop/home-12.png') }}" width="340" height="254">
 				                </a>
 				                <li>
-				                    <a href=""><h3>Nguyên nhân dẫn đến Mụn rộp sinh dục là gì</h3></a>
+				                    <a href="{{ MyAPI::getUrlPostID(62) }}" title="Bệnh mụn rộp sinh dục là gì?"><h3>Bệnh mụn rộp sinh dục là gì?</h3></a>
 				                    <p>
-				                        Mụn rộp sinh dục là một loại bệnh xã hội vô cùng nguy hiểm có thể gặp phải ở cả nam lẫn nữ. Các bác sĩ chuyên khoa trong việc chữa trị bệnh xã hội trong đó có bệnh Mụn rộp sinh dục tại...
-				                        <a href="" >[chi tiết]</a>
+				                        Mụn rộp sinh dục là một bệnh ngoài da, chủ yếu lây truyền qua đường tình dục, do virut herpes simplex gây ra. Virut này có khả năng lây truyền rất mạnh, nếu bị mụn rộp sinh dục, virut này sẽ tồn tại trong cơ thể suốt đời....
+				                        <a href="{{ MyAPI::getUrlPostID(62) }}" title="Chi tiết">[chi tiết]</a>
 				                    </p>
-				                    <a href="" >
+				                    <a href="" title="Tác hại của bệnh Mụn rộp sinh dục">
 				                        <span><i>Tác hại</i>Tác hại của bệnh Mụn rộp sinh dục</span>
 				                    </a>
-				                    <a href="" >
+				                    <a href="" title="Các phương pháp chữa trị bệnh Mụn rộp sinh dục">
 				                        <span><i>Điều trị</i>Các phương pháp chữa trị bệnh Mụn rộp sinh dục</span>
 				                    </a>
-				                    <a href="" >
-				                        <span><i>Nguyên nhân</i>Nguyên nhân gây bệnh Mụn rộp sinh dục</span>
+				                    <a href="{{ MyAPI::getUrlPostID(67) }}" title="Nguyên nhân gây bệnh mụn rộp sinh dục">
+				                        <span><i>Nguyên nhân</i>Nguyên nhân gây bệnh mụn rộp sinh dục</span>
 				                    </a>
-				                    <a href="" >
+				                    <a href="" title="Những triệu chứng của Mụn rộp sinh dục">
 				                        <span><i>Triệu chứng</i>Những triệu chứng của Mụn rộp sinh dục..</span>
 				                    </a>
 				                </li>

@@ -449,7 +449,7 @@
 						<h3 class="text-center"><a href="#top"><i class="bg bg3"></i></a></h3>
 					</div>
 					<div class="table-cell">
-						<h4 class="text-center"><a href="{{ url('/') }}">Quay lại</a></h4>
+						<h4 class="text-center"><a href="{{ MyAPI::getUrlTermObj($term) }}">Quay lại</a></h4>
 					</div>
 				</div>
 			</div>

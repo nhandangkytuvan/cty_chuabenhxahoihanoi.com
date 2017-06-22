@@ -12,9 +12,7 @@ Route::get('/{term_alias?}/{term_id?}', 'Web\TermController@showold')->where(['t
 Route::get('/{post_link?}.html', 'Web\PostController@show')->where(['post_link'=>'[-a-z0-9]+']);
 Route::get('/{post_alias?}/{post_id?}.html', 'Web\PostController@showold')->where(['post_alias'=>'[-a-z0-9]+','post_id'=>'[0-9]+']);
 Route::any('web/user/login','Web\UserController@login');
-// Chuyên Đề
-Route::get('chuyen-de/viem-nhiem-quy-dau','Web\ChuyendeController@viemnhiemquydau');
-// Admin
+
 Route::group(['middleware' => ['check-user']], function () {
 	// user
 	Route::any('user/user/create','User\UserController@create')->middleware('check-admin');
@@ -48,7 +46,7 @@ Route::group(['middleware' => ['check-user']], function () {
 	Route::any('user/setting/edit/{setting_id}', 'User\SettingController@edit')->middleware('check-admin');
 });
 
-// DB-Test
+// DB
 Route::any('db_pluck','Web\TestController@db_pluck');
 Route::any('setRandomName','Web\TestController@setRandomName');
 Route::any('resetNumberTuvan','Web\TestController@resetNumberTuvan');
