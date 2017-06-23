@@ -43,7 +43,7 @@
 						<div class="col1 flex flex3 flex-wrap-wrap align-content-end">
 							<div class="width-100 text-center"><a href="{{ MyAPI::getUrlPostID(47) }}" title="Triệu chứng">Triệu chứng</a></div>
 							<div class="width-100 text-center"><a href="{{ MyAPI::getUrlPostID(48) }}" title="Điều trị">Điều trị</a></div>
-							<div class="width-100 text-center"><a href="#" title="Kiểm tra">Kiểm tra</a></div>
+							<div class="width-100 text-center"><a href="{{ MyAPI::getUrlPostID(42) }}" title="Kiểm tra">Kiểm tra</a></div>
 						</div>
 					</div>
 				</div>
@@ -53,13 +53,13 @@
 						<div class="col1"><i class="bg bg1"></i></div>
 						<div class="col1 flex flex3 border1 flex-wrap-wrap align-content-end">
 							<div class="width-100 text-center"><a href="{{ MyAPI::getUrlPostID(61) }}" title="Nguyên nhân">Nguyên nhân</a></div>
-							<div class="width-100 text-center"><a href="#" title="Nguy hại">Nguy hại</a></div>
-							<div class="width-100 text-center"><a href="#" title="Chi phí">Chi phí</a></div>
+							<div class="width-100 text-center"><a href="{{ MyAPI::getUrlPostID(83) }}" title="Nguy hại">Nguy hại</a></div>
+							<div class="width-100 text-center"><a href="{{ MyAPI::getUrlPostID(77) }}" title="Chi phí">Chi phí</a></div>
 						</div>
 						<div class="col1 flex flex3 flex-wrap-wrap align-content-end">
 							<div class="width-100 text-center"><a href="{{ MyAPI::getUrlPostID(66) }}" title="Triệu chứng">Triệu chứng</a></div>
-							<div class="width-100 text-center"><a href="#" title="Điều trị">Điều trị</a></div>
-							<div class="width-100 text-center"><a href="#" title="Kiểm tra">Kiểm tra</a></div>
+							<div class="width-100 text-center"><a href="{{ MyAPI::getUrlPostID(64) }}" title="Điều trị">Điều trị</a></div>
+							<div class="width-100 text-center"><a href="{{ MyAPI::getUrlPostID(59) }}" title="Kiểm tra">Kiểm tra</a></div>
 						</div>
 					</div>
 				</div>
@@ -85,12 +85,12 @@
 						<div class="col1"><i class="bg bg3"></i></div>
 						<div class="col1 flex flex3 border1 flex-wrap-wrap align-content-end">
 							<div class="width-100 text-center"><a href="{{ MyAPI::getUrlPostID(67) }}" title="Nguyên nhân">Nguyên nhân</a></div>
-							<div class="width-100 text-center"><a href="#" title="Nguy hại">Nguy hại</a></div>
+							<div class="width-100 text-center"><a href="{{ MyAPI::getUrlPostID(73) }}" title="Nguy hại">Nguy hại</a></div>
 							<div class="width-100 text-center"><a href="#" title="Chi phí">Chi phí</a></div>
 						</div>
 						<div class="col1 flex flex3 flex-wrap-wrap align-content-end">
-							<div class="width-100 text-center"><a href="#" title="Triệu chứng">Triệu chứng</a></div>
-							<div class="width-100 text-center"><a href="#" title="Điều trị">Điều trị</a></div>
+							<div class="width-100 text-center"><a href="{{ MyAPI::getUrlPostID(71) }}" title="Triệu chứng">Triệu chứng</a></div>
+							<div class="width-100 text-center"><a href="{{ MyAPI::getUrlPostID(69) }}" title="Điều trị">Điều trị</a></div>
 							<div class="width-100 text-center"><a href="{{ MyAPI::getUrlPostID(62) }}" title="Kiểm tra">Kiểm tra</a></div>
 						</div>
 					</div>
@@ -399,17 +399,17 @@
 				                        Mụn rộp sinh dục là một bệnh ngoài da, chủ yếu lây truyền qua đường tình dục, do virut herpes simplex gây ra. Virut này có khả năng lây truyền rất mạnh, nếu bị mụn rộp sinh dục, virut này sẽ tồn tại trong cơ thể suốt đời....
 				                        <a href="{{ MyAPI::getUrlPostID(62) }}" title="Chi tiết">[chi tiết]</a>
 				                    </p>
-				                    <a href="" title="Tác hại của bệnh Mụn rộp sinh dục">
-				                        <span><i>Tác hại</i>Tác hại của bệnh Mụn rộp sinh dục</span>
+				                    <a href="{{ MyAPI::getUrlPostID(73) }}" title="Những tác hại của bệnh mụn rộp sinh dục">
+				                        <span><i>Tác hại</i>Những tác hại của bệnh mụn rộp sinh dục</span>
 				                    </a>
-				                    <a href="" title="Các phương pháp chữa trị bệnh Mụn rộp sinh dục">
-				                        <span><i>Điều trị</i>Các phương pháp chữa trị bệnh Mụn rộp sinh dục</span>
+				                    <a href="{{ MyAPI::getUrlPostID(69) }}" title="Cách điều trị bệnh mụn rộp sinh dục">
+				                        <span><i>Điều trị</i>Cách điều trị bệnh mụn rộp sinh dục</span>
 				                    </a>
 				                    <a href="{{ MyAPI::getUrlPostID(67) }}" title="Nguyên nhân gây bệnh mụn rộp sinh dục">
 				                        <span><i>Nguyên nhân</i>Nguyên nhân gây bệnh mụn rộp sinh dục</span>
 				                    </a>
-				                    <a href="" title="Những triệu chứng của Mụn rộp sinh dục">
-				                        <span><i>Triệu chứng</i>Những triệu chứng của Mụn rộp sinh dục..</span>
+				                    <a href="{{ MyAPI::getUrlPostID(71) }}" title="Những triệu chứng của Mụn rộp sinh dục">
+				                        <span><i>Triệu chứng</i>Những triệu chứng của Mụn rộp sinh dục</span>
 				                    </a>
 				                </li>
 				            </ul>

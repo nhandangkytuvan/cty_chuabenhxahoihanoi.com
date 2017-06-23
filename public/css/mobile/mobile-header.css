@@ -9,4 +9,3 @@ menu .table-cell{height: 64px;color: #fff;}
 menu .table-cell{width: 25%;font-size: 13px;background-image: url('../../images/mobile/menu-1.png');background-repeat: no-repeat;background-position: right center;}
 menu .table-cell:last-child{background-image: none;}
 /**/
-/*.topheader{display: none;}*/

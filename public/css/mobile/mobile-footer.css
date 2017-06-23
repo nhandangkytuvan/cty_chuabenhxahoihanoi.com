@@ -24,5 +24,3 @@ footer .footer-toolbar .table-cell.cell2:nth-child(2){background-color: #ffb400;
 @media (min-width : 640px) {
 	footer .row1 .flex1col1:nth-child(2){padding-left: 30px;}
 }
-/**/
-/*.bottomCall{display: none;}*/
