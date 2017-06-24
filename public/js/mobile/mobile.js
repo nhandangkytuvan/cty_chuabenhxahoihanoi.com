@@ -40,11 +40,10 @@ $(document).ready(function() {
     });
 
     //listen to shake event
-    var shakeEvent = new Shake({threshold: 5});
+    var shakeEvent = new Shake({threshold: 5,timeout: 1000});
     shakeEvent.start();
     window.addEventListener('shake', function(){
-        navigator.vibrate(1000);
-        alert("Shaked");
+        window.location.href = "tel:18006181";
     }, false);
 });
 function showchat() {
