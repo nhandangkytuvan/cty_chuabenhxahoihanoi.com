@@ -13,10 +13,16 @@ document.writeln("#sidebar ul li i.top{ width:72px; height:72px; margin-top:0}")
 document.writeln("#sidebar ul li .ht{width:72px; height:72px; position:absolute; right:-350px; background:#00F; top:0px; opacity:0; display:none}");
 document.writeln("#sidebar ul li .ht_iphone,#sidebar ul li .ht_weixin{width:226px;height:217px;top:-73px}");
 document.writeln("#sidebar ul li .ht_iphone{ background:url(http://chuabenhxahoihanoi.com/public/images/global/advleft/dhh.png) no-repeat}");
+// zalo qr
+document.writeln("#sidebar ul li .ht_iphone.zalo{ background:url(http://chuabenhxahoihanoi.com/public/images/global/advleft/zalo2.png) no-repeat}");
+// 
 document.writeln("#sidebar ul li .ht_weixin{ background:url(http://chuabenhxahoihanoi.com/public/images/global/advleft/wxh.png) no-repeat; top:-83px}");
 document.writeln(".top1{ background:url(http://chuabenhxahoihanoi.com/public/images/global/advleft/top.png) no-repeat;}");
 document.writeln(".dx{ background:url(http://chuabenhxahoihanoi.com/public/images/global/advleft/dx.png) no-repeat center center;}");
 document.writeln(".dh{ background:url(http://chuabenhxahoihanoi.com/public/images/global/advleft/dh.png) no-repeat center center;}");
+// zalo
+document.writeln(".dh.zalo{ background:url(http://chuabenhxahoihanoi.com/public/images/global/advleft/zalo1.png) no-repeat center center;}");
+// 
 document.writeln(".qq{ background:url(http://chuabenhxahoihanoi.com/public/images/global/advleft/qq.png) no-repeat center center}");
 document.writeln(".dt{ background:url(http://chuabenhxahoihanoi.com/public/images/global/advleft/dt.png) no-repeat center center}");
 document.writeln(".wx{ background:url(http://chuabenhxahoihanoi.com/public/images/global/advleft/wx.png) no-repeat center center}");
@@ -47,6 +53,11 @@ document.writeln("        </a></li>");
 document.writeln("      <li><a href=\"http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en\" target=\"_blank\">");
 document.writeln("        <div class=\"sidebox\"><i class=\"wb\" name=\"wb\"></i><span style=\"font-size:13px\">Đặt hẹn<br>trực tuyến</span></div>");
 document.writeln("        </a></li>");
+
+document.writeln("      <li><a href=\"tel:18006181\" target=\"_self\"><i class=\"dh zalo js_ht\"></i>");
+document.writeln("        <div class=\"ht ht_iphone zalo\"></div>");
+document.writeln("        </a></li>");
+
 document.writeln("    </ul>");
 document.writeln("  </div>");
 
