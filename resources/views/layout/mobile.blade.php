@@ -40,6 +40,7 @@
 	<script type="text/javascript" src="{{ asset('public/js/global/slick/slick.js') }}"></script>
 	<script type="text/javascript" src="{{ asset('public/js/mobile/shake.js') }}"></script>
 	<script type="text/javascript" src="{{ asset('public/js/mobile/mobile.js') }}"></script>
+	<script type="text/javascript" src="{{ asset('public/js/chuyende/swt_div.js') }}"></script>
 	@yield('js')
 	<script>
 	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
