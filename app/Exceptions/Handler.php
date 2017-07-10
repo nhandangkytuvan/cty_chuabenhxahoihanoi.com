@@ -53,7 +53,7 @@ class Handler extends ExceptionHandler
                     return redirect('/');
                     break;
                 // internal error
-                case '500':
+                case 500:
                     return redirect('/');
                     break;
                 default:
