@@ -56,17 +56,15 @@ a{text-decoration: none;}
 /**/
 .img-responsive{width: 100%;}
 /*livechat*/
-#LRfloater0,#LRfloater2,#LRMINIBar{display: none!important;}
+#LRfloater0,#LRfloater1,#LRfloater2,#LRMINIBar{display: none!important;}
 /**/
 .sbtn.cf a:hover {color: #c50707;border-color:#c50707!important;}
 /**/
 .toast8-message a{text-decoration: underline;}
-
-
-
-
-
 /**/
 .h2{font-size: 24px;font-weight: bold;}
 .h5{font-size: 12px;font-weight: bold;}
 .h6{font-size: 10px;font-weight: bold;}
+
+#myloadding {position: fixed; display: none; width: 100%; height: 100%; top: 0; left: 0; right: 0; bottom: 0; background-color: rgba(0,0,0,0.6); z-index: 100003; cursor: pointer; }
+#myloadding #mytext{position: absolute; top: 50%; left: 50%; font-size: 50px; color: white; transform: translate(-50%,-50%); -ms-transform: translate(-50%,-50%); font-size: 15px; }

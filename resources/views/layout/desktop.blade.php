@@ -37,6 +37,7 @@
 	<link rel="stylesheet" type="text/css" href="{{ asset('public/css/desktop/desktop-footer.css') }}">
 	@yield('css')
 	<script type="text/javascript" src="{{ asset('public/js/global/jquery-1.12.3.min.js') }}"></script>
+	<script type="text/javascript" src="{{ asset('public/js/global/jquery.form.min.js') }}"></script>
 	<script type="text/javascript" src="{{ asset('public/js/global/jquery.SuperSlide.2.1.1.js') }}"></script>
 	<script type="text/javascript" src="{{ asset('public/js/global/jquery.popupoverlay.min.js') }}"></script>
 	<script type="text/javascript" src="{{ asset('public/js/global/jquery-scrolltofixed-min.js') }}"></script>
@@ -228,13 +229,7 @@
 		<div class="row2">
 		</div>
 	</footer>
-	<div id="popup-desktop">
-		<div class="pos-relative">
-			<a class="dis-inline-block pos-absolute popup-desktop_close"></a>
-			<a class="dis-inline-block pos-absolute tuvan1" href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" title="Tư vấn"></a>
-			<a class="dis-inline-block pos-absolute tuvan2" href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" title="Đặt hẹn"></a>
-		</div>
-	</div>
+	@include('popup.desktopPopup1')
 	<script language="javascript" src="http://swt.phongkham193.com/JS/LsJS.aspx?siteid=MFI63108226&float=1&lng=en"></script>
 </body>
 </html>
